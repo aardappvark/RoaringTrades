@@ -1,18 +1,21 @@
 publisher:
   name: Midnight Run Games
-  website: https://midnightrungames.github.io/RoaringTrades
+  website: https://aardappvark.github.io/RoaringTrades
   email: midnightrungames@proton.me
   support_email: midnightrungames@proton.me
+  media:
+    - purpose: icon
+      uri: assets/icon_512x512.png
 
 app:
   name: Roaring Trades
   address: ''
   android_package: com.roaringtrades.game
   urls:
-    license_url: https://midnightrungames.github.io/RoaringTrades/terms.html
-    copyright_url: https://midnightrungames.github.io/RoaringTrades
-    privacy_policy_url: https://midnightrungames.github.io/RoaringTrades/privacy.html
-    website: https://midnightrungames.github.io/RoaringTrades
+    license_url: https://aardappvark.github.io/RoaringTrades/terms.html
+    copyright_url: https://aardappvark.github.io/RoaringTrades/copyright.html
+    privacy_policy_url: https://aardappvark.github.io/RoaringTrades/privacy.html
+    website: https://aardappvark.github.io/RoaringTrades
   media:
     - purpose: icon
       uri: assets/icon_512x512.png
@@ -38,7 +41,7 @@ release:
   catalog:
     en-US:
       name: Roaring Trades
-      short_description: 1920s Prohibition-era trading game for Solana Seeker
+      short_description: 1920s bootlegger trading game
       long_description: >-
         Roaring Trades is a fast-paced trading game set in Prohibition-era
         Chicago. Ages 21+ only.
@@ -76,7 +79,10 @@ release:
 
         Built by Midnight Run Games for the Solana Seeker community.
       new_in_version: Initial release v1.0.0
-      saga_features: ''
+      saga_features: >-
+        Connects to Solana wallet via Mobile Wallet Adapter for leaderboard
+        identity. Optimized for Seeker's display. No blockchain transactions
+        required - wallet used for identification only.
   android_details:
     locales:
       - en-US

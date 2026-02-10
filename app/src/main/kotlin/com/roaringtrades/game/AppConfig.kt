@@ -4,7 +4,7 @@ object AppConfig {
 
     object Identity {
         const val NAME = "Roaring Trades"
-        const val URI = "https://midnightrungames.github.io/RoaringTrades"
+        const val URI = "https://aardappvark.github.io/RoaringTrades"
         const val ICON_URI = "favicon.png"
     }
 
