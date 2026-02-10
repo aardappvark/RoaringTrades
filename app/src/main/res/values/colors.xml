@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gold">#FFD4AF37</color>
+    <color name="dark_gold">#FFB8860B</color>
+    <color name="deep_burgundy">#FF722F37</color>
+    <color name="cream_white">#FFFFF8E7</color>
+    <color name="charcoal_black">#FF1A1A2E</color>
+    <color name="profit_green">#FF2E8B57</color>
+    <color name="loss_red">#FFDC143C</color>
+</resources>

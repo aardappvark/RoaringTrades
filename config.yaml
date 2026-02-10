@@ -1,0 +1,95 @@
+publisher:
+  name: Midnight Run Games
+  website: https://midnightrungames.github.io/RoaringTrades
+  email: midnightrungames@proton.me
+  support_email: midnightrungames@proton.me
+
+app:
+  name: Roaring Trades
+  address: ''
+  android_package: com.roaringtrades.game
+  urls:
+    license_url: https://midnightrungames.github.io/RoaringTrades/terms.html
+    copyright_url: https://midnightrungames.github.io/RoaringTrades
+    privacy_policy_url: https://midnightrungames.github.io/RoaringTrades/privacy.html
+    website: https://midnightrungames.github.io/RoaringTrades
+  media:
+    - purpose: icon
+      uri: assets/icon_512x512.png
+
+release:
+  address: ''
+  media:
+    - purpose: icon
+      uri: assets/icon_512x512.png
+    - purpose: banner
+      uri: assets/banner_1200x600.png
+    - purpose: screenshot
+      uri: assets/screenshot_1_market.png
+    - purpose: screenshot
+      uri: assets/screenshot_2_travel.png
+    - purpose: screenshot
+      uri: assets/screenshot_3_status.png
+    - purpose: screenshot
+      uri: assets/screenshot_4_event.png
+  files:
+    - purpose: install
+      uri: app/build/outputs/apk/release/app-release.apk
+  catalog:
+    en-US:
+      name: Roaring Trades
+      short_description: 1920s Prohibition-era trading game for Solana Seeker
+      long_description: >-
+        Roaring Trades is a fast-paced trading game set in Prohibition-era
+        Chicago. Ages 21+ only.
+
+        THE GAME:
+        Start with $1,500 cash and 30 days to build your trading empire.
+        Buy low, sell high across six Chicago neighborhoods. Watch for hot
+        commodities and crackdowns. Manage your heat level to avoid
+        getting caught by the authorities.
+
+        FEATURES:
+        - 5 tradeable goods with dynamic pricing
+        - 6 Chicago neighborhoods with unique risk/reward profiles
+        - 7 upgradeable vehicles from jalopy to zeppelin
+        - 4 rival gangs controlling different territories
+        - 6 speakeasies to invest in for passive income
+        - Loan shark system with daily interest
+        - Chase encounters with fight or flee choices
+        - Pay off heat to lay low
+        - 17 claimable achievements with cash rewards
+        - Headlines hint at market shifts
+        - Track your profit with average cost and book P&L
+        - Connect your Solana wallet for the leaderboard
+        - Fast games - each run takes 10-15 minutes
+
+        PRIVACY FIRST:
+        No analytics. No tracking. No cloud database. All data stored locally
+        on your device with AES-256 encryption. Wallet connection is used for
+        leaderboard identity only.
+
+        HISTORICAL FICTION:
+        Set in 1920s Prohibition-era Chicago. All gameplay is fictional and
+        for entertainment purposes only. No real transactions or goods.
+        This game does not promote or glorify illegal activity.
+
+        Built by Midnight Run Games for the Solana Seeker community.
+      new_in_version: Initial release v1.0.0
+      saga_features: ''
+  android_details:
+    locales:
+      - en-US
+
+solana_mobile_dapp_publisher_portal:
+  google_store_package: ''
+  testing_instructions: >-
+    1. Install on Solana Seeker device or any Android device.
+    2. On first launch, connect a Solana wallet (Phantom or Solflare).
+    3. Market screen: Buy and sell goods. Prices change when you travel.
+    4. Travel screen: Move between 6 Chicago neighborhoods.
+    5. Status screen: View stats, rank, heat level, and leaderboard.
+    6. Game ends after 30 days. Final net worth determines your rank.
+    7. No real money transactions. Wallet is for leaderboard identity only.
+    8. Historical fiction game set in 1920s Prohibition era.
+    Note: Wallet connection required on first launch for leaderboard.

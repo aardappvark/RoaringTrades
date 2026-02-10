@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Gold "R" with clear diagonal leg -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M25,35 L25,75 L33,75 L33,58 L39,58 L47,75 L56,75 L47,56 Q52,53 52,47 Q52,35 42,35 Z M33,43 L41,43 Q44,43 44,47 Q44,51 41,51 L33,51 Z" />
+    <!-- Gold "T" -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M56,35 L56,43 L66,43 L66,75 L74,75 L74,43 L84,43 L84,35 Z" />
+    <!-- Art deco border lines -->
+    <path
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="2"
+        android:pathData="M20,25 L88,25 L88,83 L20,83 Z"
+        android:fillColor="#00000000" />
+    <path
+        android:strokeColor="#B8860B"
+        android:strokeWidth="1"
+        android:pathData="M23,28 L85,28 L85,80 L23,80 Z"
+        android:fillColor="#00000000" />
+</vector>
