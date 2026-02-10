@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/heathbertram/Downloads/RoaringTrades status:*)",
+      "Bash(adb devices:*)",
+      "Bash(lsof:*)",
+      "Bash(git -C /Users/heathbertram/Downloads/RoaringTrades remote:*)",
+      "Bash(echo:*)",
+      "Bash(grep:*)",
+      "Bash(# Check if Homebrew exists somewhere ls /opt/homebrew/ && echo \"\"Found in /opt/homebrew\"\" || echo \"\"Not in /opt/homebrew\"\" ls /usr/local/Cellar/)",
+      "Bash(# Homebrew Cellar exists but brew binary seems missing. Let''s try finding it find /usr/local -name \"\"brew\"\" -type f)",
+      "Bash(~/.local/bin/gh auth:*)",
+      "Bash(~/.local/bin/gh repo list:*)",
+      "Bash(git -C \"/Users/heathbertram/Downloads/roaring-trades\" remote -v)",
+      "Bash(~/.local/bin/gh api --method POST /user/orgs -f login=midnightrungames -f profile_name=\"Midnight Run Games\" -f billing_email=\"\")",
+      "Bash(~/.local/bin/gh repo create:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
