@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Roaring Trades</string>
+
+    <!-- ==================== -->
+    <!-- ЭКРАН ПОДКЛЮЧЕНИЯ КОШЕЛЬКА -->
+    <!-- ==================== -->
+    <string name="wallet_title_roaring">ROARING</string>
+    <string name="wallet_title_trades">TRADES</string>
+    <string name="wallet_subtitle">Chicago, 1920-е</string>
+    <string name="wallet_game_description">Покупай дёшево, продавай дорого. Построй торговую империю за 30 дней.</string>
+    <string name="wallet_leaderboard_description">Подключи кошелёк Solana, чтобы отслеживать рекорды в таблице лидеров.</string>
+    <string name="wallet_connecting">Подключение\u2026</string>
+    <string name="wallet_connect_button">Подключить кошелёк</string>
+    <string name="wallet_connect_error_default">Не удалось подключить кошелёк</string>
+    <string name="wallet_production_credit">Продукт Midnight Run Games</string>
+
+    <!-- ============= -->
+    <!-- ЭКРАН РЫНКА -->
+    <!-- ============= -->
+    <string name="market_headline">\uD83D\uDCF0 %1$s</string>
+    <string name="market_day_counter">День %1$d/%2$d</string>
+    <string name="market_cash_display">\$%1$s</string>
+    <string name="market_capacity_format">%1$s %2$d/%3$d</string>
+    <string name="market_high_risk_label"> \u26A0\uFE0F Высокий риск, лучше цены</string>
+    <string name="market_low_risk_label"> \u2705 Низкий риск, ниже цены</string>
+    <string name="market_vehicle_hp">\u2764\uFE0F %1$d/%2$d</string>
+    <string name="market_speakeasy_income">\uD83C\uDF78 +\$%1$d/день</string>
+    <string name="market_loan_debt">%1$s \$%2$s</string>
+    <string name="market_pay_off_heat">\uD83D\uDCB5 Снизить розыск (\$%1$d/очко)</string>
+    <string name="market_heat_payoff_small">-%1$d \$%2$s</string>
+    <string name="market_heat_payoff_clear">Погасить \$%1$s</string>
+    <string name="market_gang_territory">%1$s %2$s территория - %3$s цены завышены</string>
+    <string name="market_hot_commodity">\uD83D\uDD25 Горячо: цены на %1$s взлетают!</string>
+    <string name="market_crackdown">\uD83D\uDEA8 Облава: %1$s - дёшево, но рискованно!</string>
+
+    <!-- ============= -->
+    <!-- ЭКРАН ПОЕЗДКИ -->
+    <!-- ============= -->
+    <string name="travel_header">Выбери направление</string>
+    <string name="travel_currently_at">Сейчас: %1$s</string>
+    <string name="travel_day_info">День %1$d из %2$d \u2022 Поездка занимает 1 день</string>
+    <string name="travel_current_location_content_desc">Текущее местоположение</string>
+    <string name="travel_high_risk">\u26A0\uFE0F Высокий риск, премиум-цены</string>
+    <string name="travel_low_risk">\u2705 Низкий риск, ниже цены</string>
+    <string name="travel_moderate_risk">\u2696\uFE0F Средний риск</string>
+    <string name="travel_you_are_here">Ты здесь</string>
+
+    <!-- ============= -->
+    <!-- ЭКРАН ГАРАЖА -->
+    <!-- ============= -->
+    <string name="garage_header">Гараж</string>
+    <string name="garage_current_ride">Текущий транспорт: %1$s %2$s</string>
+    <string name="garage_cash">Наличные: \$%1$s</string>
+    <string name="garage_current_vehicle">%1$s %2$s (Текущий)</string>
+    <string name="garage_hp_label">\u2764\uFE0F HP: </string>
+    <string name="garage_hp_value">%1$d/%2$d</string>
+    <string name="garage_repair_button">\uD83D\uDD27 Починить за \$%1$s</string>
+    <string name="garage_need_more">Нужно ещё \$%1$s</string>
+    <string name="garage_available_upgrades">Доступные улучшения</string>
+    <string name="garage_vehicle_name">%1$s %2$s</string>
+    <string name="garage_vehicle_price">\$%1$s</string>
+    <string name="garage_vehicle_free">Бесплатно</string>
+    <string name="garage_already_passed">Уже пройдено</string>
+    <string name="garage_not_upgrade">Не улучшение</string>
+    <string name="garage_buy_for">Купить за \$%1$s</string>
+    <string name="garage_stat_capacity">Вместимость</string>
+    <string name="garage_stat_heat_decay">Спад розыска</string>
+    <string name="garage_stat_heat_decay_value">+%1$d/день</string>
+    <string name="garage_stat_hp">HP</string>
+    <string name="garage_stat_speed">Скорость</string>
+    <string name="garage_stat_speed_value">%1$d/10</string>
+
+    <!-- ============== -->
+    <!-- ЭКРАН СТАТУСА -->
+    <!-- ============== -->
+    <string name="status_financial_summary">Финансовая сводка</string>
+    <string name="status_cash">Наличные</string>
+    <string name="status_inventory">Инвентарь</string>
+    <string name="status_net_worth">Состояние</string>
+    <string name="status_profit">Прибыль</string>
+    <string name="status_debt">Долг</string>
+    <string name="status_speakeasies_label">Speakeasy</string>
+    <string name="status_speakeasies_income">+\$%1$d/день</string>
+    <string name="status_current_rank">Текущий ранг</string>
+    <string name="status_loan_shark_title">%1$s %2$s - Ростовщик</string>
+    <string name="status_loan_debt">Долг: \$%1$s</string>
+    <string name="status_loan_interest">Ежедневные проценты: 10%% (\$%1$d/день)</string>
+    <string name="status_loan_status">Статус: %1$s %2$s</string>
+    <string name="status_loan_pay">Заплатить \$%1$s</string>
+    <string name="status_loan_pay_all">Погасить всё \$%1$s</string>
+    <string name="status_loan_offer">\"Нужны деньги, приятель? Я помогу.\"</string>
+    <string name="status_loan_warning">10%% в день. Не опаздывай.</string>
+    <string name="status_borrow_1k">Занять \$1K</string>
+    <string name="status_borrow_3k">Занять \$3K</string>
+    <string name="status_borrow_5k">Занять \$5K</string>
+    <string name="status_speakeasies_title">\uD83C\uDF78 Speakeasy</string>
+    <string name="status_speakeasy_daily_income">Дневной доход: +\$%1$d</string>
+    <string name="status_speakeasy_tier">%1$s - Уровень %2$d</string>
+    <string name="status_speakeasy_tier_income">%1$s - Уровень %2$d (+\$%3$d/день)</string>
+    <string name="status_speakeasy_open">Открыть \$%1$s</string>
+    <string name="status_speakeasy_upgrade">Улучшить \$%1$s</string>
+    <string name="status_speakeasy_max">\uD83C\uDF1F МАКС</string>
+    <string name="status_achievements_title">\uD83C\uDFC6 Достижения (%1$d/%2$d)</string>
+    <string name="status_achievements_to_claim">%1$d к получению</string>
+    <string name="status_achievement_locked">\uD83D\uDD12 </string>
+    <string name="status_achievement_locked_name">\u003F\u003F\u003F</string>
+    <string name="status_achievement_claimed">\u2705</string>
+    <string name="status_reputation_title">\uD83E\uDD1D Репутация</string>
+    <string name="status_wallet_title">Кошелёк</string>
+    <string name="status_wallet_connected">Подключён: %1$s</string>
+    <string name="status_leaderboard_title">Таблица лидеров</string>
+    <string name="status_leaderboard_empty">Пока нет очков. Заверши игру!</string>
+    <string name="status_leaderboard_entry">%1$d. %2$s</string>
+    <string name="status_new_game">Новая игра</string>
+
+    <!-- =============== -->
+    <!-- ЭКРАН КОНЦА ИГРЫ -->
+    <!-- =============== -->
+    <string name="game_over_title">Игра окончена!</string>
+    <string name="game_over_your_rank">Твой ранг</string>
+    <string name="game_over_final_cash">Итого наличные</string>
+    <string name="game_over_inventory_value">Стоимость инвентаря</string>
+    <string name="game_over_net_worth">Состояние</string>
+    <string name="game_over_profit">Прибыль</string>
+    <string name="game_over_return">Доходность</string>
+    <string name="game_over_save_and_play">Сохранить результат &amp; Играть снова</string>
+    <string name="game_over_play_again">Играть снова</string>
+
+    <!-- ============ -->
+    <!-- ДИАЛОГ ПОГОНИ -->
+    <!-- ============ -->
+    <string name="chase_title">\uD83D\uDEA8 Розыск начался!</string>
+    <string name="chase_pursuit_strength">Сила преследования:</string>
+    <string name="chase_pursuit_strength_value">%1$d/100</string>
+    <string name="chase_fight_odds">Шансы в бою:</string>
+    <string name="chase_if_caught">При поимке:</string>
+    <string name="chase_lose_goods">Потеряешь %1$d%% товара</string>
+    <string name="chase_fight_button">\uD83E\uDD4A Драться</string>
+    <string name="chase_flee_button">\uD83C\uDFC3 Бежать</string>
+
+    <!-- Результаты погони -->
+    <string name="chase_result_fight_won">\uD83E\uDD4A Бой выигран!</string>
+    <string name="chase_result_fight_won_desc">Ты оторвался от преследователей! Розыск снижен на %1$d.\
+Повреждение транспорта: %2$d.</string>
+    <string name="chase_result_fight_lost">\uD83D\uDC6E Бой проигран!</string>
+    <string name="chase_result_fight_lost_desc">Они одолели тебя!\
+Штраф: \$%1$d\
+Повреждение транспорта: %2$d\
+Конфисковано:\
+%3$s</string>
+    <string name="chase_result_flee_success">\uD83C\uDFC3 Удалось сбежать!</string>
+    <string name="chase_result_flee_success_desc">Ты ушёл от погони! Повреждение транспорта: %1$d.</string>
+    <string name="chase_result_flee_success_dropped">Ты ушёл от погони! Повреждение транспорта: %1$d.\
+Потеряно при бегстве:\
+%2$s</string>
+    <string name="chase_result_caught">\uD83D\uDEA8 Пойман!</string>
+    <string name="chase_result_caught_desc">Тебя догнали!\
+Штраф: \$%1$d\
+Повреждение транспорта: %2$d\
+Конфисковано:\
+%3$s</string>
+    <string name="chase_result_goods_lost_line">  %1$s %2$s: -%3$d</string>
+    <string name="chase_continue">Продолжить</string>
+
+    <!-- ============== -->
+    <!-- ДИАЛОГ ЗАСАДЫ -->
+    <!-- ============== -->
+    <string name="ambush_confrontation">Столкновение!</string>
+    <string name="ambush_warning">Предупреждение!</string>
+    <string name="ambush_stood_ground">Ты выстоял!</string>
+    <string name="ambush_ok">ОК</string>
+
+    <!-- Описания столкновений с бандами -->
+    <string name="encounter_shaken_down">%1$s %2$s тебя тряханули! Потеряно \$%3$d.%4$s</string>
+    <string name="encounter_shaken_down_goods"> Они забрали %1$s.</string>
+    <string name="encounter_intimidated">%1$s %2$s предупредили: не суйся на их территорию! Розыск +%3$d</string>
+    <string name="encounter_fought_off">Ты выстоял против %1$s %2$s! Заработал уважение в %3$s.</string>
+
+    <!-- ============= -->
+    <!-- ДИАЛОГ СОБЫТИЯ -->
+    <!-- ============= -->
+    <string name="event_ok">ОК</string>
+
+    <!-- Диалог перехвата -->
+    <string name="intercept_title">Пойман!</string>
+    <string name="intercept_description">Власти тебя поймали! Конфискованный товар:\
+\
+%1$s</string>
+    <string name="intercept_goods_line">%1$s %2$s: -%3$d ед.</string>
+    <string name="intercept_lay_low">Залечь на дно</string>
+
+    <!-- =================== -->
+    <!-- ВСПЛЫВАЮЩЕЕ ОКНО ДОСТИЖЕНИЙ -->
+    <!-- =================== -->
+    <string name="achievement_earned_title">\uD83C\uDFC6 Достижение получено!</string>
+    <string name="achievement_reward">\uD83D\uDCB0 Награда: +\$%1$s</string>
+    <string name="achievement_claim_button">\uD83C\uDF81 Забрать награду!</string>
+    <string name="achievement_later">Позже</string>
+    <string name="achievement_claim_amount">+\$%1$s</string>
+
+    <!-- ========= -->
+    <!-- СТРОКА ТОВАРА -->
+    <!-- ========= -->
+    <string name="good_owned">В наличии: %1$d</string>
+    <string name="good_price">\$%1$d</string>
+    <string name="good_price_range">Диапазон: \$%1$d - \$%2$d</string>
+    <string name="good_avg_cost">Ср. цена: \$%1$s</string>
+    <string name="good_pnl">П&amp;У: %1$s\$%2$d</string>
+    <string name="good_sell_with_count">Продать (%1$d)</string>
+    <string name="good_sell">Продать</string>
+    <string name="good_buy">Купить</string>
+    <string name="good_buy_title">Купить %1$s</string>
+    <string name="good_sell_title">Продать %1$s</string>
+
+    <!-- ================ -->
+    <!-- ВЫБОР КОЛИЧЕСТВА -->
+    <!-- ================ -->
+    <string name="quantity_decrease_content_desc">Уменьшить</string>
+    <string name="quantity_increase_content_desc">Увеличить</string>
+    <string name="quantity_max">Макс (%1$d)</string>
+    <string name="quantity_total">Итого: \$%1$d</string>
+    <string name="quantity_confirm">Подтвердить</string>
+    <string name="quantity_cancel">Отмена</string>
+
+    <!-- ================ -->
+    <!-- ИНДИКАТОР РОЗЫСКА -->
+    <!-- ================ -->
+    <string name="heat_label">Розыск: %1$s</string>
+
+    <!-- Уровни розыска -->
+    <string name="heat_level_none">Нет розыска</string>
+    <string name="heat_level_low">Низкий розыск</string>
+    <string name="heat_level_low_emoji">\u26A0\uFE0F</string>
+    <string name="heat_level_medium">Средний розыск</string>
+    <string name="heat_level_medium_emoji">\u26A0\uFE0F\u26A0\uFE0F</string>
+    <string name="heat_level_high">Высокий розыск</string>
+    <string name="heat_level_high_emoji">\u26A0\uFE0F\u26A0\uFE0F\u26A0\uFE0F</string>
+
+    <!-- ============================== -->
+    <!-- ТОВАРЫ (отображаемые имена) -->
+    <!-- ============================== -->
+    <string name="good_bathtub_gin">Самопальный джин</string>
+    <string name="good_bathtub_gin_emoji">\uD83E\uDDEA</string>
+    <string name="good_whiskey">Виски</string>
+    <string name="good_whiskey_emoji">\uD83E\uDD43</string>
+    <string name="good_rum">Ром</string>
+    <string name="good_rum_emoji">\uD83C\uDF79</string>
+    <string name="good_moonshine">Самогон</string>
+    <string name="good_moonshine_emoji">\uD83C\uDF1D</string>
+    <string name="good_champagne">Шампанское</string>
+    <string name="good_champagne_emoji">\uD83C\uDF7E</string>
+
+    <!-- ====================================== -->
+    <!-- РАЙОНЫ (отображаемые имена) -->
+    <!-- ====================================== -->
+    <string name="neighborhood_south_side">South Side</string>
+    <string name="neighborhood_south_side_desc">Суровый район, дешёвый товар</string>
+    <string name="neighborhood_north_side">North Side</string>
+    <string name="neighborhood_north_side_desc">Богатая клиентура, премиум-цены</string>
+    <string name="neighborhood_west_side">West Side</string>
+    <string name="neighborhood_west_side_desc">Промышленный район, оптовые сделки</string>
+    <string name="neighborhood_downtown">Downtown</string>
+    <string name="neighborhood_downtown_desc">Высокий риск, высокая награда</string>
+    <string name="neighborhood_the_docks">The Docks</string>
+    <string name="neighborhood_the_docks_desc">Порт импорта, редкие находки</string>
+    <string name="neighborhood_uptown">Uptown</string>
+    <string name="neighborhood_uptown_desc">Центр Speakeasy, стабильная торговля</string>
+
+    <!-- ================================== -->
+    <!-- ТРАНСПОРТ (отображаемые имена) -->
+    <!-- ================================== -->
+    <string name="vehicle_on_foot">Пешком</string>
+    <string name="vehicle_on_foot_emoji">\uD83D\uDEB6</string>
+    <string name="vehicle_on_foot_desc">Только карманы. Незаметно, но много не унесёшь.</string>
+    <string name="vehicle_bicycle">Велосипед</string>
+    <string name="vehicle_bicycle_emoji">\uD83D\uDEB2</string>
+    <string name="vehicle_bicycle_desc">Быстро и тихо. Корзина вмещает немного больше.</string>
+    <string name="vehicle_model_t">Model T</string>
+    <string name="vehicle_model_t_emoji">\uD83D\uDE97</string>
+    <string name="vehicle_model_t_desc">Надёжный Ford. Сливается с потоком.</string>
+    <string name="vehicle_delivery_truck">Фургон</string>
+    <string name="vehicle_delivery_truck_emoji">\uD83D\uDE9A</string>
+    <string name="vehicle_delivery_truck_desc">Прячь товар за вывеской \"Прачечная\".</string>
+    <string name="vehicle_armored_car">Бронеавтомобиль</string>
+    <string name="vehicle_armored_car_emoji">\uD83D\uDE93</string>
+    <string name="vehicle_armored_car_desc">Бронированный и грозный. Дважды подумают, прежде чем преследовать.</string>
+    <string name="vehicle_speedboat">Катер</string>
+    <string name="vehicle_speedboat_emoji">\u26F5</string>
+    <string name="vehicle_speedboat_desc">Гоняй по побережью. На воде тебя никто не поймает.</string>
+    <string name="vehicle_zeppelin">Дирижабль</string>
+    <string name="vehicle_zeppelin_emoji">\uD83D\uDEE9\uFE0F</string>
+    <string name="vehicle_zeppelin_desc">Абсолютная торговая машина. Небо Chicago принадлежит тебе.</string>
+
+    <!-- ===================================== -->
+    <!-- ДОСТИЖЕНИЯ (отображаемые имена) -->
+    <!-- ===================================== -->
+    <string name="achievement_first_deal">Первая сделка</string>
+    <string name="achievement_first_deal_emoji">\uD83E\uDD1D</string>
+    <string name="achievement_first_deal_desc">Соверши первую покупку</string>
+    <string name="achievement_big_spender">Транжира</string>
+    <string name="achievement_big_spender_emoji">\uD83D\uDCB0</string>
+    <string name="achievement_big_spender_desc">Потрать \$5 000 за одну покупку</string>
+    <string name="achievement_10k_club">Клуб 10K</string>
+    <string name="achievement_10k_club_emoji">\uD83D\uDCB5</string>
+    <string name="achievement_10k_club_desc">Достигни состояния \$10 000</string>
+    <string name="achievement_50k_club">Клуб 50K</string>
+    <string name="achievement_50k_club_emoji">\uD83D\uDC8E</string>
+    <string name="achievement_50k_club_desc">Достигни состояния \$50 000</string>
+    <string name="achievement_100k_club">Клуб 100K</string>
+    <string name="achievement_100k_club_emoji">\uD83D\uDC51</string>
+    <string name="achievement_100k_club_desc">Достигни состояния \$100 000</string>
+    <string name="achievement_survivor">Выживший</string>
+    <string name="achievement_survivor_emoji">\uD83D\uDEE1\uFE0F</string>
+    <string name="achievement_survivor_desc">Переживи 5 погонь</string>
+    <string name="achievement_speed_demon">Демон скорости</string>
+    <string name="achievement_speed_demon_emoji">\u26A1</string>
+    <string name="achievement_speed_demon_desc">Купи катер</string>
+    <string name="achievement_speakeasy_owner">Владелец Speakeasy</string>
+    <string name="achievement_speakeasy_owner_emoji">\uD83C\uDF78</string>
+    <string name="achievement_speakeasy_owner_desc">Открой свой первый Speakeasy</string>
+    <string name="achievement_speakeasy_mogul">Магнат Speakeasy</string>
+    <string name="achievement_speakeasy_mogul_emoji">\uD83C\uDF1F</string>
+    <string name="achievement_speakeasy_mogul_desc">Прокачай Speakeasy до уровня 3</string>
+    <string name="achievement_fight_club">Бойцовский клуб</string>
+    <string name="achievement_fight_club_emoji">\uD83E\uDD4A</string>
+    <string name="achievement_fight_club_desc">Выиграй 3 погони</string>
+    <string name="achievement_debt_free">Без долгов</string>
+    <string name="achievement_debt_free_emoji">\u2705</string>
+    <string name="achievement_debt_free_desc">Выплати долг ростовщику</string>
+    <string name="achievement_world_traveler">Путешественник</string>
+    <string name="achievement_world_traveler_emoji">\uD83C\uDF0D</string>
+    <string name="achievement_world_traveler_desc">Посети все 6 районов</string>
+    <string name="achievement_street_tough">Уличный боец</string>
+    <string name="achievement_street_tough_emoji">\uD83D\uDCA5</string>
+    <string name="achievement_street_tough_desc">Дай отпор банде соперников</string>
+    <string name="achievement_hot_streak">Серия удач</string>
+    <string name="achievement_hot_streak_emoji">\uD83D\uDD25</string>
+    <string name="achievement_hot_streak_desc">Получи прибыль 5 сделок подряд</string>
+    <string name="achievement_untouchable">Неприкасаемый</string>
+    <string name="achievement_untouchable_emoji">\uD83D\uDE0E</string>
+    <string name="achievement_untouchable_desc">Заверши игру с розыском 0</string>
+    <string name="achievement_al_capone">Al Capone</string>
+    <string name="achievement_al_capone_emoji">\uD83C\uDFC6</string>
+    <string name="achievement_al_capone_desc">Достигни ранга Al Capone</string>
+    <string name="achievement_sky_king">Король небес</string>
+    <string name="achievement_sky_king_emoji">\uD83D\uDEE9\uFE0F</string>
+    <string name="achievement_sky_king_desc">Купи дирижабль</string>
+
+    <!-- ===================================== -->
+    <!-- БАНДЫ-СОПЕРНИКИ (отображаемые имена) -->
+    <!-- ===================================== -->
+    <string name="gang_south_side_boys">South Side Boys</string>
+    <string name="gang_south_side_boys_emoji">\uD83E\uDD1C</string>
+    <string name="gang_north_shore_syndicate">North Shore Syndicate</string>
+    <string name="gang_north_shore_syndicate_emoji">\uD83C\uDFA9</string>
+    <string name="gang_dock_rats">Dock Rats</string>
+    <string name="gang_dock_rats_emoji">\uD83D\uDC00</string>
+    <string name="gang_downtown_outfit">Downtown Outfit</string>
+    <string name="gang_downtown_outfit_emoji">\uD83D\uDD2B</string>
+
+    <!-- ============================== -->
+    <!-- НАЗВАНИЯ SPEAKEASY И ДЕТАЛИ -->
+    <!-- ============================== -->
+    <string name="speakeasy_south_side">The Blind Pig</string>
+    <string name="speakeasy_north_side">The Gilded Lily</string>
+    <string name="speakeasy_west_side">The Iron Horse</string>
+    <string name="speakeasy_downtown">Club Gatsby</string>
+    <string name="speakeasy_the_docks">The Rusty Anchor</string>
+    <string name="speakeasy_uptown">The Velvet Room</string>
+    <string name="speakeasy_upgrade_1">Открыто - маленький тайный бар</string>
+    <string name="speakeasy_upgrade_2">Добавить живой джаз и премиум-ассортимент</string>
+    <string name="speakeasy_upgrade_3">Самое горячее место в городе - VIP-зал</string>
+    <string name="speakeasy_upgrade_maxed">Макс. уровень</string>
+
+    <!-- ======================== -->
+    <!-- РОСТОВЩИК -->
+    <!-- ======================== -->
+    <string name="loan_shark_name">Vinnie the Fixer</string>
+    <string name="loan_shark_emoji">\uD83E\uDDD4</string>
+    <string name="loan_threat_none">Нет</string>
+    <string name="loan_threat_patient">Терпеливый</string>
+    <string name="loan_threat_impatient">Нетерпеливый</string>
+    <string name="loan_threat_threatening">Угрожающий</string>
+    <string name="loan_threat_dangerous">Опасный</string>
+    <string name="loan_threat_emoji_patient">\uD83D\uDE10</string>
+    <string name="loan_threat_emoji_impatient">\uD83D\uDE20</string>
+    <string name="loan_threat_emoji_threatening">\uD83D\uDE21</string>
+    <string name="loan_threat_emoji_dangerous">\uD83D\uDC80</string>
+
+    <!-- ======================== -->
+    <!-- РАНГИ (ScoreCalculator) -->
+    <!-- ======================== -->
+    <string name="rank_street_peddler">Уличный торговец</string>
+    <string name="rank_small_time_hustler">Мелкий жулик</string>
+    <string name="rank_neighborhood_trader">Районный торговец</string>
+    <string name="rank_district_boss">Босс района</string>
+    <string name="rank_speakeasy_king">Король Speakeasy</string>
+    <string name="rank_chicago_kingpin">Главарь Chicago</string>
+    <string name="rank_al_capone">Al Capone</string>
+
+    <!-- =================================== -->
+    <!-- ЗАГОЛОВКИ (HeadlineEngine) -->
+    <!-- =================================== -->
+    <!-- Подсказки роста цен -->
+    <string name="headline_gin_up">СВЕТСКАЯ ПУБЛИКА ТРЕБУЕТ БОЛЬШЕ ДЖИНА - Коктейльные вечеринки захватывают город!</string>
+    <string name="headline_whiskey_up">ДЕФИЦИТ ВИСКИ НАДВИГАЕТСЯ - Ирландский импорт иссякает!</string>
+    <string name="headline_rum_up">КАРИБСКИЕ СВЯЗИ ОБОРВАНЫ - Запасы рома сокращаются!</string>
+    <string name="headline_moonshine_up">САМОГОНЩИКИ ИСЧЕЗЛИ - Запасы самогона иссякают!</string>
+    <string name="headline_champagne_up">СПРОС НА ФРАНЦУЗСКУЮ РОСКОШЬ - Высший свет жаждет шампанского!</string>
+
+    <!-- Подсказки падения цен -->
+    <string name="headline_gin_down">ОБЛАВА НА ДЖИН - Несколько самопальных производств закрыто!</string>
+    <string name="headline_whiskey_down">СКЛАДЫ ВИСКИ КОНФИСКОВАНЫ - Агенты празднуют крупный улов!</string>
+    <string name="headline_rum_down">БЕРЕГОВАЯ ОХРАНА ПЕРЕХВАТИЛА КОНТРАБАНДИСТОВ РОМА - Цены обрушатся!</string>
+    <string name="headline_moonshine_down">САМОГОННЫЕ АППАРАТЫ НАЙДЕНЫ - Налоговики на тропе войны!</string>
+    <string name="headline_champagne_down">ТОРГОВЛЯ ШАМПАНСКИМ НАРУШЕНА - Рынок роскоши переполнен!</string>
+
+    <!-- Заголовки-предупреждения о розыске -->
+    <string name="headline_heat_south_side">SOUTH SIDE ПОД НАБЛЮДЕНИЕМ - Усиленные патрули развёрнуты!</string>
+    <string name="headline_heat_north_side">ОБЛАВА НА NORTH SIDE - Состоятельные жители требуют мер!</string>
+    <string name="headline_heat_west_side">СКЛАДЫ WEST SIDE ПОД СЛЕЖКОЙ - Федералы обложили промзону!</string>
+    <string name="headline_heat_downtown">РЕЙД НА DOWNTOWN ЗАПЛАНИРОВАН - Комиссар клянётся навести порядок!</string>
+    <string name="headline_heat_the_docks">ПОРТОВЫЙ ПАТРУЛЬ УДВОЕН - Береговая охрана в полной готовности!</string>
+    <string name="headline_heat_uptown">SPEAKEASY В UPTOWN ПОД ПРИЦЕЛОМ - Агенты уходят под прикрытие!</string>
+
+    <!-- Новости банд -->
+    <string name="headline_gang_south_side_boys">SOUTH SIDE BOYS РАСШИРЯЮТ ТЕРРИТОРИЮ - Торговцы-конкуренты, берегитесь!</string>
+    <string name="headline_gang_north_shore_syndicate">NORTH SHORE SYNDICATE ДЕМОНСТРИРУЕТ СИЛУ - Элитные операции ужесточаются!</string>
+    <string name="headline_gang_dock_rats">DOCK RATS КОНТРОЛИРУЮТ НАБЕРЕЖНУЮ - Торговцы платят дань!</string>
+    <string name="headline_gang_downtown_outfit">DOWNTOWN OUTFIT НАГЛЕЕТ - Территориальные споры накаляются!</string>
+
+    <!-- Общие новостные заголовки -->
+    <string name="headline_general_prohibition">ПРАВОПРИМЕНЕНИЕ СУХОГО ЗАКОНА УДВОЕНО - Президент требует результатов!</string>
+    <string name="headline_general_speakeasies">КАЖДУЮ НОЧЬ ОТКРЫВАЮТСЯ НОВЫЕ SPEAKEASY - Chicago не может остановить веселье!</string>
+    <string name="headline_general_jazz">ЭПОХА ДЖАЗА В РАЗГАРЕ - Музыка наполняет подполье!</string>
+    <string name="headline_general_mayor">МЭР ОБЕЩАЕТ ЧИСТЫЕ УЛИЦЫ - Предвыборная риторика!</string>
+    <string name="headline_general_stock_market">ФОНДОВЫЙ РЫНОК ВЗЛЕТАЕТ - Wall Street празднует!</string>
+    <string name="headline_general_labor">ЗАБАСТОВКИ РАБОЧИХ РАСПРОСТРАНЯЮТСЯ - Рабочие требуют справедливой оплаты!</string>
+    <string name="headline_general_baseball">БЕЙБ РУТ СНОВА ОТЛИЧИЛСЯ - Yankees доминируют на поле!</string>
+
+    <!-- ==================== -->
+    <!-- СТРЕЛКИ НАПРАВЛЕНИЯ ЦЕН -->
+    <!-- ==================== -->
+    <string name="price_arrow_up">\u2191</string>
+    <string name="price_arrow_down">\u2193</string>
+    <string name="price_arrow_flat">\u2192</string>
+
+    <!-- ==================== -->
+    <!-- ОБЩЕЕ / ФОРМАТИРОВАНИЕ -->
+    <!-- ==================== -->
+    <string name="currency_format">\$%1$s</string>
+    <string name="currency_positive">+\$%1$s</string>
+    <string name="currency_negative">-\$%1$s</string>
+    <string name="percent_format">%1$s%%</string>
+
+    <!-- Эмодзи уровней Speakeasy -->
+    <string name="speakeasy_emoji_tier_0">\uD83C\uDFDA</string>
+    <string name="speakeasy_emoji_tier_1">\uD83C\uDF7A</string>
+    <string name="speakeasy_emoji_tier_2">\uD83C\uDF78</string>
+    <string name="speakeasy_emoji_tier_3">\uD83C\uDF1F</string>
+
+</resources>

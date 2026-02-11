@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Roaring Trades</string>
+
+    <!-- ==================== -->
+    <!-- ウォレット接続画面 -->
+    <!-- ==================== -->
+    <string name="wallet_title_roaring">ROARING</string>
+    <string name="wallet_title_trades">TRADES</string>
+    <string name="wallet_subtitle">Chicago、1920年代</string>
+    <string name="wallet_game_description">安く買って高く売れ。30日間で取引帝国を築け。</string>
+    <string name="wallet_leaderboard_description">Solanaウォレットを接続してリーダーボードでハイスコアを記録しよう。</string>
+    <string name="wallet_connecting">接続中\\u2026</string>
+    <string name="wallet_connect_button">ウォレットを接続</string>
+    <string name="wallet_connect_error_default">ウォレットの接続に失敗しました</string>
+    <string name="wallet_production_credit">Midnight Run Games制作</string>
+
+    <!-- ============= -->
+    <!-- マーケット画面 -->
+    <!-- ============= -->
+    <string name="market_headline">\\uD83D\\uDCF0 %1$s</string>
+    <string name="market_day_counter">%1$d日目/%2$d日</string>
+    <string name="market_cash_display">\\$%1$s</string>
+    <string name="market_capacity_format">%1$s %2$d/%3$d</string>
+    <string name="market_high_risk_label"> \\u26A0\\uFE0F 高リスク、高価格</string>
+    <string name="market_low_risk_label"> \\u2705 低リスク、低価格</string>
+    <string name="market_vehicle_hp">\\u2764\\uFE0F %1$d/%2$d</string>
+    <string name="market_speakeasy_income">\\uD83C\\uDF78 +\\$%1$d/日</string>
+    <string name="market_loan_debt">%1$s \\$%2$s</string>
+    <string name="market_pay_off_heat">\\uD83D\\uDCB5 手配度を下げる (\\$%1$d/pt)</string>
+    <string name="market_heat_payoff_small">-%1$d \\$%2$s</string>
+    <string name="market_heat_payoff_clear">全額 \\$%1$s</string>
+    <string name="market_gang_territory">%1$s %2$sの縄張り - %3$sの価格が高騰</string>
+    <string name="market_hot_commodity">\\uD83D\\uDD25 注目: %1$sの価格が急騰中！</string>
+    <string name="market_crackdown">\\uD83D\\uDEA8 取り締まり: %1$s - 安いが危険！</string>
+
+    <!-- ============= -->
+    <!-- 移動画面 -->
+    <!-- ============= -->
+    <string name="travel_header">目的地を選択</string>
+    <string name="travel_currently_at">現在地: %1$s</string>
+    <string name="travel_day_info">%2$d日中%1$d日目 \\u2022 移動に1日かかります</string>
+    <string name="travel_current_location_content_desc">現在地</string>
+    <string name="travel_high_risk">\\u26A0\\uFE0F 高リスク、高級品価格</string>
+    <string name="travel_low_risk">\\u2705 低リスク、低価格</string>
+    <string name="travel_moderate_risk">\\u2696\\uFE0F 中リスク</string>
+    <string name="travel_you_are_here">現在地</string>
+
+    <!-- ============= -->
+    <!-- ガレージ画面 -->
+    <!-- ============= -->
+    <string name="garage_header">ガレージ</string>
+    <string name="garage_current_ride">現在の乗り物: %1$s %2$s</string>
+    <string name="garage_cash">所持金: \\$%1$s</string>
+    <string name="garage_current_vehicle">%1$s %2$s (現在)</string>
+    <string name="garage_hp_label">\\u2764\\uFE0F HP: </string>
+    <string name="garage_hp_value">%1$d/%2$d</string>
+    <string name="garage_repair_button">\\uD83D\\uDD27 \\$%1$sで修理</string>
+    <string name="garage_need_more">あと\\$%1$s必要</string>
+    <string name="garage_available_upgrades">アップグレード一覧</string>
+    <string name="garage_vehicle_name">%1$s %2$s</string>
+    <string name="garage_vehicle_price">\\$%1$s</string>
+    <string name="garage_vehicle_free">無料</string>
+    <string name="garage_already_passed">この乗り物は既に所有済み</string>
+    <string name="garage_not_upgrade">アップグレードではありません</string>
+    <string name="garage_buy_for">\\$%1$sで購入</string>
+    <string name="garage_stat_capacity">積載量</string>
+    <string name="garage_stat_heat_decay">手配度減衰</string>
+    <string name="garage_stat_heat_decay_value">+%1$d/日</string>
+    <string name="garage_stat_hp">HP</string>
+    <string name="garage_stat_speed">速度</string>
+    <string name="garage_stat_speed_value">%1$d/10</string>
+
+    <!-- ============== -->
+    <!-- ステータス画面 -->
+    <!-- ============== -->
+    <string name="status_financial_summary">財務概要</string>
+    <string name="status_cash">所持金</string>
+    <string name="status_inventory">在庫</string>
+    <string name="status_net_worth">純資産</string>
+    <string name="status_profit">利益</string>
+    <string name="status_debt">借金</string>
+    <string name="status_speakeasies_label">スピークイージー</string>
+    <string name="status_speakeasies_income">+\\$%1$d/日</string>
+    <string name="status_current_rank">現在のランク</string>
+    <string name="status_loan_shark_title">%1$s %2$s - 闇金融</string>
+    <string name="status_loan_debt">借金: \\$%1$s</string>
+    <string name="status_loan_interest">日利: 10%% (\\$%1$d/日)</string>
+    <string name="status_loan_status">状態: %1$s %2$s</string>
+    <string name="status_loan_pay">\\$%1$sを返済</string>
+    <string name="status_loan_pay_all">全額返済 \\$%1$s</string>
+    <string name="status_loan_offer">\\"金が要るのかい？任せな。\\"</string>
+    <string name="status_loan_warning">日利10%%。遅れるなよ。</string>
+    <string name="status_borrow_1k">\\$1K借りる</string>
+    <string name="status_borrow_3k">\\$3K借りる</string>
+    <string name="status_borrow_5k">\\$5K借りる</string>
+    <string name="status_speakeasies_title">\\uD83C\\uDF78 スピークイージー</string>
+    <string name="status_speakeasy_daily_income">日収: +\\$%1$d</string>
+    <string name="status_speakeasy_tier">%1$s - ティア%2$d</string>
+    <string name="status_speakeasy_tier_income">%1$s - ティア%2$d (+\\$%3$d/日)</string>
+    <string name="status_speakeasy_open">開店 \\$%1$s</string>
+    <string name="status_speakeasy_upgrade">強化 \\$%1$s</string>
+    <string name="status_speakeasy_max">\\uD83C\\uDF1F 最大</string>
+    <string name="status_achievements_title">\\uD83C\\uDFC6 実績 (%1$d/%2$d)</string>
+    <string name="status_achievements_to_claim">%1$d件の報酬を受取可能</string>
+    <string name="status_achievement_locked">\\uD83D\\uDD12 </string>
+    <string name="status_achievement_locked_name">\u003F\u003F\u003F</string>
+    <string name="status_achievement_claimed">\\u2705</string>
+    <string name="status_reputation_title">\\uD83E\\uDD1D 評判</string>
+    <string name="status_wallet_title">ウォレット</string>
+    <string name="status_wallet_connected">接続済み: %1$s</string>
+    <string name="status_leaderboard_title">リーダーボード</string>
+    <string name="status_leaderboard_empty">スコアなし。ゲームをクリアしよう！</string>
+    <string name="status_leaderboard_entry">%1$d. %2$s</string>
+    <string name="status_new_game">ニューゲーム</string>
+
+    <!-- =============== -->
+    <!-- ゲームオーバー画面 -->
+    <!-- =============== -->
+    <string name="game_over_title">ゲームオーバー！</string>
+    <string name="game_over_your_rank">あなたのランク</string>
+    <string name="game_over_final_cash">最終所持金</string>
+    <string name="game_over_inventory_value">在庫価値</string>
+    <string name="game_over_net_worth">純資産</string>
+    <string name="game_over_profit">利益</string>
+    <string name="game_over_return">収益率</string>
+    <string name="game_over_save_and_play">スコアを保存して再プレイ</string>
+    <string name="game_over_play_again">もう一度プレイ</string>
+
+    <!-- ============ -->
+    <!-- 追跡ダイアログ -->
+    <!-- ============ -->
+    <string name="chase_title">\\uD83D\\uDEA8 手配度が上昇中！</string>
+    <string name="chase_pursuit_strength">追跡強度:</string>
+    <string name="chase_pursuit_strength_value">%1$d/100</string>
+    <string name="chase_fight_odds">戦闘勝率:</string>
+    <string name="chase_if_caught">捕まった場合:</string>
+    <string name="chase_lose_goods">商品の%1$d%%を失う</string>
+    <string name="chase_fight_button">\\uD83E\\uDD4A 戦う</string>
+    <string name="chase_flee_button">\\uD83C\\uDFC3 逃げる</string>
+
+    <!-- 追跡結果 -->
+    <string name="chase_result_fight_won">\\uD83E\\uDD4A 戦闘勝利！</string>
+    <string name="chase_result_fight_won_desc">追跡を振り切った！手配度が%1$d下がった。\
+車両ダメージ: %2$d</string>
+    <string name="chase_result_fight_lost">\\uD83D\\uDC6E 戦闘敗北！</string>
+    <string name="chase_result_fight_lost_desc">制圧された！\
+罰金: \\$%1$d\
+車両ダメージ: %2$d\
+押収品:\
+%3$s</string>
+    <string name="chase_result_flee_success">\\uD83C\\uDFC3 逃走成功！</string>
+    <string name="chase_result_flee_success_desc">追跡を振り切った！車両ダメージ: %1$d</string>
+    <string name="chase_result_flee_success_dropped">追跡を振り切った！車両ダメージ: %1$d\
+逃走中に落とした物:\
+%2$s</string>
+    <string name="chase_result_caught">\\uD83D\\uDEA8 捕まった！</string>
+    <string name="chase_result_caught_desc">追いつかれた！\
+罰金: \\$%1$d\
+車両ダメージ: %2$d\
+押収品:\
+%3$s</string>
+    <string name="chase_result_goods_lost_line">  %1$s %2$s: -%3$d</string>
+    <string name="chase_continue">続ける</string>
+
+    <!-- ============== -->
+    <!-- 待ち伏せダイアログ -->
+    <!-- ============== -->
+    <string name="ambush_confrontation">対決！</string>
+    <string name="ambush_warning">警告！</string>
+    <string name="ambush_stood_ground">立ち向かった！</string>
+    <string name="ambush_ok">OK</string>
+
+    <!-- ギャング遭遇の説明 -->
+    <string name="encounter_shaken_down">%1$s %2$sに絡まれた！\\$%3$dを失った。%4$s</string>
+    <string name="encounter_shaken_down_goods"> %1$sも奪われた。</string>
+    <string name="encounter_intimidated">%1$s %2$sに縄張りから出ろと脅された！手配度+%3$d</string>
+    <string name="encounter_fought_off">%1$s %2$sに立ち向かった！%3$sでの評判が上がった。</string>
+
+    <!-- ============= -->
+    <!-- イベントダイアログ -->
+    <!-- ============= -->
+    <string name="event_ok">OK</string>
+
+    <!-- 摘発ダイアログ -->
+    <string name="intercept_title">捕まった！</string>
+    <string name="intercept_description">当局に捕まった！押収された商品:\
+\
+%1$s</string>
+    <string name="intercept_goods_line">%1$s %2$s: -%3$d個</string>
+    <string name="intercept_lay_low">身を潜める</string>
+
+    <!-- =================== -->
+    <!-- 実績ポップアップ -->
+    <!-- =================== -->
+    <string name="achievement_earned_title">\\uD83C\\uDFC6 実績解除！</string>
+    <string name="achievement_reward">\\uD83D\\uDCB0 報酬: +\\$%1$s</string>
+    <string name="achievement_claim_button">\\uD83C\\uDF81 報酬を受け取る！</string>
+    <string name="achievement_later">後で</string>
+    <string name="achievement_claim_amount">+\\$%1$s</string>
+
+    <!-- ========= -->
+    <!-- 商品行 -->
+    <!-- ========= -->
+    <string name="good_owned">所持: %1$d</string>
+    <string name="good_price">\\$%1$d</string>
+    <string name="good_price_range">相場: \\$%1$d - \\$%2$d</string>
+    <string name="good_avg_cost">平均原価: \\$%1$s</string>
+    <string name="good_pnl">損益: %1$s\\$%2$d</string>
+    <string name="good_sell_with_count">売る (%1$d)</string>
+    <string name="good_sell">売る</string>
+    <string name="good_buy">買う</string>
+    <string name="good_buy_title">%1$sを買う</string>
+    <string name="good_sell_title">%1$sを売る</string>
+
+    <!-- ================ -->
+    <!-- 数量選択 -->
+    <!-- ================ -->
+    <string name="quantity_decrease_content_desc">減らす</string>
+    <string name="quantity_increase_content_desc">増やす</string>
+    <string name="quantity_max">最大 (%1$d)</string>
+    <string name="quantity_total">合計: \\$%1$d</string>
+    <string name="quantity_confirm">確定</string>
+    <string name="quantity_cancel">キャンセル</string>
+
+    <!-- ================ -->
+    <!-- 手配度インジケーター -->
+    <!-- ================ -->
+    <string name="heat_label">手配度: %1$s</string>
+
+    <!-- 手配度レベル -->
+    <string name="heat_level_none">手配度なし</string>
+    <string name="heat_level_low">手配度: 低</string>
+    <string name="heat_level_low_emoji">\\u26A0\\uFE0F</string>
+    <string name="heat_level_medium">手配度: 中</string>
+    <string name="heat_level_medium_emoji">\\u26A0\\uFE0F\\u26A0\\uFE0F</string>
+    <string name="heat_level_high">手配度: 高</string>
+    <string name="heat_level_high_emoji">\\u26A0\\uFE0F\\u26A0\\uFE0F\\u26A0\\uFE0F</string>
+
+    <!-- ============================== -->
+    <!-- 商品（enum表示名） -->
+    <!-- ============================== -->
+    <string name="good_bathtub_gin">密造ジン</string>
+    <string name="good_bathtub_gin_emoji">\\uD83E\\uDDEA</string>
+    <string name="good_whiskey">ウイスキー</string>
+    <string name="good_whiskey_emoji">\\uD83E\\uDD43</string>
+    <string name="good_rum">ラム酒</string>
+    <string name="good_rum_emoji">\\uD83C\\uDF79</string>
+    <string name="good_moonshine">ムーンシャイン</string>
+    <string name="good_moonshine_emoji">\\uD83C\\uDF1D</string>
+    <string name="good_champagne">シャンパン</string>
+    <string name="good_champagne_emoji">\\uD83C\\uDF7E</string>
+
+    <!-- ====================================== -->
+    <!-- 地区（enum表示名） -->
+    <!-- ====================================== -->
+    <string name="neighborhood_south_side">South Side</string>
+    <string name="neighborhood_south_side_desc">荒っぽい地域、商品が安い</string>
+    <string name="neighborhood_north_side">North Side</string>
+    <string name="neighborhood_north_side_desc">裕福な客層、高級品の価格</string>
+    <string name="neighborhood_west_side">West Side</string>
+    <string name="neighborhood_west_side_desc">工業地区、大量取引向き</string>
+    <string name="neighborhood_downtown">Downtown</string>
+    <string name="neighborhood_downtown_desc">ハイリスク・ハイリターン</string>
+    <string name="neighborhood_the_docks">The Docks</string>
+    <string name="neighborhood_the_docks_desc">輸入拠点、レア品あり</string>
+    <string name="neighborhood_uptown">Uptown</string>
+    <string name="neighborhood_uptown_desc">スピークイージーの中心、安定した取引</string>
+
+    <!-- ================================== -->
+    <!-- 乗り物（enum表示名） -->
+    <!-- ================================== -->
+    <string name="vehicle_on_foot">徒歩</string>
+    <string name="vehicle_on_foot_emoji">\\uD83D\\uDEB6</string>
+    <string name="vehicle_on_foot_desc">ポケットだけ。目立たないが運べる量は少ない。</string>
+    <string name="vehicle_bicycle">自転車</string>
+    <string name="vehicle_bicycle_emoji">\\uD83D\\uDEB2</string>
+    <string name="vehicle_bicycle_desc">素早く静か。カゴでもう少し運べる。</string>
+    <string name="vehicle_model_t">Model T</string>
+    <string name="vehicle_model_t_emoji">\\uD83D\\uDE97</string>
+    <string name="vehicle_model_t_desc">信頼のフォード。交通に紛れ込める。</string>
+    <string name="vehicle_delivery_truck">配送トラック</string>
+    <string name="vehicle_delivery_truck_emoji">\\uD83D\\uDE9A</string>
+    <string name="vehicle_delivery_truck_desc">\\"クリーニングサービス\\"の看板の裏に隠せ。</string>
+    <string name="vehicle_armored_car">装甲車</string>
+    <string name="vehicle_armored_car_emoji">\\uD83D\\uDE93</string>
+    <string name="vehicle_armored_car_desc">強化され威圧的。追跡者は二の足を踏む。</string>
+    <string name="vehicle_speedboat">スピードボート</string>
+    <string name="vehicle_speedboat_emoji">\\u26F5</string>
+    <string name="vehicle_speedboat_desc">湖岸を走れ。水上では誰も追いつけない。</string>
+    <string name="vehicle_zeppelin">ツェッペリン</string>
+    <string name="vehicle_zeppelin_emoji">\\uD83D\\uDEE9\\uFE0F</string>
+    <string name="vehicle_zeppelin_desc">究極の取引マシン。Chicagoの空を支配せよ。</string>
+
+    <!-- ===================================== -->
+    <!-- 実績（enum表示名） -->
+    <!-- ===================================== -->
+    <string name="achievement_first_deal">初取引</string>
+    <string name="achievement_first_deal_emoji">\\uD83E\\uDD1D</string>
+    <string name="achievement_first_deal_desc">初めての購入を完了する</string>
+    <string name="achievement_big_spender">大盤振る舞い</string>
+    <string name="achievement_big_spender_emoji">\\uD83D\\uDCB0</string>
+    <string name="achievement_big_spender_desc">1回の取引で\\$5,000を使う</string>
+    <string name="achievement_10k_club">10Kクラブ</string>
+    <string name="achievement_10k_club_emoji">\\uD83D\\uDCB5</string>
+    <string name="achievement_10k_club_desc">純資産\\$10,000に到達</string>
+    <string name="achievement_50k_club">50Kクラブ</string>
+    <string name="achievement_50k_club_emoji">\\uD83D\\uDC8E</string>
+    <string name="achievement_50k_club_desc">純資産\\$50,000に到達</string>
+    <string name="achievement_100k_club">100Kクラブ</string>
+    <string name="achievement_100k_club_emoji">\\uD83D\\uDC51</string>
+    <string name="achievement_100k_club_desc">純資産\\$100,000に到達</string>
+    <string name="achievement_survivor">サバイバー</string>
+    <string name="achievement_survivor_emoji">\\uD83D\\uDEE1\\uFE0F</string>
+    <string name="achievement_survivor_desc">追跡を5回生き延びる</string>
+    <string name="achievement_speed_demon">スピードデーモン</string>
+    <string name="achievement_speed_demon_emoji">\\u26A1</string>
+    <string name="achievement_speed_demon_desc">スピードボートを購入する</string>
+    <string name="achievement_speakeasy_owner">スピークイージーオーナー</string>
+    <string name="achievement_speakeasy_owner_emoji">\\uD83C\\uDF78</string>
+    <string name="achievement_speakeasy_owner_desc">最初のスピークイージーを開店する</string>
+    <string name="achievement_speakeasy_mogul">スピークイージー王</string>
+    <string name="achievement_speakeasy_mogul_emoji">\\uD83C\\uDF1F</string>
+    <string name="achievement_speakeasy_mogul_desc">スピークイージーをティア3まで強化する</string>
+    <string name="achievement_fight_club">ファイトクラブ</string>
+    <string name="achievement_fight_club_emoji">\\uD83E\\uDD4A</string>
+    <string name="achievement_fight_club_desc">追跡で3回勝利する</string>
+    <string name="achievement_debt_free">借金完済</string>
+    <string name="achievement_debt_free_emoji">\\u2705</string>
+    <string name="achievement_debt_free_desc">闇金融の借金を返済する</string>
+    <string name="achievement_world_traveler">世界旅行者</string>
+    <string name="achievement_world_traveler_emoji">\\uD83C\\uDF0D</string>
+    <string name="achievement_world_traveler_desc">全6地区を訪問する</string>
+    <string name="achievement_street_tough">ストリートファイター</string>
+    <string name="achievement_street_tough_emoji">\\uD83D\\uDCA5</string>
+    <string name="achievement_street_tough_desc">ライバルギャングに立ち向かう</string>
+    <string name="achievement_hot_streak">連勝街道</string>
+    <string name="achievement_hot_streak_emoji">\\uD83D\\uDD25</string>
+    <string name="achievement_hot_streak_desc">5回連続で利益を出す</string>
+    <string name="achievement_untouchable">アンタッチャブル</string>
+    <string name="achievement_untouchable_emoji">\\uD83D\\uDE0E</string>
+    <string name="achievement_untouchable_desc">手配度0でゲームを終える</string>
+    <string name="achievement_al_capone">Al Capone</string>
+    <string name="achievement_al_capone_emoji">\\uD83C\\uDFC6</string>
+    <string name="achievement_al_capone_desc">Al Caponeランクに到達する</string>
+    <string name="achievement_sky_king">空の王</string>
+    <string name="achievement_sky_king_emoji">\\uD83D\\uDEE9\\uFE0F</string>
+    <string name="achievement_sky_king_desc">ツェッペリンを購入する</string>
+
+    <!-- ===================================== -->
+    <!-- ライバルギャング（enum表示名） -->
+    <!-- ===================================== -->
+    <string name="gang_south_side_boys">South Side Boys</string>
+    <string name="gang_south_side_boys_emoji">\\uD83E\\uDD1C</string>
+    <string name="gang_north_shore_syndicate">North Shore Syndicate</string>
+    <string name="gang_north_shore_syndicate_emoji">\\uD83C\\uDFA9</string>
+    <string name="gang_dock_rats">Dock Rats</string>
+    <string name="gang_dock_rats_emoji">\\uD83D\\uDC00</string>
+    <string name="gang_downtown_outfit">Downtown Outfit</string>
+    <string name="gang_downtown_outfit_emoji">\\uD83D\\uDD2B</string>
+
+    <!-- ============================== -->
+    <!-- スピークイージー名＆詳細 -->
+    <!-- ============================== -->
+    <string name="speakeasy_south_side">The Blind Pig</string>
+    <string name="speakeasy_north_side">The Gilded Lily</string>
+    <string name="speakeasy_west_side">The Iron Horse</string>
+    <string name="speakeasy_downtown">Club Gatsby</string>
+    <string name="speakeasy_the_docks">The Rusty Anchor</string>
+    <string name="speakeasy_uptown">The Velvet Room</string>
+    <string name="speakeasy_upgrade_1">開店 - 小さな隠れバー</string>
+    <string name="speakeasy_upgrade_2">生ジャズと高級品を追加</string>
+    <string name="speakeasy_upgrade_3">街一番の人気スポット - VIPラウンジ</string>
+    <string name="speakeasy_upgrade_maxed">最大レベル</string>
+
+    <!-- ======================== -->
+    <!-- 闇金融 -->
+    <!-- ======================== -->
+    <string name="loan_shark_name">Vinnie the Fixer</string>
+    <string name="loan_shark_emoji">\\uD83E\\uDDD4</string>
+    <string name="loan_threat_none">なし</string>
+    <string name="loan_threat_patient">余裕あり</string>
+    <string name="loan_threat_impatient">苛立ち</string>
+    <string name="loan_threat_threatening">脅迫的</string>
+    <string name="loan_threat_dangerous">危険</string>
+    <string name="loan_threat_emoji_patient">\\uD83D\\uDE10</string>
+    <string name="loan_threat_emoji_impatient">\\uD83D\\uDE20</string>
+    <string name="loan_threat_emoji_threatening">\\uD83D\\uDE21</string>
+    <string name="loan_threat_emoji_dangerous">\\uD83D\\uDC80</string>
+
+    <!-- ======================== -->
+    <!-- ランク（ScoreCalculator） -->
+    <!-- ======================== -->
+    <string name="rank_street_peddler">露天商</string>
+    <string name="rank_small_time_hustler">チンピラ</string>
+    <string name="rank_neighborhood_trader">地区の商人</string>
+    <string name="rank_district_boss">地区のボス</string>
+    <string name="rank_speakeasy_king">スピークイージーの帝王</string>
+    <string name="rank_chicago_kingpin">Chicagoの大物</string>
+    <string name="rank_al_capone">Al Capone</string>
+
+    <!-- =================================== -->
+    <!-- 見出し（HeadlineEngine） -->
+    <!-- =================================== -->
+    <!-- 価格上昇ヒント -->
+    <string name="headline_gin_up">社交界がジンを求める - カクテルパーティーが街を席巻！</string>
+    <string name="headline_whiskey_up">ウイスキー不足の危機 - アイリッシュ輸入が枯渇中！</string>
+    <string name="headline_rum_up">カリブ海ルート遮断 - ラム酒の供給が減少！</string>
+    <string name="headline_moonshine_up">山の密造者が消えた - ムーンシャインの在庫が消滅！</string>
+    <string name="headline_champagne_up">フランスの贅沢品に需要 - 上流社会が泡を求める！</string>
+
+    <!-- 価格下落ヒント -->
+    <string name="headline_gin_down">連邦がジンを取り締まり - 複数の密造所が閉鎖！</string>
+    <string name="headline_whiskey_down">ウイスキー倉庫を押収 - 捜査官が大収穫を祝う！</string>
+    <string name="headline_rum_down">沿岸警備隊がラム酒密輸者を摘発 - 価格下落の見込み！</string>
+    <string name="headline_moonshine_down">ムーンシャインの蒸留所を発見 - 歳入局員が捜査に本腰！</string>
+    <string name="headline_champagne_down">シャンパン取引に混乱 - 高級品の供給過多！</string>
+
+    <!-- 手配度警告見出し -->
+    <string name="headline_heat_south_side">South Side監視強化 - 追加パトロール配備！</string>
+    <string name="headline_heat_north_side">North Side取り締まり - 富裕層が対策を要求！</string>
+    <string name="headline_heat_west_side">West Sideの倉庫を監視 - 連邦が工業地帯を張り込み！</string>
+    <string name="headline_heat_downtown">Downtown一斉摘発を計画 - 署長が浄化を誓う！</string>
+    <string name="headline_heat_the_docks">港湾パトロール倍増 - 沿岸警備隊が厳戒態勢！</string>
+    <string name="headline_heat_uptown">Uptownのスピークイージーが標的に - 潜入捜査官出動！</string>
+
+    <!-- ギャングニュース見出し -->
+    <string name="headline_gang_south_side_boys">South Side Boysが縄張り拡大 - ライバル商人は要注意！</string>
+    <string name="headline_gang_north_shore_syndicate">North Shore Syndicateが勢力誇示 - 高級取引が締め付けられる！</string>
+    <string name="headline_gang_dock_rats">Dock Ratsが水辺を支配 - 商人は通行料を払え！</string>
+    <string name="headline_gang_downtown_outfit">Downtown Outfitが大胆に - 縄張り争いが激化！</string>
+
+    <!-- 一般ニュース見出し -->
+    <string name="headline_general_prohibition">禁酒法の取り締まり倍増 - 大統領が結果を要求！</string>
+    <string name="headline_general_speakeasies">スピークイージーが毎晩開店 - Chicagoのパーティーは止まらない！</string>
+    <string name="headline_general_jazz">ジャズエイジ真っ盛り - 音楽がアンダーグラウンドを満たす！</string>
+    <string name="headline_general_mayor">市長が街の浄化を約束 - 選挙シーズンのレトリック！</string>
+    <string name="headline_general_stock_market">株式市場が急騰 - ウォール街がお祭り騒ぎ！</string>
+    <string name="headline_general_labor">労働ストライキ拡大 - 労働者が公正な賃金を要求！</string>
+    <string name="headline_general_baseball">ベーブ・ルースがまた一発 - ヤンキースがダイヤモンドを支配！</string>
+
+    <!-- ==================== -->
+    <!-- 価格方向矢印 -->
+    <!-- ==================== -->
+    <string name="price_arrow_up">\\u2191</string>
+    <string name="price_arrow_down">\\u2193</string>
+    <string name="price_arrow_flat">\\u2192</string>
+
+    <!-- ==================== -->
+    <!-- 共通 / フォーマット -->
+    <!-- ==================== -->
+    <string name="currency_format">\\$%1$s</string>
+    <string name="currency_positive">+\\$%1$s</string>
+    <string name="currency_negative">-\\$%1$s</string>
+    <string name="percent_format">%1$s%%</string>
+
+    <!-- スピークイージーティア絵文字 -->
+    <string name="speakeasy_emoji_tier_0">\\uD83C\\uDFDA</string>
+    <string name="speakeasy_emoji_tier_1">\\uD83C\\uDF7A</string>
+    <string name="speakeasy_emoji_tier_2">\\uD83C\\uDF78</string>
+    <string name="speakeasy_emoji_tier_3">\\uD83C\\uDF1F</string>
+
+</resources>

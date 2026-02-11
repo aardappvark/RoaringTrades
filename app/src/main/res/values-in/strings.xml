@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Roaring Trades</string>
+
+    <!-- ==================== -->
+    <!-- LAYAR HUBUNGKAN DOMPET -->
+    <!-- ==================== -->
+    <string name="wallet_title_roaring">ROARING</string>
+    <string name="wallet_title_trades">TRADES</string>
+    <string name="wallet_subtitle">Chicago, 1920-an</string>
+    <string name="wallet_game_description">Beli murah, jual mahal. Bangun kerajaan dagang dalam 30 hari.</string>
+    <string name="wallet_leaderboard_description">Hubungkan dompet Solana untuk melacak skor tertinggi di papan peringkat.</string>
+    <string name="wallet_connecting">Menghubungkan\\u2026</string>
+    <string name="wallet_connect_button">Hubungkan Dompet</string>
+    <string name="wallet_connect_error_default">Gagal menghubungkan dompet</string>
+    <string name="wallet_production_credit">Produksi Midnight Run Games</string>
+
+    <!-- ============= -->
+    <!-- LAYAR PASAR -->
+    <!-- ============= -->
+    <string name="market_headline">\\uD83D\\uDCF0 %1$s</string>
+    <string name="market_day_counter">Hari %1$d/%2$d</string>
+    <string name="market_cash_display">\\$%1$s</string>
+    <string name="market_capacity_format">%1$s %2$d/%3$d</string>
+    <string name="market_high_risk_label"> \\u26A0\\uFE0F Risiko tinggi, harga lebih baik</string>
+    <string name="market_low_risk_label"> \\u2705 Risiko rendah, harga lebih rendah</string>
+    <string name="market_vehicle_hp">\\u2764\\uFE0F %1$d/%2$d</string>
+    <string name="market_speakeasy_income">\\uD83C\\uDF78 +\\$%1$d/hari</string>
+    <string name="market_loan_debt">%1$s \\$%2$s</string>
+    <string name="market_pay_off_heat">\\uD83D\\uDCB5 Bayar kecurigaan (\\$%1$d/poin)</string>
+    <string name="market_heat_payoff_small">-%1$d \\$%2$s</string>
+    <string name="market_heat_payoff_clear">Lunasi \\$%1$s</string>
+    <string name="market_gang_territory">%1$s wilayah %2$s - harga %3$s meningkat</string>
+    <string name="market_hot_commodity">\\uD83D\\uDD25 Panas: Harga %1$s meroket!</string>
+    <string name="market_crackdown">\\uD83D\\uDEA8 Penggerebekan: %1$s - murah tapi berisiko!</string>
+
+    <!-- ============= -->
+    <!-- LAYAR PERJALANAN -->
+    <!-- ============= -->
+    <string name="travel_header">Pilih Tujuan</string>
+    <string name="travel_currently_at">Saat ini di: %1$s</string>
+    <string name="travel_day_info">Hari %1$d dari %2$d \\u2022 Perjalanan memakan 1 hari</string>
+    <string name="travel_current_location_content_desc">Lokasi saat ini</string>
+    <string name="travel_high_risk">\\u26A0\\uFE0F Risiko tinggi, harga premium</string>
+    <string name="travel_low_risk">\\u2705 Risiko rendah, harga lebih rendah</string>
+    <string name="travel_moderate_risk">\\u2696\\uFE0F Risiko sedang</string>
+    <string name="travel_you_are_here">Anda di sini</string>
+
+    <!-- ============= -->
+    <!-- LAYAR GARASI -->
+    <!-- ============= -->
+    <string name="garage_header">Garasi</string>
+    <string name="garage_current_ride">Kendaraan saat ini: %1$s %2$s</string>
+    <string name="garage_cash">Uang: \\$%1$s</string>
+    <string name="garage_current_vehicle">%1$s %2$s (Saat ini)</string>
+    <string name="garage_hp_label">\\u2764\\uFE0F HP: </string>
+    <string name="garage_hp_value">%1$d/%2$d</string>
+    <string name="garage_repair_button">\\uD83D\\uDD27 Perbaiki \\$%1$s</string>
+    <string name="garage_need_more">Butuh \\$%1$s lagi</string>
+    <string name="garage_available_upgrades">Peningkatan Tersedia</string>
+    <string name="garage_vehicle_name">%1$s %2$s</string>
+    <string name="garage_vehicle_price">\\$%1$s</string>
+    <string name="garage_vehicle_free">Gratis</string>
+    <string name="garage_already_passed">Kendaraan ini sudah terlewati</string>
+    <string name="garage_not_upgrade">Bukan peningkatan</string>
+    <string name="garage_buy_for">Beli \\$%1$s</string>
+    <string name="garage_stat_capacity">Kapasitas</string>
+    <string name="garage_stat_heat_decay">Penurunan Kecurigaan</string>
+    <string name="garage_stat_heat_decay_value">+%1$d/hari</string>
+    <string name="garage_stat_hp">HP</string>
+    <string name="garage_stat_speed">Kecepatan</string>
+    <string name="garage_stat_speed_value">%1$d/10</string>
+
+    <!-- ============== -->
+    <!-- LAYAR STATUS -->
+    <!-- ============== -->
+    <string name="status_financial_summary">Ringkasan Keuangan</string>
+    <string name="status_cash">Uang</string>
+    <string name="status_inventory">Inventaris</string>
+    <string name="status_net_worth">Kekayaan Bersih</string>
+    <string name="status_profit">Keuntungan</string>
+    <string name="status_debt">Utang</string>
+    <string name="status_speakeasies_label">Speakeasies</string>
+    <string name="status_speakeasies_income">+\\$%1$d/hari</string>
+    <string name="status_current_rank">Peringkat Saat Ini</string>
+    <string name="status_loan_shark_title">%1$s %2$s - Rentenir</string>
+    <string name="status_loan_debt">Utang: \\$%1$s</string>
+    <string name="status_loan_interest">Bunga harian: 10%% (\\$%1$d/hari)</string>
+    <string name="status_loan_status">Status: %1$s %2$s</string>
+    <string name="status_loan_pay">Bayar \\$%1$s</string>
+    <string name="status_loan_pay_all">Bayar Semua \\$%1$s</string>
+    <string name="status_loan_offer">\\"Butuh uang, kawan? Aku bisa bantu.\\"</string>
+    <string name="status_loan_warning">Bunga 10%% per hari. Jangan telat.</string>
+    <string name="status_borrow_1k">Pinjam \\$1K</string>
+    <string name="status_borrow_3k">Pinjam \\$3K</string>
+    <string name="status_borrow_5k">Pinjam \\$5K</string>
+    <string name="status_speakeasies_title">\\uD83C\\uDF78 Speakeasies</string>
+    <string name="status_speakeasy_daily_income">Pendapatan harian: +\\$%1$d</string>
+    <string name="status_speakeasy_tier">%1$s - Tingkat %2$d</string>
+    <string name="status_speakeasy_tier_income">%1$s - Tingkat %2$d (+\\$%3$d/hari)</string>
+    <string name="status_speakeasy_open">Buka \\$%1$s</string>
+    <string name="status_speakeasy_upgrade">Naik \\$%1$s</string>
+    <string name="status_speakeasy_max">\\uD83C\\uDF1F MAKS</string>
+    <string name="status_achievements_title">\\uD83C\\uDFC6 Pencapaian (%1$d/%2$d)</string>
+    <string name="status_achievements_to_claim">%1$d untuk diklaim</string>
+    <string name="status_achievement_locked">\\uD83D\\uDD12 </string>
+    <string name="status_achievement_locked_name">\u003F\u003F\u003F</string>
+    <string name="status_achievement_claimed">\\u2705</string>
+    <string name="status_reputation_title">\\uD83E\\uDD1D Reputasi</string>
+    <string name="status_wallet_title">Dompet</string>
+    <string name="status_wallet_connected">Terhubung: %1$s</string>
+    <string name="status_leaderboard_title">Papan Peringkat</string>
+    <string name="status_leaderboard_empty">Belum ada skor. Selesaikan satu permainan!</string>
+    <string name="status_leaderboard_entry">%1$d. %2$s</string>
+    <string name="status_new_game">Permainan Baru</string>
+
+    <!-- =============== -->
+    <!-- LAYAR GAME OVER -->
+    <!-- =============== -->
+    <string name="game_over_title">Permainan Selesai!</string>
+    <string name="game_over_your_rank">Peringkat Anda</string>
+    <string name="game_over_final_cash">Uang Akhir</string>
+    <string name="game_over_inventory_value">Nilai Inventaris</string>
+    <string name="game_over_net_worth">Kekayaan Bersih</string>
+    <string name="game_over_profit">Keuntungan</string>
+    <string name="game_over_return">Imbal Hasil</string>
+    <string name="game_over_save_and_play">Simpan Skor &amp; Main Lagi</string>
+    <string name="game_over_play_again">Main Lagi</string>
+
+    <!-- ============ -->
+    <!-- DIALOG PENGEJARAN -->
+    <!-- ============ -->
+    <string name="chase_title">\\uD83D\\uDEA8 Kecurigaan Memuncak!</string>
+    <string name="chase_pursuit_strength">Kekuatan Pengejaran:</string>
+    <string name="chase_pursuit_strength_value">%1$d/100</string>
+    <string name="chase_fight_odds">Peluang bertarung:</string>
+    <string name="chase_if_caught">Jika tertangkap:</string>
+    <string name="chase_lose_goods">Kehilangan %1$d%% barang</string>
+    <string name="chase_fight_button">\\uD83E\\uDD4A Lawan</string>
+    <string name="chase_flee_button">\\uD83C\\uDFC3 Kabur</string>
+
+    <!-- Hasil Pengejaran -->
+    <string name="chase_result_fight_won">\\uD83E\\uDD4A Menang Bertarung!</string>
+    <string name="chase_result_fight_won_desc">Kamu berhasil lolos! Kecurigaan berkurang %1$d.\
+Kendaraan rusak %2$d.</string>
+    <string name="chase_result_fight_lost">\\uD83D\\uDC6E Kalah Bertarung!</string>
+    <string name="chase_result_fight_lost_desc">Mereka mengalahkanmu!\
+Denda: \\$%1$d\
+Kerusakan kendaraan: %2$d\
+Disita:\
+%3$s</string>
+    <string name="chase_result_flee_success">\\uD83C\\uDFC3 Berhasil Kabur!</string>
+    <string name="chase_result_flee_success_desc">Kamu berhasil melarikan diri! Kendaraan rusak %1$d.</string>
+    <string name="chase_result_flee_success_dropped">Kamu berhasil melarikan diri! Kendaraan rusak %1$d.\
+Jatuh saat melarikan diri:\
+%2$s</string>
+    <string name="chase_result_caught">\\uD83D\\uDEA8 Tertangkap!</string>
+    <string name="chase_result_caught_desc">Mereka menangkapmu!\
+Denda: \\$%1$d\
+Kerusakan kendaraan: %2$d\
+Disita:\
+%3$s</string>
+    <string name="chase_result_goods_lost_line">  %1$s %2$s: -%3$d</string>
+    <string name="chase_continue">Lanjutkan</string>
+
+    <!-- ============== -->
+    <!-- DIALOG PENYERGAPAN -->
+    <!-- ============== -->
+    <string name="ambush_confrontation">Konfrontasi!</string>
+    <string name="ambush_warning">Peringatan!</string>
+    <string name="ambush_stood_ground">Bertahan!</string>
+    <string name="ambush_ok">OK</string>
+
+    <!-- Deskripsi Pertemuan Geng -->
+    <string name="encounter_shaken_down">%1$s %2$s menghadangmu! Kehilangan \\$%3$d.%4$s</string>
+    <string name="encounter_shaken_down_goods"> Mereka mengambil %1$s.</string>
+    <string name="encounter_intimidated">%1$s %2$s memperingatkanmu untuk menjauhi wilayah mereka! Kecurigaan +%3$d</string>
+    <string name="encounter_fought_off">Kamu bertahan melawan %1$s %2$s! Mendapat kehormatan di %3$s.</string>
+
+    <!-- ============= -->
+    <!-- DIALOG KEJADIAN -->
+    <!-- ============= -->
+    <string name="event_ok">OK</string>
+
+    <!-- Dialog Penangkapan -->
+    <string name="intercept_title">Tertangkap!</string>
+    <string name="intercept_description">Pihak berwajib menangkapmu! Barang disita:\
+\
+%1$s</string>
+    <string name="intercept_goods_line">%1$s %2$s: -%3$d unit</string>
+    <string name="intercept_lay_low">Sembunyi Dulu</string>
+
+    <!-- =================== -->
+    <!-- POPUP PENCAPAIAN -->
+    <!-- =================== -->
+    <string name="achievement_earned_title">\\uD83C\\uDFC6 Pencapaian Diraih!</string>
+    <string name="achievement_reward">\\uD83D\\uDCB0 Hadiah: +\\$%1$s</string>
+    <string name="achievement_claim_button">\\uD83C\\uDF81 Klaim Hadiah!</string>
+    <string name="achievement_later">Nanti</string>
+    <string name="achievement_claim_amount">+\\$%1$s</string>
+
+    <!-- ========= -->
+    <!-- BARIS BARANG -->
+    <!-- ========= -->
+    <string name="good_owned">Dimiliki: %1$d</string>
+    <string name="good_price">\\$%1$d</string>
+    <string name="good_price_range">Kisaran: \\$%1$d - \\$%2$d</string>
+    <string name="good_avg_cost">Harga rata-rata: \\$%1$s</string>
+    <string name="good_pnl">L&amp;R: %1$s\\$%2$d</string>
+    <string name="good_sell_with_count">Jual (%1$d)</string>
+    <string name="good_sell">Jual</string>
+    <string name="good_buy">Beli</string>
+    <string name="good_buy_title">Beli %1$s</string>
+    <string name="good_sell_title">Jual %1$s</string>
+
+    <!-- ================ -->
+    <!-- PEMILIH JUMLAH -->
+    <!-- ================ -->
+    <string name="quantity_decrease_content_desc">Kurangi</string>
+    <string name="quantity_increase_content_desc">Tambah</string>
+    <string name="quantity_max">Maks (%1$d)</string>
+    <string name="quantity_total">Total: \\$%1$d</string>
+    <string name="quantity_confirm">Konfirmasi</string>
+    <string name="quantity_cancel">Batal</string>
+
+    <!-- ================ -->
+    <!-- INDIKATOR KECURIGAAN -->
+    <!-- ================ -->
+    <string name="heat_label">Kecurigaan: %1$s</string>
+
+    <!-- Level Kecurigaan -->
+    <string name="heat_level_none">Tidak Ada Kecurigaan</string>
+    <string name="heat_level_low">Kecurigaan Rendah</string>
+    <string name="heat_level_low_emoji">\\u26A0\\uFE0F</string>
+    <string name="heat_level_medium">Kecurigaan Sedang</string>
+    <string name="heat_level_medium_emoji">\\u26A0\\uFE0F\\u26A0\\uFE0F</string>
+    <string name="heat_level_high">Kecurigaan Tinggi</string>
+    <string name="heat_level_high_emoji">\\u26A0\\uFE0F\\u26A0\\uFE0F\\u26A0\\uFE0F</string>
+
+    <!-- ============================== -->
+    <!-- BARANG (nama tampilan enum) -->
+    <!-- ============================== -->
+    <string name="good_bathtub_gin">Bathtub Gin</string>
+    <string name="good_bathtub_gin_emoji">\\uD83E\\uDDEA</string>
+    <string name="good_whiskey">Whiskey</string>
+    <string name="good_whiskey_emoji">\\uD83E\\uDD43</string>
+    <string name="good_rum">Rum</string>
+    <string name="good_rum_emoji">\\uD83C\\uDF79</string>
+    <string name="good_moonshine">Moonshine</string>
+    <string name="good_moonshine_emoji">\\uD83C\\uDF1D</string>
+    <string name="good_champagne">Champagne</string>
+    <string name="good_champagne_emoji">\\uD83C\\uDF7E</string>
+
+    <!-- ====================================== -->
+    <!-- LINGKUNGAN (nama tampilan enum) -->
+    <!-- ====================================== -->
+    <string name="neighborhood_south_side">South Side</string>
+    <string name="neighborhood_south_side_desc">Wilayah keras, barang murah</string>
+    <string name="neighborhood_north_side">North Side</string>
+    <string name="neighborhood_north_side_desc">Pelanggan kaya, harga premium</string>
+    <string name="neighborhood_west_side">West Side</string>
+    <string name="neighborhood_west_side_desc">Kawasan industri, transaksi grosir</string>
+    <string name="neighborhood_downtown">Downtown</string>
+    <string name="neighborhood_downtown_desc">Risiko tinggi, untung besar</string>
+    <string name="neighborhood_the_docks">The Docks</string>
+    <string name="neighborhood_the_docks_desc">Pusat impor, barang langka</string>
+    <string name="neighborhood_uptown">Uptown</string>
+    <string name="neighborhood_uptown_desc">Pusat speakeasy, perdagangan stabil</string>
+
+    <!-- ================================== -->
+    <!-- KENDARAAN (nama tampilan enum) -->
+    <!-- ================================== -->
+    <string name="vehicle_on_foot">Jalan Kaki</string>
+    <string name="vehicle_on_foot_emoji">\\uD83D\\uDEB6</string>
+    <string name="vehicle_on_foot_desc">Cuma kantong. Profil rendah tapi tak banyak yang bisa dibawa.</string>
+    <string name="vehicle_bicycle">Sepeda</string>
+    <string name="vehicle_bicycle_emoji">\\uD83D\\uDEB2</string>
+    <string name="vehicle_bicycle_desc">Cepat dan tenang. Keranjangnya muat sedikit lebih banyak.</string>
+    <string name="vehicle_model_t">Model T</string>
+    <string name="vehicle_model_t_emoji">\\uD83D\\uDE97</string>
+    <string name="vehicle_model_t_desc">Ford yang andal. Menyatu dengan lalu lintas.</string>
+    <string name="vehicle_delivery_truck">Truk Pengiriman</string>
+    <string name="vehicle_delivery_truck_emoji">\\uD83D\\uDE9A</string>
+    <string name="vehicle_delivery_truck_desc">Sembunyikan barangmu di balik tulisan \\"Jasa Laundry\\".</string>
+    <string name="vehicle_armored_car">Mobil Lapis Baja</string>
+    <string name="vehicle_armored_car_emoji">\\uD83D\\uDE93</string>
+    <string name="vehicle_armored_car_desc">Kokoh dan mengintimidasi. Mereka berpikir dua kali sebelum mengejar.</string>
+    <string name="vehicle_speedboat">Speedboat</string>
+    <string name="vehicle_speedboat_emoji">\\u26F5</string>
+    <string name="vehicle_speedboat_desc">Arungi tepi danau. Tak ada yang bisa menangkapmu di air.</string>
+    <string name="vehicle_zeppelin">Zeppelin</string>
+    <string name="vehicle_zeppelin_emoji">\\uD83D\\uDEE9\\uFE0F</string>
+    <string name="vehicle_zeppelin_desc">Mesin dagang terhebat. Langit Chicago milikmu.</string>
+
+    <!-- ===================================== -->
+    <!-- PENCAPAIAN (nama tampilan enum) -->
+    <!-- ===================================== -->
+    <string name="achievement_first_deal">Transaksi Pertama</string>
+    <string name="achievement_first_deal_emoji">\\uD83E\\uDD1D</string>
+    <string name="achievement_first_deal_desc">Selesaikan pembelian pertama</string>
+    <string name="achievement_big_spender">Tangan Besar</string>
+    <string name="achievement_big_spender_emoji">\\uD83D\\uDCB0</string>
+    <string name="achievement_big_spender_desc">Habiskan \\$5.000 dalam satu pembelian</string>
+    <string name="achievement_10k_club">Klub 10K</string>
+    <string name="achievement_10k_club_emoji">\\uD83D\\uDCB5</string>
+    <string name="achievement_10k_club_desc">Capai kekayaan bersih \\$10.000</string>
+    <string name="achievement_50k_club">Klub 50K</string>
+    <string name="achievement_50k_club_emoji">\\uD83D\\uDC8E</string>
+    <string name="achievement_50k_club_desc">Capai kekayaan bersih \\$50.000</string>
+    <string name="achievement_100k_club">Klub 100K</string>
+    <string name="achievement_100k_club_emoji">\\uD83D\\uDC51</string>
+    <string name="achievement_100k_club_desc">Capai kekayaan bersih \\$100.000</string>
+    <string name="achievement_survivor">Penyintas</string>
+    <string name="achievement_survivor_emoji">\\uD83D\\uDEE1\\uFE0F</string>
+    <string name="achievement_survivor_desc">Selamat dari 5 pengejaran</string>
+    <string name="achievement_speed_demon">Iblis Kecepatan</string>
+    <string name="achievement_speed_demon_emoji">\\u26A1</string>
+    <string name="achievement_speed_demon_desc">Beli Speedboat</string>
+    <string name="achievement_speakeasy_owner">Pemilik Speakeasy</string>
+    <string name="achievement_speakeasy_owner_emoji">\\uD83C\\uDF78</string>
+    <string name="achievement_speakeasy_owner_desc">Buka speakeasy pertamamu</string>
+    <string name="achievement_speakeasy_mogul">Raja Speakeasy</string>
+    <string name="achievement_speakeasy_mogul_emoji">\\uD83C\\uDF1F</string>
+    <string name="achievement_speakeasy_mogul_desc">Tingkatkan speakeasy ke tingkat 3</string>
+    <string name="achievement_fight_club">Klub Petarung</string>
+    <string name="achievement_fight_club_emoji">\\uD83E\\uDD4A</string>
+    <string name="achievement_fight_club_desc">Menangkan 3 pengejaran</string>
+    <string name="achievement_debt_free">Bebas Utang</string>
+    <string name="achievement_debt_free_emoji">\\u2705</string>
+    <string name="achievement_debt_free_desc">Lunasi utang rentenir</string>
+    <string name="achievement_world_traveler">Penjelajah Dunia</string>
+    <string name="achievement_world_traveler_emoji">\\uD83C\\uDF0D</string>
+    <string name="achievement_world_traveler_desc">Kunjungi semua 6 lingkungan</string>
+    <string name="achievement_street_tough">Jagoan Jalanan</string>
+    <string name="achievement_street_tough_emoji">\\uD83D\\uDCA5</string>
+    <string name="achievement_street_tough_desc">Bertahan melawan geng saingan</string>
+    <string name="achievement_hot_streak">Untung Beruntun</string>
+    <string name="achievement_hot_streak_emoji">\\uD83D\\uDD25</string>
+    <string name="achievement_hot_streak_desc">Raih untung 5 transaksi berturut-turut</string>
+    <string name="achievement_untouchable">Tak Tersentuh</string>
+    <string name="achievement_untouchable_emoji">\\uD83D\\uDE0E</string>
+    <string name="achievement_untouchable_desc">Akhiri permainan dengan 0 kecurigaan</string>
+    <string name="achievement_al_capone">Al Capone</string>
+    <string name="achievement_al_capone_emoji">\\uD83C\\uDFC6</string>
+    <string name="achievement_al_capone_desc">Capai peringkat Al Capone</string>
+    <string name="achievement_sky_king">Raja Langit</string>
+    <string name="achievement_sky_king_emoji">\\uD83D\\uDEE9\\uFE0F</string>
+    <string name="achievement_sky_king_desc">Beli Zeppelin</string>
+
+    <!-- ===================================== -->
+    <!-- GENG SAINGAN (nama tampilan enum) -->
+    <!-- ===================================== -->
+    <string name="gang_south_side_boys">South Side Boys</string>
+    <string name="gang_south_side_boys_emoji">\\uD83E\\uDD1C</string>
+    <string name="gang_north_shore_syndicate">North Shore Syndicate</string>
+    <string name="gang_north_shore_syndicate_emoji">\\uD83C\\uDFA9</string>
+    <string name="gang_dock_rats">Dock Rats</string>
+    <string name="gang_dock_rats_emoji">\\uD83D\\uDC00</string>
+    <string name="gang_downtown_outfit">Downtown Outfit</string>
+    <string name="gang_downtown_outfit_emoji">\\uD83D\\uDD2B</string>
+
+    <!-- ============================== -->
+    <!-- NAMA & DETAIL SPEAKEASY -->
+    <!-- ============================== -->
+    <string name="speakeasy_south_side">The Blind Pig</string>
+    <string name="speakeasy_north_side">The Gilded Lily</string>
+    <string name="speakeasy_west_side">The Iron Horse</string>
+    <string name="speakeasy_downtown">Club Gatsby</string>
+    <string name="speakeasy_the_docks">The Rusty Anchor</string>
+    <string name="speakeasy_uptown">The Velvet Room</string>
+    <string name="speakeasy_upgrade_1">Buka untuk bisnis - bar kecil tersembunyi</string>
+    <string name="speakeasy_upgrade_2">Tambah jazz live dan stok premium</string>
+    <string name="speakeasy_upgrade_3">Tempat terpanas di kota - lounge VIP</string>
+    <string name="speakeasy_upgrade_maxed">Sudah maksimal</string>
+
+    <!-- ======================== -->
+    <!-- RENTENIR -->
+    <!-- ======================== -->
+    <string name="loan_shark_name">Vinnie the Fixer</string>
+    <string name="loan_shark_emoji">\\uD83E\\uDDD4</string>
+    <string name="loan_threat_none">Tidak ada</string>
+    <string name="loan_threat_patient">Sabar</string>
+    <string name="loan_threat_impatient">Tidak sabar</string>
+    <string name="loan_threat_threatening">Mengancam</string>
+    <string name="loan_threat_dangerous">Berbahaya</string>
+    <string name="loan_threat_emoji_patient">\\uD83D\\uDE10</string>
+    <string name="loan_threat_emoji_impatient">\\uD83D\\uDE20</string>
+    <string name="loan_threat_emoji_threatening">\\uD83D\\uDE21</string>
+    <string name="loan_threat_emoji_dangerous">\\uD83D\\uDC80</string>
+
+    <!-- ======================== -->
+    <!-- PERINGKAT (ScoreCalculator) -->
+    <!-- ======================== -->
+    <string name="rank_street_peddler">Pedagang Kaki Lima</string>
+    <string name="rank_small_time_hustler">Penipu Kecil-kecilan</string>
+    <string name="rank_neighborhood_trader">Pedagang Kampung</string>
+    <string name="rank_district_boss">Bos Distrik</string>
+    <string name="rank_speakeasy_king">Raja Speakeasy</string>
+    <string name="rank_chicago_kingpin">Bos Besar Chicago</string>
+    <string name="rank_al_capone">Al Capone</string>
+
+    <!-- =================================== -->
+    <!-- BERITA UTAMA (HeadlineEngine) -->
+    <!-- =================================== -->
+    <!-- Petunjuk Harga Naik -->
+    <string name="headline_gin_up">SOSIALITA MINTA LEBIH BANYAK GIN - Pesta koktail melanda kota!</string>
+    <string name="headline_whiskey_up">KELANGKAAN WHISKEY MENGANCAM - Impor Irlandia mulai kering!</string>
+    <string name="headline_rum_up">JALUR KARIBIA TERPUTUS - Pasokan rum menyusut!</string>
+    <string name="headline_moonshine_up">PEMBUAT MOONSHINE MENGHILANG - Pasokan moonshine lenyap!</string>
+    <string name="headline_champagne_up">KEMEWAHAN PRANCIS DIMINATI - Kalangan atas haus akan gelembung!</string>
+
+    <!-- Petunjuk Harga Turun -->
+    <string name="headline_gin_down">PENGGEREBEKAN GIN OLEH FED - Banyak operasi bathtub ditutup!</string>
+    <string name="headline_whiskey_down">GUDANG WHISKEY DISITA - Agen rayakan keberhasilan besar!</string>
+    <string name="headline_rum_down">COAST GUARD CEGAT PENYELUNDUP RUM - Harga diperkirakan anjlok!</string>
+    <string name="headline_moonshine_down">PENYULINGAN MOONSHINE DITEMUKAN - Agen pendapatan beraksi!</string>
+    <string name="headline_champagne_down">PERDAGANGAN CHAMPAGNE TERGANGGU - Pasokan barang mewah membanjir!</string>
+
+    <!-- Berita Peringatan Kecurigaan -->
+    <string name="headline_heat_south_side">SOUTH SIDE DALAM PENGAWASAN - Patroli tambahan diterjunkan!</string>
+    <string name="headline_heat_north_side">PENGGEREBEKAN NORTH SIDE - Warga kaya menuntut tindakan!</string>
+    <string name="headline_heat_west_side">GUDANG WEST SIDE DIAWASI - Fed mengintai kawasan industri!</string>
+    <string name="headline_heat_downtown">OPERASI BERSIH-BERSIH DOWNTOWN - Komisaris bersumpah membereskan!</string>
+    <string name="headline_heat_the_docks">PATROLI PELABUHAN DIGANDAKAN - Coast Guard siaga tinggi!</string>
+    <string name="headline_heat_uptown">SPEAKEASY UPTOWN DIINCAR - Agen menyamar!</string>
+
+    <!-- Berita Geng -->
+    <string name="headline_gang_south_side_boys">SOUTH SIDE BOYS PERLUAS WILAYAH - Pedagang saingan waspadalah!</string>
+    <string name="headline_gang_north_shore_syndicate">NORTH SHORE SYNDICATE TUNJUKKAN KEKUATAN - Operasi kelas atas diperketat!</string>
+    <string name="headline_gang_dock_rats">DOCK RATS KUASAI PELABUHAN - Pedagang harus bayar pajak!</string>
+    <string name="headline_gang_downtown_outfit">DOWNTOWN OUTFIT MAKIN BERANI - Sengketa wilayah memanas!</string>
+
+    <!-- Berita Umum -->
+    <string name="headline_general_prohibition">PENEGAKAN LARANGAN MINUMAN DIGANDAKAN - Presiden menuntut hasil!</string>
+    <string name="headline_general_speakeasies">SPEAKEASY BARU BUKA SETIAP MALAM - Chicago tak bisa berhenti berpesta!</string>
+    <string name="headline_general_jazz">ERA JAZZ SEDANG PUNCAKNYA - Musik mengisi dunia bawah tanah!</string>
+    <string name="headline_general_mayor">WALI KOTA JANJI JALANAN BERSIH - Retorika musim pemilu!</string>
+    <string name="headline_general_stock_market">PASAR SAHAM MEROKET - Wall Street merayakan!</string>
+    <string name="headline_general_labor">PEMOGOKAN BURUH MELUAS - Pekerja tuntut upah layak!</string>
+    <string name="headline_general_baseball">BABE RUTH CETAK LAGI - Yankees dominasi lapangan!</string>
+
+    <!-- ==================== -->
+    <!-- PANAH ARAH HARGA -->
+    <!-- ==================== -->
+    <string name="price_arrow_up">\\u2191</string>
+    <string name="price_arrow_down">\\u2193</string>
+    <string name="price_arrow_flat">\\u2192</string>
+
+    <!-- ==================== -->
+    <!-- UMUM / FORMAT -->
+    <!-- ==================== -->
+    <string name="currency_format">\\$%1$s</string>
+    <string name="currency_positive">+\\$%1$s</string>
+    <string name="currency_negative">-\\$%1$s</string>
+    <string name="percent_format">%1$s%%</string>
+
+    <!-- Emoji Tingkat Speakeasy -->
+    <string name="speakeasy_emoji_tier_0">\\uD83C\\uDFDA</string>
+    <string name="speakeasy_emoji_tier_1">\\uD83C\\uDF7A</string>
+    <string name="speakeasy_emoji_tier_2">\\uD83C\\uDF78</string>
+    <string name="speakeasy_emoji_tier_3">\\uD83C\\uDF1F</string>
+
+</resources>

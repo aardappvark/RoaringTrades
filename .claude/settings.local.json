@@ -17,7 +17,27 @@
       "Bash(git init:*)",
       "Bash(git remote add:*)",
       "Bash(git branch:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "WebFetch(domain:docs.solanamobile.com)",
+      "Bash(~/.local/bin/gh api --method POST repos/aardappvark/RoaringTrades/pages -f \"source[branch]=main\" -f \"source[path]=/docs\")",
+      "Bash(# Check if solana CLI is installed which solana || echo \"\"solana CLI not installed\"\" # Check if there''s already a publisher keypair ls -la /Users/heathbertram/Downloads/RoaringTrades/publisher-keypair.json || echo \"\"No publisher keypair exists\"\" # Check if release keystore exists ls -la /Users/heathbertram/Downloads/RoaringTrades/release-keystore.jks || echo \"\"No release keystore exists\"\" # Check local.properties for signing config cat /Users/heathbertram/Downloads/RoaringTrades/local.properties)",
+      "Bash(sh:*)",
+      "Bash(# Find keytool from Android SDK''s embedded JDK ls /Applications/Android\\\\ Studio*.app/Contents/jbr/bin/keytool # Or check for JDK bundled with Android SDK find /Users/heathbertram/Library/Android/sdk -name \"\"keytool\"\")",
+      "Bash(# The keytool binary exists but needs a JRE. Let''s check if Gradle''s JDK is available ls /Users/heathbertram/.gradle/jdks/ # Or check for JDK in the Android Gradle plugin cache find /Users/heathbertram/.gradle -name \"\"keytool\"\" -type f)",
+      "Bash(# Check what was extracted ls ~/.local/jdk17/ file /tmp/jdk17.tar.gz)",
+      "Bash(export JAVA_HOME=~/.local/jdk17/Contents/Home:*)",
+      "Bash($JAVA_HOME/bin/keytool:*)",
+      "Bash(python3:*)",
+      "Bash(export PATH=\"$JAVA_HOME/bin:$PATH\")",
+      "Bash(./gradlew assembleRelease:*)",
+      "Bash(export JAVA_HOME=/Users/heathbertram/.local/jdk17/Contents/Home)",
+      "Bash(/Users/heathbertram/Downloads/RoaringTrades/gradlew:*)",
+      "Bash(ls:*)",
+      "Bash(~/.local/bin/gh search repos \"seeker genesis token\" --limit 20)",
+      "Bash(~/.local/bin/gh api:*)",
+      "Bash(~/.local/bin/gh repo view:*)"
     ]
   }
 }
