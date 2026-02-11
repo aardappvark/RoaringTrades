@@ -5,7 +5,7 @@
 
 ## Overview
 
-Roaring Trades ("the Game") is published by Midnight Run Games, based in Australia. The Game is built with privacy as a core principle. We collect minimal data, store everything locally on your device, and do not use any analytics, tracking, or advertising services.
+Roaring Trades ("the Game") is published by MidMightBit Games, based in Australia. The Game is built with privacy as a core principle. We collect minimal data, store everything locally on your device, and do not use any analytics, tracking, or advertising services.
 
 ## Legal Basis for Data Processing
 
@@ -108,9 +108,9 @@ We may update this Privacy Policy from time to time. Changes will be reflected i
 
 For questions about this Privacy Policy, data protection inquiries, or to exercise your data rights, contact:
 
-**Midnight Run Games**
-Email: midnightrungames@proton.me
+**MidMightBit Games**
+Email: midmightbit@proton.me
 
 ---
 
-Midnight Run Games | Australia
+MidMightBit Games | Australia

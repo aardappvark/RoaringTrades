@@ -13,7 +13,7 @@
     <string name="wallet_connecting">연결 중\\u2026</string>
     <string name="wallet_connect_button">지갑 연결</string>
     <string name="wallet_connect_error_default">지갑 연결에 실패했습니다</string>
-    <string name="wallet_production_credit">Midnight Run Games 제작</string>
+    <string name="wallet_production_credit">MidMightBit Games 제작</string>
 
     <!-- ============= -->
     <!-- 시장 화면 -->

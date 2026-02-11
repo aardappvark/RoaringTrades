@@ -13,10 +13,12 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.roaringtrades.game.data.GamePreferences
 import com.roaringtrades.game.ui.navigation.AppNavigation
 import com.roaringtrades.game.ui.screens.WalletConnectScreen
 import com.roaringtrades.game.ui.theme.RoaringTradesTheme
+import com.roaringtrades.game.ui.viewmodel.GameViewModel
 import com.solana.mobilewalletadapter.clientlib.ActivityResultSender
 
 class MainActivity : ComponentActivity() {
@@ -52,6 +54,20 @@ fun RoaringTradesApp(activityResultSender: ActivityResultSender) {
 
     var hasAcceptedDisclaimer by remember {
         mutableStateOf(gamePrefs.hasAcceptedDisclaimer())
+    }
+
+    // Trigger SGT check whenever wallet is connected (uses 24h cache internally)
+    if (isWalletConnected) {
+        val viewModel: GameViewModel = viewModel()
+        val heliusApiKey = context.getString(R.string.helius_api_key)
+        LaunchedEffect(Unit) {
+            val rpcUrl = if (heliusApiKey.isNotEmpty()) {
+                AppConfig.Rpc.heliusUrl(heliusApiKey)
+            } else {
+                com.midnightrungames.sgt.SgtConstants.DEFAULT_RPC_URL
+            }
+            viewModel.checkSgtStatus(rpcUrl)
+        }
     }
 
     if (!isWalletConnected) {

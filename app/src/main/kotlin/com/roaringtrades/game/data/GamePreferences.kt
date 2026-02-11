@@ -47,7 +47,31 @@ class GamePreferences(context: Context) {
             .remove(KEY_WALLET_ADDRESS)
             .remove(KEY_WALLET_NAME)
             .remove(KEY_WALLET_CONNECTED_AT)
+            .remove(KEY_HAS_SGT)
+            .remove(KEY_SGT_CHECKED_AT)
             .apply()
+    }
+
+    // --- SGT (Seeker Genesis Token) ---
+
+    fun hasSgt(): Boolean = prefs.getBoolean(KEY_HAS_SGT, false)
+
+    fun setSgtStatus(hasSgt: Boolean) {
+        prefs.edit()
+            .putBoolean(KEY_HAS_SGT, hasSgt)
+            .putLong(KEY_SGT_CHECKED_AT, System.currentTimeMillis())
+            .apply()
+    }
+
+    /**
+     * Returns true if we should re-check SGT status.
+     * Re-checks every 24 hours, or if never checked.
+     */
+    fun shouldRecheckSgt(): Boolean {
+        val checkedAt = prefs.getLong(KEY_SGT_CHECKED_AT, 0L)
+        if (checkedAt == 0L) return true
+        val twentyFourHoursMs = 24 * 60 * 60 * 1000L
+        return System.currentTimeMillis() - checkedAt > twentyFourHoursMs
     }
 
     fun hasAcceptedDisclaimer(): Boolean = prefs.getBoolean(KEY_DISCLAIMER_ACCEPTED, false)
@@ -67,5 +91,7 @@ class GamePreferences(context: Context) {
         private const val KEY_WALLET_NAME = "wallet_name"
         private const val KEY_WALLET_CONNECTED_AT = "wallet_connected_at"
         private const val KEY_DISCLAIMER_ACCEPTED = "disclaimer_accepted"
+        private const val KEY_HAS_SGT = "has_sgt"
+        private const val KEY_SGT_CHECKED_AT = "sgt_checked_at"
     }
 }

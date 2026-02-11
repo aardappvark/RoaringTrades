@@ -37,7 +37,20 @@
       "Bash(ls:*)",
       "Bash(~/.local/bin/gh search repos \"seeker genesis token\" --limit 20)",
       "Bash(~/.local/bin/gh api:*)",
-      "Bash(~/.local/bin/gh repo view:*)"
+      "Bash(~/.local/bin/gh repo view:*)",
+      "WebFetch(domain:helius.mintlify.app)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(wc:*)",
+      "Bash(xargs -I {} sh -c 'echo \"\"=== {} ===\"\" && head -20 \"\"{}\"\"')",
+      "WebFetch(domain:rareskills.io)",
+      "Bash(./gradlew:*)",
+      "Bash(export JAVA_HOME=\"/Applications/Android Studio.app/Contents/jbr/Contents/Home\")",
+      "Bash(find:*)",
+      "Bash(pip3 install:*)",
+      "Bash(JAVA_HOME=~/.local/jdk17/Contents/Home ~/.local/jdk17/Contents/Home/bin/keytool:*)",
+      "Bash(JAVA_HOME=~/.local/jdk17/Contents/Home ./gradlew assembleRelease:*)",
+      "Bash(~/Library/Android/sdk/platform-tools/adb:*)"
     ]
   }
 }

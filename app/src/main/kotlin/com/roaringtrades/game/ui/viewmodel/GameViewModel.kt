@@ -1,7 +1,12 @@
 package com.roaringtrades.game.ui.viewmodel
 
 import android.app.Application
+import android.util.Log
 import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.viewModelScope
+import com.midnightrungames.sgt.SgtChecker
+import com.midnightrungames.sgt.SgtConstants
+import com.roaringtrades.game.AppConfig
 import com.roaringtrades.game.data.GamePreferences
 import com.roaringtrades.game.data.LeaderboardManager
 import com.roaringtrades.game.engine.GameEngine
@@ -15,6 +20,7 @@ import com.roaringtrades.game.model.Vehicle
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.launch
 
 class GameViewModel(application: Application) : AndroidViewModel(application) {
 
@@ -26,6 +32,13 @@ class GameViewModel(application: Application) : AndroidViewModel(application) {
 
     private val _walletAddress = MutableStateFlow(gamePrefs.getWalletAddress())
     val walletAddress: StateFlow<String?> = _walletAddress.asStateFlow()
+
+    // SGT (Seeker Genesis Token) verification state
+    private val _hasSgt = MutableStateFlow(gamePrefs.hasSgt())
+    val hasSgt: StateFlow<Boolean> = _hasSgt.asStateFlow()
+
+    private val _sgtCheckInProgress = MutableStateFlow(false)
+    val sgtCheckInProgress: StateFlow<Boolean> = _sgtCheckInProgress.asStateFlow()
 
     fun buy(good: Good, quantity: Int) {
         val newState = GameEngine.buy(_gameState.value, good, quantity)
@@ -162,5 +175,48 @@ class GameViewModel(application: Application) : AndroidViewModel(application) {
     fun disconnectWallet() {
         gamePrefs.disconnectWallet()
         _walletAddress.value = null
+        _hasSgt.value = false
+    }
+
+    /**
+     * Check if the connected wallet holds a Seeker Genesis Token.
+     * Uses cached result if checked within the last 24 hours.
+     * On failure, preserves the last known cached value.
+     *
+     * @param rpcUrl Optional custom RPC URL (defaults to public mainnet-beta)
+     */
+    fun checkSgtStatus(rpcUrl: String = SgtConstants.DEFAULT_RPC_URL) {
+        val address = _walletAddress.value ?: return
+        Log.d(TAG, "SGT check starting for wallet: ${address.take(8)}...")
+
+        if (!gamePrefs.shouldRecheckSgt()) {
+            val cached = gamePrefs.hasSgt()
+            Log.d(TAG, "SGT check skipped (cached within 24h) — hasSgt=$cached")
+            _hasSgt.value = cached
+            return
+        }
+
+        Log.d(TAG, "SGT check calling RPC: ${rpcUrl.take(50)}...")
+        viewModelScope.launch {
+            _sgtCheckInProgress.value = true
+            val result = SgtChecker.checkWallet(address, rpcUrl)
+            result.fold(
+                onSuccess = { hasSgt ->
+                    Log.d(TAG, "✅ SGT check SUCCESS — hasSgt=$hasSgt")
+                    gamePrefs.setSgtStatus(hasSgt)
+                    _hasSgt.value = hasSgt
+                },
+                onFailure = { error ->
+                    Log.e(TAG, "❌ SGT check FAILED — ${error.message}", error)
+                    // On error, keep the cached value
+                    _hasSgt.value = gamePrefs.hasSgt()
+                }
+            )
+            _sgtCheckInProgress.value = false
+        }
+    }
+
+    companion object {
+        private const val TAG = "RoaringTrades_SGT"
     }
 }

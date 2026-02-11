@@ -13,7 +13,7 @@
     <string name="wallet_connecting">接続中\\u2026</string>
     <string name="wallet_connect_button">ウォレットを接続</string>
     <string name="wallet_connect_error_default">ウォレットの接続に失敗しました</string>
-    <string name="wallet_production_credit">Midnight Run Games制作</string>
+    <string name="wallet_production_credit">MidMightBit Games制作</string>
 
     <!-- ============= -->
     <!-- マーケット画面 -->
