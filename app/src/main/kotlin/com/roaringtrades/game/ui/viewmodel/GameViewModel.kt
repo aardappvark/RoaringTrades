@@ -27,7 +27,7 @@ class GameViewModel(application: Application) : AndroidViewModel(application) {
     private val gamePrefs = GamePreferences(application)
     private val leaderboard = LeaderboardManager(application)
 
-    private val _gameState = MutableStateFlow(GameEngine.newGame())
+    private val _gameState = MutableStateFlow(GameEngine.newGame(hasSgt = gamePrefs.hasSgt()))
     val gameState: StateFlow<GameState> = _gameState.asStateFlow()
 
     private val _walletAddress = MutableStateFlow(gamePrefs.getWalletAddress())
@@ -140,7 +140,7 @@ class GameViewModel(application: Application) : AndroidViewModel(application) {
     }
 
     fun newGame() {
-        _gameState.value = GameEngine.newGame()
+        _gameState.value = GameEngine.newGame(hasSgt = _hasSgt.value)
     }
 
     fun saveScore() {

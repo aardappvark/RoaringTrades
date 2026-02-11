@@ -20,6 +20,7 @@
     <!-- ============= -->
     <string name="market_headline">\\uD83D\\uDCF0 %1$s</string>
     <string name="market_day_counter">%1$d日目/%2$d日</string>
+    <string name="seeker_bonus_days">Seekerボーナス: +%1$d日</string>
     <string name="market_cash_display">\\$%1$s</string>
     <string name="market_capacity_format">%1$s %2$d/%3$d</string>
     <string name="market_high_risk_label"> \\u26A0\\uFE0F 高リスク、高価格</string>

@@ -51,7 +51,11 @@
       "Bash(JAVA_HOME=~/.local/jdk17/Contents/Home ~/.local/jdk17/Contents/Home/bin/keytool:*)",
       "Bash(JAVA_HOME=~/.local/jdk17/Contents/Home ./gradlew assembleRelease:*)",
       "Bash(~/Library/Android/sdk/platform-tools/adb:*)",
-      "Bash(JAVA_HOME=~/.local/jdk17/Contents/Home ./gradlew clean assembleRelease:*)"
+      "Bash(JAVA_HOME=~/.local/jdk17/Contents/Home ./gradlew clean assembleRelease:*)",
+      "Bash(chmod:*)",
+      "WebFetch(domain:cointelegraph.com)",
+      "WebFetch(domain:crypto.news)",
+      "WebFetch(domain:blog.solanamobile.com)"
     ]
   }
 }

@@ -6,15 +6,22 @@ import kotlin.random.Random
 
 object GameEngine {
 
-    fun newGame(): GameState {
+    fun newGame(hasSgt: Boolean = false): GameState {
         val (hot, crackdown) = PriceEngine.selectDailySpecials()
         val startNeighborhood = Neighborhood.SOUTH_SIDE
         val prices = PriceEngine.generatePrices(startNeighborhood, hot, crackdown)
         val gangPrices = GangEngine.applyGangInfluence(prices, startNeighborhood)
         val headline = HeadlineEngine.generateHeadline(hot, crackdown)
 
+        val maxDays = if (hasSgt) {
+            AppConfig.Game.MAX_DAYS + AppConfig.Game.SGT_BONUS_DAYS
+        } else {
+            AppConfig.Game.MAX_DAYS
+        }
+
         return GameState(
             day = 1,
+            maxDays = maxDays,
             cash = AppConfig.Game.STARTING_CASH,
             currentNeighborhood = startNeighborhood,
             currentVehicle = Vehicle.ON_FOOT,
