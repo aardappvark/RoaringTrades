@@ -52,7 +52,7 @@ The Game is set in a historical period (1920s Prohibition era) and depicts ficti
 
 ## 9. Intellectual Property
 
-Roaring Trades is the intellectual property of Midnight Run Games. All game mechanics, content, and design are original works. The Game is not affiliated with or endorsed by any other game or entity.
+Roaring Trades is the intellectual property of MidMightBit Games. All game mechanics, content, and design are original works. The Game is not affiliated with or endorsed by any other game or entity.
 
 ## 10. Privacy
 
@@ -64,11 +64,11 @@ Nothing in these Terms excludes, restricts, or modifies any consumer rights unde
 
 ## 12. Disclaimer of Warranties
 
-TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE GAME IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND. MIDNIGHT RUN GAMES MAKES NO WARRANTIES, EXPRESS OR IMPLIED, REGARDING THE GAME'S FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, OR RELIABILITY.
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE GAME IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND. MIDMIGHTBIT GAMES MAKES NO WARRANTIES, EXPRESS OR IMPLIED, REGARDING THE GAME'S FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, OR RELIABILITY.
 
 ## 13. Limitation of Liability
 
-TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL MIDNIGHT RUN GAMES BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING FROM YOUR USE OF THE GAME.
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL MIDMIGHTBIT GAMES BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING FROM YOUR USE OF THE GAME.
 
 ## 14. Governing Law
 
@@ -84,8 +84,8 @@ This Game contains themes related to alcohol production and trade in a historica
 
 ## 17. Contact
 
-For questions about these Terms, contact: midnightrungames@proton.me
+For questions about these Terms, contact: midmightbit@proton.me
 
 ---
 
-Midnight Run Games | Australia
+MidMightBit Games | Australia

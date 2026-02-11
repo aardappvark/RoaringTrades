@@ -144,7 +144,7 @@ fun WalletConnectScreen(
         Spacer(Modifier.height(24.dp))
 
         Text(
-            "A Midnight Run Games production",
+            "A MidMightBit Games production",
             style = MaterialTheme.typography.labelSmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant
         )

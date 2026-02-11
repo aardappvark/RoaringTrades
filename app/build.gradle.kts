@@ -27,6 +27,13 @@ android {
             "en", "es", "pt-rBR", "fr", "de", "tr", "ru",
             "ja", "ko", "zh-rCN", "hi", "in"
         )
+
+        // Helius RPC API key for SGT verification (injected as string resource from local.properties)
+        resValue(
+            "string",
+            "helius_api_key",
+            localProperties.getProperty("HELIUS_API_KEY", "")
+        )
     }
 
     signingConfigs {
@@ -93,6 +100,9 @@ dependencies {
 
     // Solana Mobile Wallet Adapter (for leaderboard identity)
     implementation("com.solanamobile:mobile-wallet-adapter-clientlib-ktx:2.0.3")
+
+    // SGT Checker (Seeker Genesis Token verification)
+    implementation(project(":sgt-checker"))
 
     // Serialization
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.2")

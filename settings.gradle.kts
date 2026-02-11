@@ -17,3 +17,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "RoaringTrades"
 include(":app")
+include(":sgt-checker")
