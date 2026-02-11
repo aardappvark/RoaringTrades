@@ -11,6 +11,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import com.roaringtrades.game.AppConfig
 import com.roaringtrades.game.model.Good
 import com.roaringtrades.game.model.InventoryItem
 import com.roaringtrades.game.model.Neighborhood
@@ -19,6 +20,7 @@ import com.roaringtrades.game.ui.components.*
 import com.roaringtrades.game.ui.theme.DangerRed
 import com.roaringtrades.game.ui.theme.Gold
 import com.roaringtrades.game.ui.theme.RichGreen
+import com.roaringtrades.game.ui.theme.SolanaPurple
 import com.roaringtrades.game.ui.theme.WarmBrown
 import com.roaringtrades.game.ui.viewmodel.GameViewModel
 
@@ -104,11 +106,21 @@ fun MarketScreen(viewModel: GameViewModel) {
                         modifier = Modifier.fillMaxWidth(),
                         horizontalArrangement = Arrangement.SpaceBetween
                     ) {
-                        Text(
-                            "Day ${state.day}/${state.maxDays}",
-                            style = MaterialTheme.typography.titleMedium,
-                            fontWeight = FontWeight.Bold
-                        )
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Text(
+                                "Day ${state.day}/${state.maxDays}",
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Bold
+                            )
+                            if (state.maxDays > AppConfig.Game.MAX_DAYS) {
+                                Text(
+                                    " \uD83C\uDFAB +${state.maxDays - AppConfig.Game.MAX_DAYS}",
+                                    style = MaterialTheme.typography.labelSmall,
+                                    color = SolanaPurple,
+                                    fontWeight = FontWeight.Bold
+                                )
+                            }
+                        }
                         Text(
                             "\$${String.format("%,d", state.cash)}",
                             style = MaterialTheme.typography.titleMedium,

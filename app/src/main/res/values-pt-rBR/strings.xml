@@ -20,6 +20,7 @@
     <!-- =================== -->
     <string name="market_headline">\uD83D\uDCF0 %1$s</string>
     <string name="market_day_counter">Dia %1$d/%2$d</string>
+    <string name="seeker_bonus_days">Bônus Seeker: +%1$d dias</string>
     <string name="market_cash_display">\$%1$s</string>
     <string name="market_capacity_format">%1$s %2$d/%3$d</string>
     <string name="market_high_risk_label"> \u26A0\uFE0F Alto risco, melhores pre\u00E7os</string>

@@ -28,6 +28,7 @@ object AppConfig {
     object Game {
         const val STARTING_CASH = 1500
         const val MAX_DAYS = 30
+        const val SGT_BONUS_DAYS = 5
         const val STARTING_CAPACITY = 100
     }
 }
