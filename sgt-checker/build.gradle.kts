@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.midnightrungames.sgt"
+    namespace = "com.midmightbit.sgt"
     compileSdk = 34
 
     defaultConfig {

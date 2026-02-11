@@ -1,4 +1,4 @@
-package com.midnightrungames.sgt
+package com.midmightbit.sgt
 
 import kotlinx.coroutines.test.runTest
 import okhttp3.mockwebserver.MockResponse

@@ -1,4 +1,4 @@
-package com.midnightrungames.sgt
+package com.midmightbit.sgt
 
 /**
  * Seeker Genesis Token (SGT) verification for Solana Seeker devices.
