@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Roaring Trades</string>
+
+    <!-- ==================== -->
+    <!-- वॉलेट कनेक्ट स्क्रीन -->
+    <!-- ==================== -->
+    <string name="wallet_title_roaring">ROARING</string>
+    <string name="wallet_title_trades">TRADES</string>
+    <string name="wallet_subtitle">Chicago, 1920 का दशक</string>
+    <string name="wallet_game_description">सस्ता खरीदो, महंगा बेचो। 30 दिनों में अपना व्यापार साम्राज्य बनाओ।</string>
+    <string name="wallet_leaderboard_description">लीडरबोर्ड पर अपने उच्च स्कोर ट्रैक करने के लिए अपना Solana वॉलेट कनेक्ट करें।</string>
+    <string name="wallet_connecting">कनेक्ट हो रहा है\\u2026</string>
+    <string name="wallet_connect_button">वॉलेट कनेक्ट करें</string>
+    <string name="wallet_connect_error_default">वॉलेट कनेक्ट करने में विफल</string>
+    <string name="wallet_production_credit">Midnight Run Games की प्रस्तुति</string>
+
+    <!-- ============= -->
+    <!-- मार्केट स्क्रीन -->
+    <!-- ============= -->
+    <string name="market_headline">\\uD83D\\uDCF0 %1$s</string>
+    <string name="market_day_counter">दिन %1$d/%2$d</string>
+    <string name="market_cash_display">\\$%1$s</string>
+    <string name="market_capacity_format">%1$s %2$d/%3$d</string>
+    <string name="market_high_risk_label"> \\u26A0\\uFE0F ज़्यादा जोखिम, बेहतर कीमतें</string>
+    <string name="market_low_risk_label"> \\u2705 कम जोखिम, कम कीमतें</string>
+    <string name="market_vehicle_hp">\\u2764\\uFE0F %1$d/%2$d</string>
+    <string name="market_speakeasy_income">\\uD83C\\uDF78 +\\$%1$d/दिन</string>
+    <string name="market_loan_debt">%1$s \\$%2$s</string>
+    <string name="market_pay_off_heat">\\uD83D\\uDCB5 खोज चुकाओ (\\$%1$d/अंक)</string>
+    <string name="market_heat_payoff_small">-%1$d \\$%2$s</string>
+    <string name="market_heat_payoff_clear">चुकाओ \\$%1$s</string>
+    <string name="market_gang_territory">%1$s %2$s का इलाका - %3$s कीमतें बढ़ी हुई</string>
+    <string name="market_hot_commodity">\\uD83D\\uDD25 गरम: %1$s कीमतें आसमान पर!</string>
+    <string name="market_crackdown">\\uD83D\\uDEA8 छापेमारी: %1$s - सस्ता पर जोखिम भरा!</string>
+
+    <!-- ============= -->
+    <!-- यात्रा स्क्रीन -->
+    <!-- ============= -->
+    <string name="travel_header">अपनी मंज़िल चुनें</string>
+    <string name="travel_currently_at">वर्तमान स्थान: %1$s</string>
+    <string name="travel_day_info">दिन %1$d का %2$d \\u2022 यात्रा में 1 दिन लगता है</string>
+    <string name="travel_current_location_content_desc">वर्तमान स्थान</string>
+    <string name="travel_high_risk">\\u26A0\\uFE0F ज़्यादा जोखिम, प्रीमियम कीमतें</string>
+    <string name="travel_low_risk">\\u2705 कम जोखिम, कम कीमतें</string>
+    <string name="travel_moderate_risk">\\u2696\\uFE0F मध्यम जोखिम</string>
+    <string name="travel_you_are_here">आप यहाँ हैं</string>
+
+    <!-- ============= -->
+    <!-- गैराज स्क्रीन -->
+    <!-- ============= -->
+    <string name="garage_header">गैराज</string>
+    <string name="garage_current_ride">वर्तमान सवारी: %1$s %2$s</string>
+    <string name="garage_cash">नकद: \\$%1$s</string>
+    <string name="garage_current_vehicle">%1$s %2$s (वर्तमान)</string>
+    <string name="garage_hp_label">\\u2764\\uFE0F HP: </string>
+    <string name="garage_hp_value">%1$d/%2$d</string>
+    <string name="garage_repair_button">\\uD83D\\uDD27 मरम्मत \\$%1$s में</string>
+    <string name="garage_need_more">\\$%1$s और चाहिए</string>
+    <string name="garage_available_upgrades">उपलब्ध अपग्रेड</string>
+    <string name="garage_vehicle_name">%1$s %2$s</string>
+    <string name="garage_vehicle_price">\\$%1$s</string>
+    <string name="garage_vehicle_free">मुफ़्त</string>
+    <string name="garage_already_passed">यह सवारी पहले से पार कर चुके</string>
+    <string name="garage_not_upgrade">यह अपग्रेड नहीं है</string>
+    <string name="garage_buy_for">\\$%1$s में खरीदें</string>
+    <string name="garage_stat_capacity">क्षमता</string>
+    <string name="garage_stat_heat_decay">खोज में कमी</string>
+    <string name="garage_stat_heat_decay_value">+%1$d/दिन</string>
+    <string name="garage_stat_hp">HP</string>
+    <string name="garage_stat_speed">गति</string>
+    <string name="garage_stat_speed_value">%1$d/10</string>
+
+    <!-- ============== -->
+    <!-- स्थिति स्क्रीन -->
+    <!-- ============== -->
+    <string name="status_financial_summary">वित्तीय सारांश</string>
+    <string name="status_cash">नकद</string>
+    <string name="status_inventory">माल-सूची</string>
+    <string name="status_net_worth">कुल संपत्ति</string>
+    <string name="status_profit">लाभ</string>
+    <string name="status_debt">कर्ज़</string>
+    <string name="status_speakeasies_label">Speakeasies</string>
+    <string name="status_speakeasies_income">+\\$%1$d/दिन</string>
+    <string name="status_current_rank">वर्तमान रैंक</string>
+    <string name="status_loan_shark_title">%1$s %2$s - साहूकार</string>
+    <string name="status_loan_debt">कर्ज़: \\$%1$s</string>
+    <string name="status_loan_interest">दैनिक ब्याज: 10%% (\\$%1$d/दिन)</string>
+    <string name="status_loan_status">स्थिति: %1$s %2$s</string>
+    <string name="status_loan_pay">\\$%1$s चुकाओ</string>
+    <string name="status_loan_pay_all">सब चुकाओ \\$%1$s</string>
+    <string name="status_loan_offer">\\"पैसों की ज़रूरत है, दोस्त? मैं हूँ ना।\\"</string>
+    <string name="status_loan_warning">10%% रोज़ाना ब्याज। देर मत करना।</string>
+    <string name="status_borrow_1k">\\$1K उधार लो</string>
+    <string name="status_borrow_3k">\\$3K उधार लो</string>
+    <string name="status_borrow_5k">\\$5K उधार लो</string>
+    <string name="status_speakeasies_title">\\uD83C\\uDF78 Speakeasies</string>
+    <string name="status_speakeasy_daily_income">रोज़ाना आय: +\\$%1$d</string>
+    <string name="status_speakeasy_tier">%1$s - स्तर %2$d</string>
+    <string name="status_speakeasy_tier_income">%1$s - स्तर %2$d (+\\$%3$d/दिन)</string>
+    <string name="status_speakeasy_open">खोलो \\$%1$s</string>
+    <string name="status_speakeasy_upgrade">अपग्रेड \\$%1$s</string>
+    <string name="status_speakeasy_max">\\uD83C\\uDF1F अधिकतम</string>
+    <string name="status_achievements_title">\\uD83C\\uDFC6 उपलब्धियाँ (%1$d/%2$d)</string>
+    <string name="status_achievements_to_claim">%1$d दावा करने को</string>
+    <string name="status_achievement_locked">\\uD83D\\uDD12 </string>
+    <string name="status_achievement_locked_name">\u003F\u003F\u003F</string>
+    <string name="status_achievement_claimed">\\u2705</string>
+    <string name="status_reputation_title">\\uD83E\\uDD1D प्रतिष्ठा</string>
+    <string name="status_wallet_title">वॉलेट</string>
+    <string name="status_wallet_connected">कनेक्टेड: %1$s</string>
+    <string name="status_leaderboard_title">लीडरबोर्ड</string>
+    <string name="status_leaderboard_empty">अभी कोई स्कोर नहीं। एक गेम पूरा करो!</string>
+    <string name="status_leaderboard_entry">%1$d. %2$s</string>
+    <string name="status_new_game">नया खेल</string>
+
+    <!-- =============== -->
+    <!-- गेम ओवर स्क्रीन -->
+    <!-- =============== -->
+    <string name="game_over_title">खेल समाप्त!</string>
+    <string name="game_over_your_rank">आपकी रैंक</string>
+    <string name="game_over_final_cash">अंतिम नकद</string>
+    <string name="game_over_inventory_value">माल-सूची मूल्य</string>
+    <string name="game_over_net_worth">कुल संपत्ति</string>
+    <string name="game_over_profit">लाभ</string>
+    <string name="game_over_return">रिटर्न</string>
+    <string name="game_over_save_and_play">स्कोर सेव करो &amp; फिर खेलो</string>
+    <string name="game_over_play_again">फिर खेलो</string>
+
+    <!-- ============ -->
+    <!-- पीछा संवाद -->
+    <!-- ============ -->
+    <string name="chase_title">\\uD83D\\uDEA8 खोज शुरू!</string>
+    <string name="chase_pursuit_strength">पीछा शक्ति:</string>
+    <string name="chase_pursuit_strength_value">%1$d/100</string>
+    <string name="chase_fight_odds">लड़ाई की संभावना:</string>
+    <string name="chase_if_caught">अगर पकड़े गए:</string>
+    <string name="chase_lose_goods">%1$d%% माल खो दोगे</string>
+    <string name="chase_fight_button">\\uD83E\\uDD4A लड़ो</string>
+    <string name="chase_flee_button">\\uD83C\\uDFC3 भागो</string>
+
+    <!-- पीछा परिणाम -->
+    <string name="chase_result_fight_won">\\uD83E\\uDD4A लड़ाई जीत गए!</string>
+    <string name="chase_result_fight_won_desc">आपने पीछा छुड़ाया! खोज %1$d कम हुई।\
+वाहन को %2$d नुकसान हुआ।</string>
+    <string name="chase_result_fight_lost">\\uD83D\\uDC6E लड़ाई हार गए!</string>
+    <string name="chase_result_fight_lost_desc">उन्होंने आपको हरा दिया!\
+जुर्माना: \\$%1$d\
+वाहन नुकसान: %2$d\
+ज़ब्त:\
+%3$s</string>
+    <string name="chase_result_flee_success">\\uD83C\\uDFC3 बच निकले!</string>
+    <string name="chase_result_flee_success_desc">आपने पीछा छुड़ाया! वाहन को %1$d नुकसान हुआ।</string>
+    <string name="chase_result_flee_success_dropped">आपने पीछा छुड़ाया! वाहन को %1$d नुकसान हुआ।\
+भागते वक़्त गिरा:\
+%2$s</string>
+    <string name="chase_result_caught">\\uD83D\\uDEA8 पकड़े गए!</string>
+    <string name="chase_result_caught_desc">उन्होंने आपको पकड़ लिया!\
+जुर्माना: \\$%1$d\
+वाहन नुकसान: %2$d\
+ज़ब्त:\
+%3$s</string>
+    <string name="chase_result_goods_lost_line">  %1$s %2$s: -%3$d</string>
+    <string name="chase_continue">जारी रखें</string>
+
+    <!-- ============== -->
+    <!-- घात संवाद -->
+    <!-- ============== -->
+    <string name="ambush_confrontation">टकराव!</string>
+    <string name="ambush_warning">चेतावनी!</string>
+    <string name="ambush_stood_ground">डटे रहे!</string>
+    <string name="ambush_ok">ठीक है</string>
+
+    <!-- गैंग मुठभेड़ विवरण -->
+    <string name="encounter_shaken_down">%1$s %2$s ने आपको रोका! \\$%3$d गँवाए।%4$s</string>
+    <string name="encounter_shaken_down_goods"> उन्होंने %1$s ले लिया।</string>
+    <string name="encounter_intimidated">%1$s %2$s ने चेतावनी दी - उनके इलाके से दूर रहो! खोज +%3$d</string>
+    <string name="encounter_fought_off">आपने %1$s %2$s के खिलाफ़ डटकर खड़े रहे! %3$s में इज़्ज़त बढ़ी।</string>
+
+    <!-- ============= -->
+    <!-- घटना संवाद -->
+    <!-- ============= -->
+    <string name="event_ok">ठीक है</string>
+
+    <!-- इंटरसेप्ट संवाद -->
+    <string name="intercept_title">पकड़े गए!</string>
+    <string name="intercept_description">अधिकारियों ने आपको पकड़ा! ज़ब्त माल:\
+\
+%1$s</string>
+    <string name="intercept_goods_line">%1$s %2$s: -%3$d इकाइयाँ</string>
+    <string name="intercept_lay_low">छुपकर रहो</string>
+
+    <!-- =================== -->
+    <!-- उपलब्धि पॉपअप -->
+    <!-- =================== -->
+    <string name="achievement_earned_title">\\uD83C\\uDFC6 उपलब्धि अर्जित!</string>
+    <string name="achievement_reward">\\uD83D\\uDCB0 इनाम: +\\$%1$s</string>
+    <string name="achievement_claim_button">\\uD83C\\uDF81 इनाम लो!</string>
+    <string name="achievement_later">बाद में</string>
+    <string name="achievement_claim_amount">+\\$%1$s</string>
+
+    <!-- ========= -->
+    <!-- माल पंक्ति -->
+    <!-- ========= -->
+    <string name="good_owned">मालिकाना: %1$d</string>
+    <string name="good_price">\\$%1$d</string>
+    <string name="good_price_range">सीमा: \\$%1$d - \\$%2$d</string>
+    <string name="good_avg_cost">औसत लागत: \\$%1$s</string>
+    <string name="good_pnl">लाभ-हानि: %1$s\\$%2$d</string>
+    <string name="good_sell_with_count">बेचो (%1$d)</string>
+    <string name="good_sell">बेचो</string>
+    <string name="good_buy">खरीदो</string>
+    <string name="good_buy_title">खरीदो %1$s</string>
+    <string name="good_sell_title">बेचो %1$s</string>
+
+    <!-- ================ -->
+    <!-- मात्रा चयनकर्ता -->
+    <!-- ================ -->
+    <string name="quantity_decrease_content_desc">घटाओ</string>
+    <string name="quantity_increase_content_desc">बढ़ाओ</string>
+    <string name="quantity_max">अधिकतम (%1$d)</string>
+    <string name="quantity_total">कुल: \\$%1$d</string>
+    <string name="quantity_confirm">पुष्टि करो</string>
+    <string name="quantity_cancel">रद्द करो</string>
+
+    <!-- ================ -->
+    <!-- खोज संकेतक -->
+    <!-- ================ -->
+    <string name="heat_label">खोज: %1$s</string>
+
+    <!-- खोज स्तर -->
+    <string name="heat_level_none">कोई खोज नहीं</string>
+    <string name="heat_level_low">कम खोज</string>
+    <string name="heat_level_low_emoji">\\u26A0\\uFE0F</string>
+    <string name="heat_level_medium">मध्यम खोज</string>
+    <string name="heat_level_medium_emoji">\\u26A0\\uFE0F\\u26A0\\uFE0F</string>
+    <string name="heat_level_high">ज़्यादा खोज</string>
+    <string name="heat_level_high_emoji">\\u26A0\\uFE0F\\u26A0\\uFE0F\\u26A0\\uFE0F</string>
+
+    <!-- ============================== -->
+    <!-- माल (enum प्रदर्शन नाम) -->
+    <!-- ============================== -->
+    <string name="good_bathtub_gin">बाथटब जिन</string>
+    <string name="good_bathtub_gin_emoji">\\uD83E\\uDDEA</string>
+    <string name="good_whiskey">व्हिस्की</string>
+    <string name="good_whiskey_emoji">\\uD83E\\uDD43</string>
+    <string name="good_rum">रम</string>
+    <string name="good_rum_emoji">\\uD83C\\uDF79</string>
+    <string name="good_moonshine">मूनशाइन</string>
+    <string name="good_moonshine_emoji">\\uD83C\\uDF1D</string>
+    <string name="good_champagne">शैम्पेन</string>
+    <string name="good_champagne_emoji">\\uD83C\\uDF7E</string>
+
+    <!-- ====================================== -->
+    <!-- मोहल्ले (enum प्रदर्शन नाम) -->
+    <!-- ====================================== -->
+    <string name="neighborhood_south_side">South Side</string>
+    <string name="neighborhood_south_side_desc">खतरनाक इलाका, सस्ता माल</string>
+    <string name="neighborhood_north_side">North Side</string>
+    <string name="neighborhood_north_side_desc">अमीर ग्राहक, महंगी कीमतें</string>
+    <string name="neighborhood_west_side">West Side</string>
+    <string name="neighborhood_west_side_desc">औद्योगिक क्षेत्र, थोक सौदे</string>
+    <string name="neighborhood_downtown">Downtown</string>
+    <string name="neighborhood_downtown_desc">ज़्यादा जोखिम, ज़्यादा इनाम</string>
+    <string name="neighborhood_the_docks">The Docks</string>
+    <string name="neighborhood_the_docks_desc">आयात केंद्र, दुर्लभ खोज</string>
+    <string name="neighborhood_uptown">Uptown</string>
+    <string name="neighborhood_uptown_desc">Speakeasy का केंद्र, स्थिर व्यापार</string>
+
+    <!-- ================================== -->
+    <!-- वाहन (enum प्रदर्शन नाम) -->
+    <!-- ================================== -->
+    <string name="vehicle_on_foot">पैदल</string>
+    <string name="vehicle_on_foot_emoji">\\uD83D\\uDEB6</string>
+    <string name="vehicle_on_foot_desc">बस तुम्हारी जेबें। कम प्रोफ़ाइल पर ज़्यादा नहीं ले जा सकते।</string>
+    <string name="vehicle_bicycle">साइकिल</string>
+    <string name="vehicle_bicycle_emoji">\\uD83D\\uDEB2</string>
+    <string name="vehicle_bicycle_desc">तेज़ और चुपचाप। टोकरी में थोड़ा और आता है।</string>
+    <string name="vehicle_model_t">Model T</string>
+    <string name="vehicle_model_t_emoji">\\uD83D\\uDE97</string>
+    <string name="vehicle_model_t_desc">एक भरोसेमंद Ford। ट्रैफ़िक में घुलमिल जाती है।</string>
+    <string name="vehicle_delivery_truck">डिलीवरी ट्रक</string>
+    <string name="vehicle_delivery_truck_emoji">\\uD83D\\uDE9A</string>
+    <string name="vehicle_delivery_truck_desc">अपना माल \\"लॉन्ड्री सर्विस\\" के बोर्ड के पीछे छुपाओ।</string>
+    <string name="vehicle_armored_car">बख़्तरबंद गाड़ी</string>
+    <string name="vehicle_armored_car_emoji">\\uD83D\\uDE93</string>
+    <string name="vehicle_armored_car_desc">मज़बूत और डरावनी। पीछा करने से पहले दो बार सोचते हैं।</string>
+    <string name="vehicle_speedboat">स्पीडबोट</string>
+    <string name="vehicle_speedboat_emoji">\\u26F5</string>
+    <string name="vehicle_speedboat_desc">झील के किनारे दौड़ाओ। पानी पर कोई नहीं पकड़ सकता।</string>
+    <string name="vehicle_zeppelin">ज़ेपेलिन</string>
+    <string name="vehicle_zeppelin_emoji">\\uD83D\\uDEE9\\uFE0F</string>
+    <string name="vehicle_zeppelin_desc">परम व्यापार मशीन। Chicago के आसमान पर तुम्हारा राज।</string>
+
+    <!-- ===================================== -->
+    <!-- उपलब्धियाँ (enum प्रदर्शन नाम) -->
+    <!-- ===================================== -->
+    <string name="achievement_first_deal">पहला सौदा</string>
+    <string name="achievement_first_deal_emoji">\\uD83E\\uDD1D</string>
+    <string name="achievement_first_deal_desc">अपनी पहली खरीदारी पूरी करो</string>
+    <string name="achievement_big_spender">बड़ा खर्चीला</string>
+    <string name="achievement_big_spender_emoji">\\uD83D\\uDCB0</string>
+    <string name="achievement_big_spender_desc">एक ही खरीदारी में \\$5,000 खर्च करो</string>
+    <string name="achievement_10k_club">10K क्लब</string>
+    <string name="achievement_10k_club_emoji">\\uD83D\\uDCB5</string>
+    <string name="achievement_10k_club_desc">\\$10,000 कुल संपत्ति तक पहुँचो</string>
+    <string name="achievement_50k_club">50K क्लब</string>
+    <string name="achievement_50k_club_emoji">\\uD83D\\uDC8E</string>
+    <string name="achievement_50k_club_desc">\\$50,000 कुल संपत्ति तक पहुँचो</string>
+    <string name="achievement_100k_club">100K क्लब</string>
+    <string name="achievement_100k_club_emoji">\\uD83D\\uDC51</string>
+    <string name="achievement_100k_club_desc">\\$100,000 कुल संपत्ति तक पहुँचो</string>
+    <string name="achievement_survivor">जीवित बचे</string>
+    <string name="achievement_survivor_emoji">\\uD83D\\uDEE1\\uFE0F</string>
+    <string name="achievement_survivor_desc">5 पीछा मुठभेड़ों से बचो</string>
+    <string name="achievement_speed_demon">स्पीड डेमन</string>
+    <string name="achievement_speed_demon_emoji">\\u26A1</string>
+    <string name="achievement_speed_demon_desc">स्पीडबोट खरीदो</string>
+    <string name="achievement_speakeasy_owner">Speakeasy मालिक</string>
+    <string name="achievement_speakeasy_owner_emoji">\\uD83C\\uDF78</string>
+    <string name="achievement_speakeasy_owner_desc">अपना पहला speakeasy खोलो</string>
+    <string name="achievement_speakeasy_mogul">Speakeasy सम्राट</string>
+    <string name="achievement_speakeasy_mogul_emoji">\\uD83C\\uDF1F</string>
+    <string name="achievement_speakeasy_mogul_desc">एक speakeasy को स्तर 3 तक पहुँचाओ</string>
+    <string name="achievement_fight_club">फाइट क्लब</string>
+    <string name="achievement_fight_club_emoji">\\uD83E\\uDD4A</string>
+    <string name="achievement_fight_club_desc">3 पीछा मुठभेड़ें जीतो</string>
+    <string name="achievement_debt_free">कर्ज़ मुक्त</string>
+    <string name="achievement_debt_free_emoji">\\u2705</string>
+    <string name="achievement_debt_free_desc">साहूकार का कर्ज़ चुकाओ</string>
+    <string name="achievement_world_traveler">विश्व यात्री</string>
+    <string name="achievement_world_traveler_emoji">\\uD83C\\uDF0D</string>
+    <string name="achievement_world_traveler_desc">सभी 6 मोहल्लों में जाओ</string>
+    <string name="achievement_street_tough">गली का बदमाश</string>
+    <string name="achievement_street_tough_emoji">\\uD83D\\uDCA5</string>
+    <string name="achievement_street_tough_desc">विरोधी गैंग के सामने डटकर खड़े रहो</string>
+    <string name="achievement_hot_streak">लगातार कमाई</string>
+    <string name="achievement_hot_streak_emoji">\\uD83D\\uDD25</string>
+    <string name="achievement_hot_streak_desc">लगातार 5 सौदों में मुनाफ़ा कमाओ</string>
+    <string name="achievement_untouchable">अछूत</string>
+    <string name="achievement_untouchable_emoji">\\uD83D\\uDE0E</string>
+    <string name="achievement_untouchable_desc">0 खोज के साथ खेल ख़त्म करो</string>
+    <string name="achievement_al_capone">Al Capone</string>
+    <string name="achievement_al_capone_emoji">\\uD83C\\uDFC6</string>
+    <string name="achievement_al_capone_desc">Al Capone रैंक तक पहुँचो</string>
+    <string name="achievement_sky_king">आसमान का राजा</string>
+    <string name="achievement_sky_king_emoji">\\uD83D\\uDEE9\\uFE0F</string>
+    <string name="achievement_sky_king_desc">ज़ेपेलिन खरीदो</string>
+
+    <!-- ===================================== -->
+    <!-- विरोधी गैंग (enum प्रदर्शन नाम) -->
+    <!-- ===================================== -->
+    <string name="gang_south_side_boys">South Side Boys</string>
+    <string name="gang_south_side_boys_emoji">\\uD83E\\uDD1C</string>
+    <string name="gang_north_shore_syndicate">North Shore Syndicate</string>
+    <string name="gang_north_shore_syndicate_emoji">\\uD83C\\uDFA9</string>
+    <string name="gang_dock_rats">Dock Rats</string>
+    <string name="gang_dock_rats_emoji">\\uD83D\\uDC00</string>
+    <string name="gang_downtown_outfit">Downtown Outfit</string>
+    <string name="gang_downtown_outfit_emoji">\\uD83D\\uDD2B</string>
+
+    <!-- ============================== -->
+    <!-- Speakeasy नाम और विवरण -->
+    <!-- ============================== -->
+    <string name="speakeasy_south_side">The Blind Pig</string>
+    <string name="speakeasy_north_side">The Gilded Lily</string>
+    <string name="speakeasy_west_side">The Iron Horse</string>
+    <string name="speakeasy_downtown">Club Gatsby</string>
+    <string name="speakeasy_the_docks">The Rusty Anchor</string>
+    <string name="speakeasy_uptown">The Velvet Room</string>
+    <string name="speakeasy_upgrade_1">व्यापार शुरू - एक छोटा, छुपा हुआ बार</string>
+    <string name="speakeasy_upgrade_2">लाइव जैज़ और प्रीमियम स्टॉक जोड़ो</string>
+    <string name="speakeasy_upgrade_3">शहर का सबसे गरम अड्डा - VIP लाउंज</string>
+    <string name="speakeasy_upgrade_maxed">अधिकतम पर</string>
+
+    <!-- ======================== -->
+    <!-- साहूकार -->
+    <!-- ======================== -->
+    <string name="loan_shark_name">Vinnie the Fixer</string>
+    <string name="loan_shark_emoji">\\uD83E\\uDDD4</string>
+    <string name="loan_threat_none">कोई नहीं</string>
+    <string name="loan_threat_patient">धीरज वाला</string>
+    <string name="loan_threat_impatient">बेसब्र</string>
+    <string name="loan_threat_threatening">धमकी भरा</string>
+    <string name="loan_threat_dangerous">खतरनाक</string>
+    <string name="loan_threat_emoji_patient">\\uD83D\\uDE10</string>
+    <string name="loan_threat_emoji_impatient">\\uD83D\\uDE20</string>
+    <string name="loan_threat_emoji_threatening">\\uD83D\\uDE21</string>
+    <string name="loan_threat_emoji_dangerous">\\uD83D\\uDC80</string>
+
+    <!-- ======================== -->
+    <!-- रैंक (ScoreCalculator) -->
+    <!-- ======================== -->
+    <string name="rank_street_peddler">गली का फ़ेरीवाला</string>
+    <string name="rank_small_time_hustler">छोटा-मोटा जुगाड़ू</string>
+    <string name="rank_neighborhood_trader">मोहल्ले का व्यापारी</string>
+    <string name="rank_district_boss">ज़िले का बॉस</string>
+    <string name="rank_speakeasy_king">Speakeasy का राजा</string>
+    <string name="rank_chicago_kingpin">Chicago का सरगना</string>
+    <string name="rank_al_capone">Al Capone</string>
+
+    <!-- =================================== -->
+    <!-- सुर्खियाँ (HeadlineEngine) -->
+    <!-- =================================== -->
+    <!-- कीमत बढ़ने के संकेत -->
+    <string name="headline_gin_up">सोशलाइट्स और जिन चाहते हैं - कॉकटेल पार्टियों की धूम!</string>
+    <string name="headline_whiskey_up">व्हिस्की की कमी आने वाली है - आयरिश आयात सूख रहा है!</string>
+    <string name="headline_rum_up">कैरेबियन कनेक्शन कटे - रम की सप्लाई घट रही है!</string>
+    <string name="headline_moonshine_up">पहाड़ी लोग ग़ायब - मूनशाइन की सप्लाई ग़ायब!</string>
+    <string name="headline_champagne_up">फ़्रांसीसी विलासिता की माँग - हाई सोसाइटी को बुलबुले चाहिए!</string>
+
+    <!-- कीमत गिरने के संकेत -->
+    <string name="headline_gin_down">फ़ेड्स का जिन पर छापा - कई बाथटब ऑपरेशन बंद!</string>
+    <string name="headline_whiskey_down">व्हिस्की गोदाम ज़ब्त - एजेंट बड़ी कामयाबी मना रहे!</string>
+    <string name="headline_rum_down">कोस्ट गार्ड ने रम तस्करों को रोका - कीमतें गिरने की उम्मीद!</string>
+    <string name="headline_moonshine_down">मूनशाइन की भट्टियाँ मिलीं - राजस्व एजेंट सक्रिय!</string>
+    <string name="headline_champagne_down">शैम्पेन व्यापार बाधित - विलासिता के सामान की बाढ़!</string>
+
+    <!-- खोज चेतावनी सुर्खियाँ -->
+    <string name="headline_heat_south_side">SOUTH SIDE निगरानी में - अतिरिक्त गश्त तैनात!</string>
+    <string name="headline_heat_north_side">NORTH SIDE पर छापा - अमीर निवासी कार्रवाई की माँग कर रहे!</string>
+    <string name="headline_heat_west_side">WEST SIDE गोदामों पर नज़र - फ़ेड्स औद्योगिक क्षेत्र में तैनात!</string>
+    <string name="headline_heat_downtown">DOWNTOWN में सफ़ाई अभियान - कमिश्नर ने सफ़ाई का वादा किया!</string>
+    <string name="headline_heat_the_docks">बंदरगाह गश्त दोगुनी - कोस्ट गार्ड हाई अलर्ट पर!</string>
+    <string name="headline_heat_uptown">UPTOWN के SPEAKEASIES निशाने पर - एजेंट भेष बदलकर जा रहे!</string>
+
+    <!-- गैंग समाचार सुर्खियाँ -->
+    <string name="headline_gang_south_side_boys">SOUTH SIDE BOYS का इलाका बढ़ रहा - विरोधी व्यापारी सावधान!</string>
+    <string name="headline_gang_north_shore_syndicate">NORTH SHORE SYNDICATE की ताक़त बढ़ी - महंगे कारोबार पर शिकंजा!</string>
+    <string name="headline_gang_dock_rats">DOCK RATS का बंदरगाह पर कब्ज़ा - व्यापारी टोल दे रहे!</string>
+    <string name="headline_gang_downtown_outfit">DOWNTOWN OUTFIT बेख़ौफ़ - इलाके के विवाद बढ़ रहे!</string>
+
+    <!-- सामान्य समाचार सुर्खियाँ -->
+    <string name="headline_general_prohibition">मद्यनिषेध प्रवर्तन दोगुना - राष्ट्रपति ने नतीजे माँगे!</string>
+    <string name="headline_general_speakeasies">हर रात नए SPEAKEASIES खुल रहे - Chicago की पार्टी नहीं रुकेगी!</string>
+    <string name="headline_general_jazz">जैज़ युग ज़ोरों पर - भूमिगत दुनिया में संगीत गूँज रहा!</string>
+    <string name="headline_general_mayor">मेयर ने साफ़ सड़कों का वादा किया - चुनावी बयानबाज़ी!</string>
+    <string name="headline_general_stock_market">शेयर बाज़ार उछला - वॉल स्ट्रीट में जश्न!</string>
+    <string name="headline_general_labor">मज़दूर हड़तालें फैल रहीं - कामगारों की उचित वेतन की माँग!</string>
+    <string name="headline_general_baseball">बेब रूथ ने फिर मारा - यांकीज़ का मैदान पर दबदबा!</string>
+
+    <!-- ==================== -->
+    <!-- कीमत दिशा तीर -->
+    <!-- ==================== -->
+    <string name="price_arrow_up">\\u2191</string>
+    <string name="price_arrow_down">\\u2193</string>
+    <string name="price_arrow_flat">\\u2192</string>
+
+    <!-- ==================== -->
+    <!-- सामान्य / फ़ॉर्मेटिंग -->
+    <!-- ==================== -->
+    <string name="currency_format">\\$%1$s</string>
+    <string name="currency_positive">+\\$%1$s</string>
+    <string name="currency_negative">-\\$%1$s</string>
+    <string name="percent_format">%1$s%%</string>
+
+    <!-- Speakeasy स्तर इमोजी -->
+    <string name="speakeasy_emoji_tier_0">\\uD83C\\uDFDA</string>
+    <string name="speakeasy_emoji_tier_1">\\uD83C\\uDF7A</string>
+    <string name="speakeasy_emoji_tier_2">\\uD83C\\uDF78</string>
+    <string name="speakeasy_emoji_tier_3">\\uD83C\\uDF1F</string>
+
+</resources>

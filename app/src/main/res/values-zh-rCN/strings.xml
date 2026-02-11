@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Roaring Trades</string>
+
+    <!-- ==================== -->
+    <!-- 钱包连接界面 -->
+    <!-- ==================== -->
+    <string name="wallet_title_roaring">ROARING</string>
+    <string name="wallet_title_trades">TRADES</string>
+    <string name="wallet_subtitle">Chicago，1920年代</string>
+    <string name="wallet_game_description">低买高卖，30天内建立你的贸易帝国。</string>
+    <string name="wallet_leaderboard_description">连接你的Solana钱包，在排行榜上记录最高分。</string>
+    <string name="wallet_connecting">连接中\\u2026</string>
+    <string name="wallet_connect_button">连接钱包</string>
+    <string name="wallet_connect_error_default">钱包连接失败</string>
+    <string name="wallet_production_credit">Midnight Run Games出品</string>
+
+    <!-- ============= -->
+    <!-- 市场界面 -->
+    <!-- ============= -->
+    <string name="market_headline">\\uD83D\\uDCF0 %1$s</string>
+    <string name="market_day_counter">第%1$d天/%2$d天</string>
+    <string name="market_cash_display">\\$%1$s</string>
+    <string name="market_capacity_format">%1$s %2$d/%3$d</string>
+    <string name="market_high_risk_label"> \\u26A0\\uFE0F 高风险，高价格</string>
+    <string name="market_low_risk_label"> \\u2705 低风险，低价格</string>
+    <string name="market_vehicle_hp">\\u2764\\uFE0F %1$d/%2$d</string>
+    <string name="market_speakeasy_income">\\uD83C\\uDF78 +\\$%1$d/天</string>
+    <string name="market_loan_debt">%1$s \\$%2$s</string>
+    <string name="market_pay_off_heat">\\uD83D\\uDCB5 降低通缉度 (\\$%1$d/点)</string>
+    <string name="market_heat_payoff_small">-%1$d \\$%2$s</string>
+    <string name="market_heat_payoff_clear">全额 \\$%1$s</string>
+    <string name="market_gang_territory">%1$s %2$s的地盘 - %3$s价格虚高</string>
+    <string name="market_hot_commodity">\\uD83D\\uDD25 热门：%1$s价格飙升！</string>
+    <string name="market_crackdown">\\uD83D\\uDEA8 严打：%1$s - 便宜但危险！</string>
+
+    <!-- ============= -->
+    <!-- 移动界面 -->
+    <!-- ============= -->
+    <string name="travel_header">选择目的地</string>
+    <string name="travel_currently_at">当前位置：%1$s</string>
+    <string name="travel_day_info">第%1$d天，共%2$d天 \\u2022 移动消耗1天</string>
+    <string name="travel_current_location_content_desc">当前位置</string>
+    <string name="travel_high_risk">\\u26A0\\uFE0F 高风险，高价格</string>
+    <string name="travel_low_risk">\\u2705 低风险，低价格</string>
+    <string name="travel_moderate_risk">\\u2696\\uFE0F 中等风险</string>
+    <string name="travel_you_are_here">你在这里</string>
+
+    <!-- ============= -->
+    <!-- 车库界面 -->
+    <!-- ============= -->
+    <string name="garage_header">车库</string>
+    <string name="garage_current_ride">当前座驾：%1$s %2$s</string>
+    <string name="garage_cash">现金：\\$%1$s</string>
+    <string name="garage_current_vehicle">%1$s %2$s（当前）</string>
+    <string name="garage_hp_label">\\u2764\\uFE0F HP: </string>
+    <string name="garage_hp_value">%1$d/%2$d</string>
+    <string name="garage_repair_button">\\uD83D\\uDD27 \\$%1$s修理</string>
+    <string name="garage_need_more">还需\\$%1$s</string>
+    <string name="garage_available_upgrades">可用升级</string>
+    <string name="garage_vehicle_name">%1$s %2$s</string>
+    <string name="garage_vehicle_price">\\$%1$s</string>
+    <string name="garage_vehicle_free">免费</string>
+    <string name="garage_already_passed">已拥有此座驾</string>
+    <string name="garage_not_upgrade">不是升级</string>
+    <string name="garage_buy_for">\\$%1$s购买</string>
+    <string name="garage_stat_capacity">载货量</string>
+    <string name="garage_stat_heat_decay">通缉度衰减</string>
+    <string name="garage_stat_heat_decay_value">+%1$d/天</string>
+    <string name="garage_stat_hp">HP</string>
+    <string name="garage_stat_speed">速度</string>
+    <string name="garage_stat_speed_value">%1$d/10</string>
+
+    <!-- ============== -->
+    <!-- 状态界面 -->
+    <!-- ============== -->
+    <string name="status_financial_summary">财务摘要</string>
+    <string name="status_cash">现金</string>
+    <string name="status_inventory">库存</string>
+    <string name="status_net_worth">净资产</string>
+    <string name="status_profit">利润</string>
+    <string name="status_debt">债务</string>
+    <string name="status_speakeasies_label">地下酒吧</string>
+    <string name="status_speakeasies_income">+\\$%1$d/天</string>
+    <string name="status_current_rank">当前等级</string>
+    <string name="status_loan_shark_title">%1$s %2$s - 高利贷</string>
+    <string name="status_loan_debt">债务：\\$%1$s</string>
+    <string name="status_loan_interest">日利率：10%% (\\$%1$d/天)</string>
+    <string name="status_loan_status">状态：%1$s %2$s</string>
+    <string name="status_loan_pay">还款 \\$%1$s</string>
+    <string name="status_loan_pay_all">全额还款 \\$%1$s</string>
+    <string name="status_loan_offer">\\"需要钱吗，朋友？包在我身上。\\"</string>
+    <string name="status_loan_warning">日利率10%%。别迟了。</string>
+    <string name="status_borrow_1k">借 \\$1K</string>
+    <string name="status_borrow_3k">借 \\$3K</string>
+    <string name="status_borrow_5k">借 \\$5K</string>
+    <string name="status_speakeasies_title">\\uD83C\\uDF78 地下酒吧</string>
+    <string name="status_speakeasy_daily_income">日收入：+\\$%1$d</string>
+    <string name="status_speakeasy_tier">%1$s - 等级%2$d</string>
+    <string name="status_speakeasy_tier_income">%1$s - 等级%2$d (+\\$%3$d/天)</string>
+    <string name="status_speakeasy_open">开业 \\$%1$s</string>
+    <string name="status_speakeasy_upgrade">升级 \\$%1$s</string>
+    <string name="status_speakeasy_max">\\uD83C\\uDF1F 满级</string>
+    <string name="status_achievements_title">\\uD83C\\uDFC6 成就 (%1$d/%2$d)</string>
+    <string name="status_achievements_to_claim">%1$d个可领取</string>
+    <string name="status_achievement_locked">\\uD83D\\uDD12 </string>
+    <string name="status_achievement_locked_name">\u003F\u003F\u003F</string>
+    <string name="status_achievement_claimed">\\u2705</string>
+    <string name="status_reputation_title">\\uD83E\\uDD1D 声望</string>
+    <string name="status_wallet_title">钱包</string>
+    <string name="status_wallet_connected">已连接：%1$s</string>
+    <string name="status_leaderboard_title">排行榜</string>
+    <string name="status_leaderboard_empty">暂无分数。完成一局游戏吧！</string>
+    <string name="status_leaderboard_entry">%1$d. %2$s</string>
+    <string name="status_new_game">新游戏</string>
+
+    <!-- =============== -->
+    <!-- 游戏结束界面 -->
+    <!-- =============== -->
+    <string name="game_over_title">游戏结束！</string>
+    <string name="game_over_your_rank">你的等级</string>
+    <string name="game_over_final_cash">最终现金</string>
+    <string name="game_over_inventory_value">库存价值</string>
+    <string name="game_over_net_worth">净资产</string>
+    <string name="game_over_profit">利润</string>
+    <string name="game_over_return">回报率</string>
+    <string name="game_over_save_and_play">保存分数并再玩一次</string>
+    <string name="game_over_play_again">再玩一次</string>
+
+    <!-- ============ -->
+    <!-- 追逐对话框 -->
+    <!-- ============ -->
+    <string name="chase_title">\\uD83D\\uDEA8 通缉度上升！</string>
+    <string name="chase_pursuit_strength">追击强度：</string>
+    <string name="chase_pursuit_strength_value">%1$d/100</string>
+    <string name="chase_fight_odds">战斗胜率：</string>
+    <string name="chase_if_caught">被抓时：</string>
+    <string name="chase_lose_goods">损失%1$d%%的货物</string>
+    <string name="chase_fight_button">\\uD83E\\uDD4A 战斗</string>
+    <string name="chase_flee_button">\\uD83C\\uDFC3 逃跑</string>
+
+    <!-- 追逐结果 -->
+    <string name="chase_result_fight_won">\\uD83E\\uDD4A 战斗胜利！</string>
+    <string name="chase_result_fight_won_desc">甩掉了追击！通缉度降低了%1$d。\
+车辆损伤：%2$d</string>
+    <string name="chase_result_fight_lost">\\uD83D\\uDC6E 战斗失败！</string>
+    <string name="chase_result_fight_lost_desc">被制服了！\
+罚款：\\$%1$d\
+车辆损伤：%2$d\
+被没收：\
+%3$s</string>
+    <string name="chase_result_flee_success">\\uD83C\\uDFC3 逃脱成功！</string>
+    <string name="chase_result_flee_success_desc">甩掉了追击！车辆损伤：%1$d</string>
+    <string name="chase_result_flee_success_dropped">甩掉了追击！车辆损伤：%1$d\
+逃跑时丢弃的物品：\
+%2$s</string>
+    <string name="chase_result_caught">\\uD83D\\uDEA8 被抓了！</string>
+    <string name="chase_result_caught_desc">被追上了！\
+罚款：\\$%1$d\
+车辆损伤：%2$d\
+被没收：\
+%3$s</string>
+    <string name="chase_result_goods_lost_line">  %1$s %2$s: -%3$d</string>
+    <string name="chase_continue">继续</string>
+
+    <!-- ============== -->
+    <!-- 伏击对话框 -->
+    <!-- ============== -->
+    <string name="ambush_confrontation">对峙！</string>
+    <string name="ambush_warning">警告！</string>
+    <string name="ambush_stood_ground">站稳了脚跟！</string>
+    <string name="ambush_ok">确定</string>
+
+    <!-- 帮派遭遇描述 -->
+    <string name="encounter_shaken_down">%1$s %2$s找上了你！损失了\\$%3$d。%4$s</string>
+    <string name="encounter_shaken_down_goods"> 他们还抢走了%1$s。</string>
+    <string name="encounter_intimidated">%1$s %2$s警告你离开他们的地盘！通缉度+%3$d</string>
+    <string name="encounter_fought_off">你与%1$s %2$s对抗了！在%3$s获得了尊重。</string>
+
+    <!-- ============= -->
+    <!-- 事件对话框 -->
+    <!-- ============= -->
+    <string name="event_ok">确定</string>
+
+    <!-- 拦截对话框 -->
+    <string name="intercept_title">被抓了！</string>
+    <string name="intercept_description">被当局抓获！没收的货物：\
+\
+%1$s</string>
+    <string name="intercept_goods_line">%1$s %2$s: -%3$d件</string>
+    <string name="intercept_lay_low">低调行事</string>
+
+    <!-- =================== -->
+    <!-- 成就弹窗 -->
+    <!-- =================== -->
+    <string name="achievement_earned_title">\\uD83C\\uDFC6 成就达成！</string>
+    <string name="achievement_reward">\\uD83D\\uDCB0 奖励：+\\$%1$s</string>
+    <string name="achievement_claim_button">\\uD83C\\uDF81 领取奖励！</string>
+    <string name="achievement_later">稍后</string>
+    <string name="achievement_claim_amount">+\\$%1$s</string>
+
+    <!-- ========= -->
+    <!-- 商品行 -->
+    <!-- ========= -->
+    <string name="good_owned">持有：%1$d</string>
+    <string name="good_price">\\$%1$d</string>
+    <string name="good_price_range">价格区间：\\$%1$d - \\$%2$d</string>
+    <string name="good_avg_cost">平均成本：\\$%1$s</string>
+    <string name="good_pnl">盈亏：%1$s\\$%2$d</string>
+    <string name="good_sell_with_count">卖出 (%1$d)</string>
+    <string name="good_sell">卖出</string>
+    <string name="good_buy">买入</string>
+    <string name="good_buy_title">买入 %1$s</string>
+    <string name="good_sell_title">卖出 %1$s</string>
+
+    <!-- ================ -->
+    <!-- 数量选择器 -->
+    <!-- ================ -->
+    <string name="quantity_decrease_content_desc">减少</string>
+    <string name="quantity_increase_content_desc">增加</string>
+    <string name="quantity_max">最大 (%1$d)</string>
+    <string name="quantity_total">总计：\\$%1$d</string>
+    <string name="quantity_confirm">确认</string>
+    <string name="quantity_cancel">取消</string>
+
+    <!-- ================ -->
+    <!-- 通缉度指示器 -->
+    <!-- ================ -->
+    <string name="heat_label">通缉度：%1$s</string>
+
+    <!-- 通缉度等级 -->
+    <string name="heat_level_none">无通缉</string>
+    <string name="heat_level_low">通缉度：低</string>
+    <string name="heat_level_low_emoji">\\u26A0\\uFE0F</string>
+    <string name="heat_level_medium">通缉度：中</string>
+    <string name="heat_level_medium_emoji">\\u26A0\\uFE0F\\u26A0\\uFE0F</string>
+    <string name="heat_level_high">通缉度：高</string>
+    <string name="heat_level_high_emoji">\\u26A0\\uFE0F\\u26A0\\uFE0F\\u26A0\\uFE0F</string>
+
+    <!-- ============================== -->
+    <!-- 商品（枚举显示名称） -->
+    <!-- ============================== -->
+    <string name="good_bathtub_gin">浴缸金酒</string>
+    <string name="good_bathtub_gin_emoji">\\uD83E\\uDDEA</string>
+    <string name="good_whiskey">威士忌</string>
+    <string name="good_whiskey_emoji">\\uD83E\\uDD43</string>
+    <string name="good_rum">朗姆酒</string>
+    <string name="good_rum_emoji">\\uD83C\\uDF79</string>
+    <string name="good_moonshine">月光酒</string>
+    <string name="good_moonshine_emoji">\\uD83C\\uDF1D</string>
+    <string name="good_champagne">香槟</string>
+    <string name="good_champagne_emoji">\\uD83C\\uDF7E</string>
+
+    <!-- ====================================== -->
+    <!-- 地区（枚举显示名称） -->
+    <!-- ====================================== -->
+    <string name="neighborhood_south_side">South Side</string>
+    <string name="neighborhood_south_side_desc">危险地带，货物便宜</string>
+    <string name="neighborhood_north_side">North Side</string>
+    <string name="neighborhood_north_side_desc">富裕客群，高端价格</string>
+    <string name="neighborhood_west_side">West Side</string>
+    <string name="neighborhood_west_side_desc">工业区，批量交易</string>
+    <string name="neighborhood_downtown">Downtown</string>
+    <string name="neighborhood_downtown_desc">高风险，高回报</string>
+    <string name="neighborhood_the_docks">The Docks</string>
+    <string name="neighborhood_the_docks_desc">进口枢纽，稀有货源</string>
+    <string name="neighborhood_uptown">Uptown</string>
+    <string name="neighborhood_uptown_desc">地下酒吧中心，交易稳定</string>
+
+    <!-- ================================== -->
+    <!-- 载具（枚举显示名称） -->
+    <!-- ================================== -->
+    <string name="vehicle_on_foot">步行</string>
+    <string name="vehicle_on_foot_emoji">\\uD83D\\uDEB6</string>
+    <string name="vehicle_on_foot_desc">只有口袋。不引人注目但装不了多少。</string>
+    <string name="vehicle_bicycle">自行车</string>
+    <string name="vehicle_bicycle_emoji">\\uD83D\\uDEB2</string>
+    <string name="vehicle_bicycle_desc">快速又安静。车筐能多装一些。</string>
+    <string name="vehicle_model_t">Model T</string>
+    <string name="vehicle_model_t_emoji">\\uD83D\\uDE97</string>
+    <string name="vehicle_model_t_desc">可靠的福特。能混入车流之中。</string>
+    <string name="vehicle_delivery_truck">送货卡车</string>
+    <string name="vehicle_delivery_truck_emoji">\\uD83D\\uDE9A</string>
+    <string name="vehicle_delivery_truck_desc">把货物藏在\\"洗衣服务\\"的招牌后面。</string>
+    <string name="vehicle_armored_car">装甲车</string>
+    <string name="vehicle_armored_car_emoji">\\uD83D\\uDE93</string>
+    <string name="vehicle_armored_car_desc">加固且威慑力十足。追捕者会三思而行。</string>
+    <string name="vehicle_speedboat">快艇</string>
+    <string name="vehicle_speedboat_emoji">\\u26F5</string>
+    <string name="vehicle_speedboat_desc">驰骋湖滨。在水上没人追得上你。</string>
+    <string name="vehicle_zeppelin">齐柏林飞艇</string>
+    <string name="vehicle_zeppelin_emoji">\\uD83D\\uDEE9\\uFE0F</string>
+    <string name="vehicle_zeppelin_desc">终极交易利器。你将主宰Chicago的天空。</string>
+
+    <!-- ===================================== -->
+    <!-- 成就（枚举显示名称） -->
+    <!-- ===================================== -->
+    <string name="achievement_first_deal">首笔交易</string>
+    <string name="achievement_first_deal_emoji">\\uD83E\\uDD1D</string>
+    <string name="achievement_first_deal_desc">完成你的第一笔购买</string>
+    <string name="achievement_big_spender">大手笔</string>
+    <string name="achievement_big_spender_emoji">\\uD83D\\uDCB0</string>
+    <string name="achievement_big_spender_desc">单次购买花费\\$5,000</string>
+    <string name="achievement_10k_club">10K俱乐部</string>
+    <string name="achievement_10k_club_emoji">\\uD83D\\uDCB5</string>
+    <string name="achievement_10k_club_desc">净资产达到\\$10,000</string>
+    <string name="achievement_50k_club">50K俱乐部</string>
+    <string name="achievement_50k_club_emoji">\\uD83D\\uDC8E</string>
+    <string name="achievement_50k_club_desc">净资产达到\\$50,000</string>
+    <string name="achievement_100k_club">100K俱乐部</string>
+    <string name="achievement_100k_club_emoji">\\uD83D\\uDC51</string>
+    <string name="achievement_100k_club_desc">净资产达到\\$100,000</string>
+    <string name="achievement_survivor">幸存者</string>
+    <string name="achievement_survivor_emoji">\\uD83D\\uDEE1\\uFE0F</string>
+    <string name="achievement_survivor_desc">在追逐中存活5次</string>
+    <string name="achievement_speed_demon">速度恶魔</string>
+    <string name="achievement_speed_demon_emoji">\\u26A1</string>
+    <string name="achievement_speed_demon_desc">购买快艇</string>
+    <string name="achievement_speakeasy_owner">酒吧老板</string>
+    <string name="achievement_speakeasy_owner_emoji">\\uD83C\\uDF78</string>
+    <string name="achievement_speakeasy_owner_desc">开设你的第一家地下酒吧</string>
+    <string name="achievement_speakeasy_mogul">酒吧大亨</string>
+    <string name="achievement_speakeasy_mogul_emoji">\\uD83C\\uDF1F</string>
+    <string name="achievement_speakeasy_mogul_desc">将地下酒吧升至等级3</string>
+    <string name="achievement_fight_club">搏击俱乐部</string>
+    <string name="achievement_fight_club_emoji">\\uD83E\\uDD4A</string>
+    <string name="achievement_fight_club_desc">在追逐中赢得3次胜利</string>
+    <string name="achievement_debt_free">无债一身轻</string>
+    <string name="achievement_debt_free_emoji">\\u2705</string>
+    <string name="achievement_debt_free_desc">还清高利贷的债务</string>
+    <string name="achievement_world_traveler">环游世界</string>
+    <string name="achievement_world_traveler_emoji">\\uD83C\\uDF0D</string>
+    <string name="achievement_world_traveler_desc">访问全部6个地区</string>
+    <string name="achievement_street_tough">街头硬汉</string>
+    <string name="achievement_street_tough_emoji">\\uD83D\\uDCA5</string>
+    <string name="achievement_street_tough_desc">与敌对帮派对抗</string>
+    <string name="achievement_hot_streak">连胜纪录</string>
+    <string name="achievement_hot_streak_emoji">\\uD83D\\uDD25</string>
+    <string name="achievement_hot_streak_desc">连续5次交易盈利</string>
+    <string name="achievement_untouchable">不可触碰</string>
+    <string name="achievement_untouchable_emoji">\\uD83D\\uDE0E</string>
+    <string name="achievement_untouchable_desc">以通缉度0结束游戏</string>
+    <string name="achievement_al_capone">Al Capone</string>
+    <string name="achievement_al_capone_emoji">\\uD83C\\uDFC6</string>
+    <string name="achievement_al_capone_desc">达到Al Capone等级</string>
+    <string name="achievement_sky_king">空中之王</string>
+    <string name="achievement_sky_king_emoji">\\uD83D\\uDEE9\\uFE0F</string>
+    <string name="achievement_sky_king_desc">购买齐柏林飞艇</string>
+
+    <!-- ===================================== -->
+    <!-- 敌对帮派（枚举显示名称） -->
+    <!-- ===================================== -->
+    <string name="gang_south_side_boys">South Side Boys</string>
+    <string name="gang_south_side_boys_emoji">\\uD83E\\uDD1C</string>
+    <string name="gang_north_shore_syndicate">North Shore Syndicate</string>
+    <string name="gang_north_shore_syndicate_emoji">\\uD83C\\uDFA9</string>
+    <string name="gang_dock_rats">Dock Rats</string>
+    <string name="gang_dock_rats_emoji">\\uD83D\\uDC00</string>
+    <string name="gang_downtown_outfit">Downtown Outfit</string>
+    <string name="gang_downtown_outfit_emoji">\\uD83D\\uDD2B</string>
+
+    <!-- ============================== -->
+    <!-- 地下酒吧名称及详情 -->
+    <!-- ============================== -->
+    <string name="speakeasy_south_side">The Blind Pig</string>
+    <string name="speakeasy_north_side">The Gilded Lily</string>
+    <string name="speakeasy_west_side">The Iron Horse</string>
+    <string name="speakeasy_downtown">Club Gatsby</string>
+    <string name="speakeasy_the_docks">The Rusty Anchor</string>
+    <string name="speakeasy_uptown">The Velvet Room</string>
+    <string name="speakeasy_upgrade_1">开业 - 一间隐蔽的小酒吧</string>
+    <string name="speakeasy_upgrade_2">增加现场爵士乐和高档酒水</string>
+    <string name="speakeasy_upgrade_3">全城最火的场所 - VIP包厢</string>
+    <string name="speakeasy_upgrade_maxed">已满级</string>
+
+    <!-- ======================== -->
+    <!-- 高利贷 -->
+    <!-- ======================== -->
+    <string name="loan_shark_name">Vinnie the Fixer</string>
+    <string name="loan_shark_emoji">\\uD83E\\uDDD4</string>
+    <string name="loan_threat_none">无</string>
+    <string name="loan_threat_patient">耐心</string>
+    <string name="loan_threat_impatient">不耐烦</string>
+    <string name="loan_threat_threatening">威胁</string>
+    <string name="loan_threat_dangerous">危险</string>
+    <string name="loan_threat_emoji_patient">\\uD83D\\uDE10</string>
+    <string name="loan_threat_emoji_impatient">\\uD83D\\uDE20</string>
+    <string name="loan_threat_emoji_threatening">\\uD83D\\uDE21</string>
+    <string name="loan_threat_emoji_dangerous">\\uD83D\\uDC80</string>
+
+    <!-- ======================== -->
+    <!-- 等级（ScoreCalculator） -->
+    <!-- ======================== -->
+    <string name="rank_street_peddler">街头小贩</string>
+    <string name="rank_small_time_hustler">小混混</string>
+    <string name="rank_neighborhood_trader">街区商人</string>
+    <string name="rank_district_boss">地区老大</string>
+    <string name="rank_speakeasy_king">酒吧之王</string>
+    <string name="rank_chicago_kingpin">Chicago教父</string>
+    <string name="rank_al_capone">Al Capone</string>
+
+    <!-- =================================== -->
+    <!-- 头条新闻（HeadlineEngine） -->
+    <!-- =================================== -->
+    <!-- 价格上涨提示 -->
+    <string name="headline_gin_up">社交名流大量需要金酒 - 鸡尾酒派对席卷全城！</string>
+    <string name="headline_whiskey_up">威士忌短缺迫在眉睫 - 爱尔兰进口枯竭！</string>
+    <string name="headline_rum_up">加勒比海航线中断 - 朗姆酒供应减少！</string>
+    <string name="headline_moonshine_up">山间酿酒者失踪 - 月光酒库存消失！</string>
+    <string name="headline_champagne_up">法国奢侈品需求旺盛 - 上流社会渴望泡泡！</string>
+
+    <!-- 价格下跌提示 -->
+    <string name="headline_gin_down">联邦严厉打击金酒 - 多个私酿工坊被关闭！</string>
+    <string name="headline_whiskey_down">威士忌仓库被查封 - 探员庆祝重大收获！</string>
+    <string name="headline_rum_down">海岸警卫队截获朗姆酒走私者 - 价格预计下跌！</string>
+    <string name="headline_moonshine_down">月光酒蒸馏设备被发现 - 税务稽查员出动！</string>
+    <string name="headline_champagne_down">香槟贸易中断 - 奢侈品供应泛滥！</string>
+
+    <!-- 通缉度警告头条 -->
+    <string name="headline_heat_south_side">South Side加强监控 - 增派巡逻！</string>
+    <string name="headline_heat_north_side">North Side严厉打击 - 富裕居民要求采取行动！</string>
+    <string name="headline_heat_west_side">West Side仓库被监视 - 联邦盯上工业区！</string>
+    <string name="headline_heat_downtown">Downtown计划大扫荡 - 局长誓言整治！</string>
+    <string name="headline_heat_the_docks">港口巡逻翻倍 - 海岸警卫队高度戒备！</string>
+    <string name="headline_heat_uptown">Uptown地下酒吧成为目标 - 特工卧底行动！</string>
+
+    <!-- 帮派新闻头条 -->
+    <string name="headline_gang_south_side_boys">South Side Boys扩张地盘 - 对手商人注意！</string>
+    <string name="headline_gang_north_shore_syndicate">North Shore Syndicate展示实力 - 高端交易收紧！</string>
+    <string name="headline_gang_dock_rats">Dock Rats控制水岸 - 商人们交过路费！</string>
+    <string name="headline_gang_downtown_outfit">Downtown Outfit越来越嚣张 - 地盘争夺升温！</string>
+
+    <!-- 一般新闻头条 -->
+    <string name="headline_general_prohibition">禁酒令执法力度翻倍 - 总统要求出成效！</string>
+    <string name="headline_general_speakeasies">新地下酒吧每晚开张 - Chicago的派对停不下来！</string>
+    <string name="headline_general_jazz">爵士时代如火如荼 - 音乐充满地下世界！</string>
+    <string name="headline_general_mayor">市长承诺净化街道 - 选举季的老套路！</string>
+    <string name="headline_general_stock_market">股市飙升 - 华尔街举杯庆祝！</string>
+    <string name="headline_general_labor">罢工浪潮蔓延 - 工人要求公平工资！</string>
+    <string name="headline_general_baseball">贝比鲁斯再轰一发 - 洋基队称霸球场！</string>
+
+    <!-- ==================== -->
+    <!-- 价格方向箭头 -->
+    <!-- ==================== -->
+    <string name="price_arrow_up">\\u2191</string>
+    <string name="price_arrow_down">\\u2193</string>
+    <string name="price_arrow_flat">\\u2192</string>
+
+    <!-- ==================== -->
+    <!-- 通用 / 格式化 -->
+    <!-- ==================== -->
+    <string name="currency_format">\\$%1$s</string>
+    <string name="currency_positive">+\\$%1$s</string>
+    <string name="currency_negative">-\\$%1$s</string>
+    <string name="percent_format">%1$s%%</string>
+
+    <!-- 地下酒吧等级表情 -->
+    <string name="speakeasy_emoji_tier_0">\\uD83C\\uDFDA</string>
+    <string name="speakeasy_emoji_tier_1">\\uD83C\\uDF7A</string>
+    <string name="speakeasy_emoji_tier_2">\\uD83C\\uDF78</string>
+    <string name="speakeasy_emoji_tier_3">\\uD83C\\uDF1F</string>
+
+</resources>

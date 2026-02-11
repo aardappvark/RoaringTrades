@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Roaring Trades</string>
+
+    <!-- ============================== -->
+    <!-- PANTALLA DE CONEXION DE BILLETERA -->
+    <!-- ============================== -->
+    <string name="wallet_title_roaring">ROARING</string>
+    <string name="wallet_title_trades">TRADES</string>
+    <string name="wallet_subtitle">Chicago, a\u00F1os 1920</string>
+    <string name="wallet_game_description">Compra barato, vende caro. Construye tu imperio comercial en 30 d\u00EDas.</string>
+    <string name="wallet_leaderboard_description">Conecta tu billetera Solana para registrar tus mejores puntuaciones en la tabla de clasificaci\u00F3n.</string>
+    <string name="wallet_connecting">Conectando\u2026</string>
+    <string name="wallet_connect_button">Conectar Billetera</string>
+    <string name="wallet_connect_error_default">Error al conectar la billetera</string>
+    <string name="wallet_production_credit">Una producci\u00F3n de Midnight Run Games</string>
+
+    <!-- =================== -->
+    <!-- PANTALLA DE MERCADO -->
+    <!-- =================== -->
+    <string name="market_headline">\uD83D\uDCF0 %1$s</string>
+    <string name="market_day_counter">D\u00EDa %1$d/%2$d</string>
+    <string name="market_cash_display">\$%1$s</string>
+    <string name="market_capacity_format">%1$s %2$d/%3$d</string>
+    <string name="market_high_risk_label"> \u26A0\uFE0F Alto riesgo, mejores precios</string>
+    <string name="market_low_risk_label"> \u2705 Bajo riesgo, precios menores</string>
+    <string name="market_vehicle_hp">\u2764\uFE0F %1$d/%2$d</string>
+    <string name="market_speakeasy_income">\uD83C\uDF78 +\$%1$d/d\u00EDa</string>
+    <string name="market_loan_debt">%1$s \$%2$s</string>
+    <string name="market_pay_off_heat">\uD83D\uDCB5 Pagar sospecha (\$%1$d/pt)</string>
+    <string name="market_heat_payoff_small">-%1$d \$%2$s</string>
+    <string name="market_heat_payoff_clear">Limpiar \$%1$s</string>
+    <string name="market_gang_territory">%1$s territorio de %2$s - precios de %3$s inflados</string>
+    <string name="market_hot_commodity">\uD83D\uDD25 Demanda: \u00A1precios de %1$s por las nubes!</string>
+    <string name="market_crackdown">\uD83D\uDEA8 Redada: %1$s - \u00A1barato pero arriesgado!</string>
+
+    <!-- =================== -->
+    <!-- PANTALLA DE VIAJE -->
+    <!-- =================== -->
+    <string name="travel_header">Elige tu destino</string>
+    <string name="travel_currently_at">Ubicaci\u00F3n actual: %1$s</string>
+    <string name="travel_day_info">D\u00EDa %1$d de %2$d \u2022 Viajar consume 1 d\u00EDa</string>
+    <string name="travel_current_location_content_desc">Ubicaci\u00F3n actual</string>
+    <string name="travel_high_risk">\u26A0\uFE0F Alto riesgo, precios premium</string>
+    <string name="travel_low_risk">\u2705 Bajo riesgo, precios menores</string>
+    <string name="travel_moderate_risk">\u2696\uFE0F Riesgo moderado</string>
+    <string name="travel_you_are_here">Est\u00E1s aqu\u00ED</string>
+
+    <!-- =================== -->
+    <!-- PANTALLA DE GARAJE -->
+    <!-- =================== -->
+    <string name="garage_header">Garaje</string>
+    <string name="garage_current_ride">Veh\u00EDculo actual: %1$s %2$s</string>
+    <string name="garage_cash">Efectivo: \$%1$s</string>
+    <string name="garage_current_vehicle">%1$s %2$s (Actual)</string>
+    <string name="garage_hp_label">\u2764\uFE0F Vida: </string>
+    <string name="garage_hp_value">%1$d/%2$d</string>
+    <string name="garage_repair_button">\uD83D\uDD27 Reparar por \$%1$s</string>
+    <string name="garage_need_more">Necesitas \$%1$s m\u00E1s</string>
+    <string name="garage_available_upgrades">Mejoras disponibles</string>
+    <string name="garage_vehicle_name">%1$s %2$s</string>
+    <string name="garage_vehicle_price">\$%1$s</string>
+    <string name="garage_vehicle_free">Gratis</string>
+    <string name="garage_already_passed">Ya superaste este veh\u00EDculo</string>
+    <string name="garage_not_upgrade">No es una mejora</string>
+    <string name="garage_buy_for">Comprar por \$%1$s</string>
+    <string name="garage_stat_capacity">Capacidad</string>
+    <string name="garage_stat_heat_decay">Reducci\u00F3n de sospecha</string>
+    <string name="garage_stat_heat_decay_value">+%1$d/d\u00EDa</string>
+    <string name="garage_stat_hp">Vida</string>
+    <string name="garage_stat_speed">Velocidad</string>
+    <string name="garage_stat_speed_value">%1$d/10</string>
+
+    <!-- ==================== -->
+    <!-- PANTALLA DE ESTADO -->
+    <!-- ==================== -->
+    <string name="status_financial_summary">Resumen financiero</string>
+    <string name="status_cash">Efectivo</string>
+    <string name="status_inventory">Inventario</string>
+    <string name="status_net_worth">Patrimonio neto</string>
+    <string name="status_profit">Ganancia</string>
+    <string name="status_debt">Deuda</string>
+    <string name="status_speakeasies_label">Speakeasies</string>
+    <string name="status_speakeasies_income">+\$%1$d/d\u00EDa</string>
+    <string name="status_current_rank">Rango actual</string>
+    <string name="status_loan_shark_title">%1$s %2$s - Prestamista</string>
+    <string name="status_loan_debt">Deuda: \$%1$s</string>
+    <string name="status_loan_interest">Inter\u00E9s diario: 10%% (\$%1$d/d\u00EDa)</string>
+    <string name="status_loan_status">Estado: %1$s %2$s</string>
+    <string name="status_loan_pay">Pagar \$%1$s</string>
+    <string name="status_loan_pay_all">Pagar todo \$%1$s</string>
+    <string name="status_loan_offer">\"\u00BFNecesitas dinero, amigo? Yo te ayudo.\"</string>
+    <string name="status_loan_warning">10%% de inter\u00E9s diario. No te retrases.</string>
+    <string name="status_borrow_1k">Pedir \$1K</string>
+    <string name="status_borrow_3k">Pedir \$3K</string>
+    <string name="status_borrow_5k">Pedir \$5K</string>
+    <string name="status_speakeasies_title">\uD83C\uDF78 Speakeasies</string>
+    <string name="status_speakeasy_daily_income">Ingreso diario: +\$%1$d</string>
+    <string name="status_speakeasy_tier">%1$s - Nivel %2$d</string>
+    <string name="status_speakeasy_tier_income">%1$s - Nivel %2$d (+\$%3$d/d\u00EDa)</string>
+    <string name="status_speakeasy_open">Abrir \$%1$s</string>
+    <string name="status_speakeasy_upgrade">Mejorar \$%1$s</string>
+    <string name="status_speakeasy_max">\uD83C\uDF1F M\u00C1X</string>
+    <string name="status_achievements_title">\uD83C\uDFC6 Logros (%1$d/%2$d)</string>
+    <string name="status_achievements_to_claim">%1$d por reclamar</string>
+    <string name="status_achievement_locked">\uD83D\uDD12 </string>
+    <string name="status_achievement_locked_name">\u003F\u003F\u003F</string>
+    <string name="status_achievement_claimed">\u2705</string>
+    <string name="status_reputation_title">\uD83E\uDD1D Reputaci\u00F3n</string>
+    <string name="status_wallet_title">Billetera</string>
+    <string name="status_wallet_connected">Conectada: %1$s</string>
+    <string name="status_leaderboard_title">Tabla de clasificaci\u00F3n</string>
+    <string name="status_leaderboard_empty">\u00A1A\u00FAn no hay puntuaciones. Completa una partida!</string>
+    <string name="status_leaderboard_entry">%1$d. %2$s</string>
+    <string name="status_new_game">Nueva partida</string>
+
+    <!-- ========================= -->
+    <!-- PANTALLA DE FIN DE JUEGO -->
+    <!-- ========================= -->
+    <string name="game_over_title">\u00A1Fin del juego!</string>
+    <string name="game_over_your_rank">Tu rango</string>
+    <string name="game_over_final_cash">Efectivo final</string>
+    <string name="game_over_inventory_value">Valor del inventario</string>
+    <string name="game_over_net_worth">Patrimonio neto</string>
+    <string name="game_over_profit">Ganancia</string>
+    <string name="game_over_return">Rendimiento</string>
+    <string name="game_over_save_and_play">Guardar puntuaci\u00F3n y jugar de nuevo</string>
+    <string name="game_over_play_again">Jugar de nuevo</string>
+
+    <!-- ===================== -->
+    <!-- DIALOGO DE PERSECUCION -->
+    <!-- ===================== -->
+    <string name="chase_title">\uD83D\uDEA8 \u00A1La poli est\u00E1 aqu\u00ED!</string>
+    <string name="chase_pursuit_strength">Fuerza de persecuci\u00F3n:</string>
+    <string name="chase_pursuit_strength_value">%1$d/100</string>
+    <string name="chase_fight_odds">Probabilidad de pelea:</string>
+    <string name="chase_if_caught">Si te atrapan:</string>
+    <string name="chase_lose_goods">Pierdes %1$d%% de mercanc\u00EDa</string>
+    <string name="chase_fight_button">\uD83E\uDD4A Pelear</string>
+    <string name="chase_flee_button">\uD83C\uDFC3 Huir</string>
+
+    <!-- Resultados de persecucion -->
+    <string name="chase_result_fight_won">\uD83E\uDD4A \u00A1Ganaste la pelea!</string>
+    <string name="chase_result_fight_won_desc">\u00A1Te quitaste la persecuci\u00F3n de encima! Sospecha reducida en %1$d.\
+Veh\u00EDculo da\u00F1ado: %2$d.</string>
+    <string name="chase_result_fight_lost">\uD83D\uDC6E \u00A1Pelea perdida!</string>
+    <string name="chase_result_fight_lost_desc">\u00A1Te superaron!\
+Multa: \$%1$d\
+Da\u00F1o al veh\u00EDculo: %2$d\
+Confiscado:\
+%3$s</string>
+    <string name="chase_result_flee_success">\uD83C\uDFC3 \u00A1Escapaste!</string>
+    <string name="chase_result_flee_success_desc">\u00A1Les sacaste ventaja! Da\u00F1o al veh\u00EDculo: %1$d.</string>
+    <string name="chase_result_flee_success_dropped">\u00A1Les sacaste ventaja! Da\u00F1o al veh\u00EDculo: %1$d.\
+Perdido al huir:\
+%2$s</string>
+    <string name="chase_result_caught">\uD83D\uDEA8 \u00A1Atrapado!</string>
+    <string name="chase_result_caught_desc">\u00A1Te alcanzaron!\
+Multa: \$%1$d\
+Da\u00F1o al veh\u00EDculo: %2$d\
+Confiscado:\
+%3$s</string>
+    <string name="chase_result_goods_lost_line">  %1$s %2$s: -%3$d</string>
+    <string name="chase_continue">Continuar</string>
+
+    <!-- ===================== -->
+    <!-- DIALOGO DE EMBOSCADA -->
+    <!-- ===================== -->
+    <string name="ambush_confrontation">\u00A1Enfrentamiento!</string>
+    <string name="ambush_warning">\u00A1Advertencia!</string>
+    <string name="ambush_stood_ground">\u00A1Te mantuviste firme!</string>
+    <string name="ambush_ok">OK</string>
+
+    <!-- Descripciones de encuentros con pandillas -->
+    <string name="encounter_shaken_down">\u00A1Los %1$s %2$s te enfrentaron! Perdiste \$%3$d.%4$s</string>
+    <string name="encounter_shaken_down_goods"> Te quitaron %1$s.</string>
+    <string name="encounter_intimidated">\u00A1Los %1$s %2$s te advirtieron que te alejes de su territorio! Sospecha +%3$d</string>
+    <string name="encounter_fought_off">\u00A1Te mantuviste firme contra los %1$s %2$s! Ganaste respeto en %3$s.</string>
+
+    <!-- ===================== -->
+    <!-- DIALOGO DE EVENTOS -->
+    <!-- ===================== -->
+    <string name="event_ok">OK</string>
+
+    <!-- Dialogo de intercepcion -->
+    <string name="intercept_title">\u00A1Atrapado!</string>
+    <string name="intercept_description">\u00A1Las autoridades te atraparon! Mercanc\u00EDa confiscada:\
+\
+%1$s</string>
+    <string name="intercept_goods_line">%1$s %2$s: -%3$d unidades</string>
+    <string name="intercept_lay_low">Pasar desapercibido</string>
+
+    <!-- ======================== -->
+    <!-- VENTANA DE LOGRO -->
+    <!-- ======================== -->
+    <string name="achievement_earned_title">\uD83C\uDFC6 \u00A1Logro desbloqueado!</string>
+    <string name="achievement_reward">\uD83D\uDCB0 Recompensa: +\$%1$s</string>
+    <string name="achievement_claim_button">\uD83C\uDF81 \u00A1Reclamar recompensa!</string>
+    <string name="achievement_later">Despu\u00E9s</string>
+    <string name="achievement_claim_amount">+\$%1$s</string>
+
+    <!-- ======================== -->
+    <!-- FILA DE MERCANCIA -->
+    <!-- ======================== -->
+    <string name="good_owned">En posesi\u00F3n: %1$d</string>
+    <string name="good_price">\$%1$d</string>
+    <string name="good_price_range">Rango: \$%1$d - \$%2$d</string>
+    <string name="good_avg_cost">Costo prom.: \$%1$s</string>
+    <string name="good_pnl">G&amp;P: %1$s\$%2$d</string>
+    <string name="good_sell_with_count">Vender (%1$d)</string>
+    <string name="good_sell">Vender</string>
+    <string name="good_buy">Comprar</string>
+    <string name="good_buy_title">Comprar %1$s</string>
+    <string name="good_sell_title">Vender %1$s</string>
+
+    <!-- ========================== -->
+    <!-- SELECTOR DE CANTIDAD -->
+    <!-- ========================== -->
+    <string name="quantity_decrease_content_desc">Disminuir</string>
+    <string name="quantity_increase_content_desc">Aumentar</string>
+    <string name="quantity_max">M\u00E1x (%1$d)</string>
+    <string name="quantity_total">Total: \$%1$d</string>
+    <string name="quantity_confirm">Confirmar</string>
+    <string name="quantity_cancel">Cancelar</string>
+
+    <!-- ========================== -->
+    <!-- INDICADOR DE SOSPECHA -->
+    <!-- ========================== -->
+    <string name="heat_label">Sospecha: %1$s</string>
+
+    <!-- Niveles de sospecha -->
+    <string name="heat_level_none">Sin sospecha</string>
+    <string name="heat_level_low">Sospecha baja</string>
+    <string name="heat_level_low_emoji">\u26A0\uFE0F</string>
+    <string name="heat_level_medium">Sospecha media</string>
+    <string name="heat_level_medium_emoji">\u26A0\uFE0F\u26A0\uFE0F</string>
+    <string name="heat_level_high">Sospecha alta</string>
+    <string name="heat_level_high_emoji">\u26A0\uFE0F\u26A0\uFE0F\u26A0\uFE0F</string>
+
+    <!-- ====================================== -->
+    <!-- MERCANCIAS (nombres para mostrar) -->
+    <!-- ====================================== -->
+    <string name="good_bathtub_gin">Ginebra casera</string>
+    <string name="good_bathtub_gin_emoji">\uD83E\uDDEA</string>
+    <string name="good_whiskey">Whiskey</string>
+    <string name="good_whiskey_emoji">\uD83E\uDD43</string>
+    <string name="good_rum">Ron</string>
+    <string name="good_rum_emoji">\uD83C\uDF79</string>
+    <string name="good_moonshine">Aguardiente</string>
+    <string name="good_moonshine_emoji">\uD83C\uDF1D</string>
+    <string name="good_champagne">Champ\u00E1n</string>
+    <string name="good_champagne_emoji">\uD83C\uDF7E</string>
+
+    <!-- ============================================ -->
+    <!-- BARRIOS (nombres para mostrar) -->
+    <!-- ============================================ -->
+    <string name="neighborhood_south_side">South Side</string>
+    <string name="neighborhood_south_side_desc">Territorio peligroso, mercanc\u00EDa barata</string>
+    <string name="neighborhood_north_side">North Side</string>
+    <string name="neighborhood_north_side_desc">Clientela adinerada, precios premium</string>
+    <string name="neighborhood_west_side">West Side</string>
+    <string name="neighborhood_west_side_desc">Zona industrial, ofertas al por mayor</string>
+    <string name="neighborhood_downtown">Downtown</string>
+    <string name="neighborhood_downtown_desc">Alto riesgo, alta recompensa</string>
+    <string name="neighborhood_the_docks">The Docks</string>
+    <string name="neighborhood_the_docks_desc">Puerto de importaci\u00F3n, hallazgos raros</string>
+    <string name="neighborhood_uptown">Uptown</string>
+    <string name="neighborhood_uptown_desc">Centro de speakeasies, comercio estable</string>
+
+    <!-- ====================================== -->
+    <!-- VEHICULOS (nombres para mostrar) -->
+    <!-- ====================================== -->
+    <string name="vehicle_on_foot">A pie</string>
+    <string name="vehicle_on_foot_emoji">\uD83D\uDEB6</string>
+    <string name="vehicle_on_foot_desc">Solo tus bolsillos. Perfil bajo pero poca capacidad.</string>
+    <string name="vehicle_bicycle">Bicicleta</string>
+    <string name="vehicle_bicycle_emoji">\uD83D\uDEB2</string>
+    <string name="vehicle_bicycle_desc">R\u00E1pida y silenciosa. La canasta lleva un poco m\u00E1s.</string>
+    <string name="vehicle_model_t">Model T</string>
+    <string name="vehicle_model_t_emoji">\uD83D\uDE97</string>
+    <string name="vehicle_model_t_desc">Un Ford confiable. Se mezcla con el tr\u00E1fico.</string>
+    <string name="vehicle_delivery_truck">Cami\u00F3n de reparto</string>
+    <string name="vehicle_delivery_truck_emoji">\uD83D\uDE9A</string>
+    <string name="vehicle_delivery_truck_desc">Oculta tu mercanc\u00EDa detr\u00E1s de letreros de \"Servicio de lavander\u00EDa\".</string>
+    <string name="vehicle_armored_car">Auto blindado</string>
+    <string name="vehicle_armored_car_emoji">\uD83D\uDE93</string>
+    <string name="vehicle_armored_car_desc">Reforzado e intimidante. Lo piensan dos veces antes de perseguirte.</string>
+    <string name="vehicle_speedboat">Lancha r\u00E1pida</string>
+    <string name="vehicle_speedboat_emoji">\u26F5</string>
+    <string name="vehicle_speedboat_desc">Recorre la costa. Nadie te atrapa en el agua.</string>
+    <string name="vehicle_zeppelin">Zeppelin</string>
+    <string name="vehicle_zeppelin_emoji">\uD83D\uDEE9\uFE0F</string>
+    <string name="vehicle_zeppelin_desc">La m\u00E1quina de comercio definitiva. Los cielos de Chicago son tuyos.</string>
+
+    <!-- ======================================= -->
+    <!-- LOGROS (nombres para mostrar) -->
+    <!-- ======================================= -->
+    <string name="achievement_first_deal">Primer trato</string>
+    <string name="achievement_first_deal_emoji">\uD83E\uDD1D</string>
+    <string name="achievement_first_deal_desc">Completa tu primera compra</string>
+    <string name="achievement_big_spender">Gran derrochador</string>
+    <string name="achievement_big_spender_emoji">\uD83D\uDCB0</string>
+    <string name="achievement_big_spender_desc">Gasta \$5,000 en una sola compra</string>
+    <string name="achievement_10k_club">Club de los 10K</string>
+    <string name="achievement_10k_club_emoji">\uD83D\uDCB5</string>
+    <string name="achievement_10k_club_desc">Alcanza \$10,000 de patrimonio neto</string>
+    <string name="achievement_50k_club">Club de los 50K</string>
+    <string name="achievement_50k_club_emoji">\uD83D\uDC8E</string>
+    <string name="achievement_50k_club_desc">Alcanza \$50,000 de patrimonio neto</string>
+    <string name="achievement_100k_club">Club de los 100K</string>
+    <string name="achievement_100k_club_emoji">\uD83D\uDC51</string>
+    <string name="achievement_100k_club_desc">Alcanza \$100,000 de patrimonio neto</string>
+    <string name="achievement_survivor">Superviviente</string>
+    <string name="achievement_survivor_emoji">\uD83D\uDEE1\uFE0F</string>
+    <string name="achievement_survivor_desc">Sobrevive a 5 persecuciones</string>
+    <string name="achievement_speed_demon">Demonio de la velocidad</string>
+    <string name="achievement_speed_demon_emoji">\u26A1</string>
+    <string name="achievement_speed_demon_desc">Compra la lancha r\u00E1pida</string>
+    <string name="achievement_speakeasy_owner">Due\u00F1o de Speakeasy</string>
+    <string name="achievement_speakeasy_owner_emoji">\uD83C\uDF78</string>
+    <string name="achievement_speakeasy_owner_desc">Abre tu primer speakeasy</string>
+    <string name="achievement_speakeasy_mogul">Magnate de Speakeasies</string>
+    <string name="achievement_speakeasy_mogul_emoji">\uD83C\uDF1F</string>
+    <string name="achievement_speakeasy_mogul_desc">Lleva un speakeasy al nivel 3</string>
+    <string name="achievement_fight_club">Club de pelea</string>
+    <string name="achievement_fight_club_emoji">\uD83E\uDD4A</string>
+    <string name="achievement_fight_club_desc">Gana 3 persecuciones</string>
+    <string name="achievement_debt_free">Libre de deudas</string>
+    <string name="achievement_debt_free_emoji">\u2705</string>
+    <string name="achievement_debt_free_desc">Paga la deuda del prestamista</string>
+    <string name="achievement_world_traveler">Trotamundos</string>
+    <string name="achievement_world_traveler_emoji">\uD83C\uDF0D</string>
+    <string name="achievement_world_traveler_desc">Visita los 6 barrios</string>
+    <string name="achievement_street_tough">Duro de la calle</string>
+    <string name="achievement_street_tough_emoji">\uD83D\uDCA5</string>
+    <string name="achievement_street_tough_desc">Mant\u00E9n tu posici\u00F3n contra una pandilla rival</string>
+    <string name="achievement_hot_streak">Racha ganadora</string>
+    <string name="achievement_hot_streak_emoji">\uD83D\uDD25</string>
+    <string name="achievement_hot_streak_desc">Obt\u00E9n ganancia en 5 operaciones seguidas</string>
+    <string name="achievement_untouchable">El Intocable</string>
+    <string name="achievement_untouchable_emoji">\uD83D\uDE0E</string>
+    <string name="achievement_untouchable_desc">Termina el juego con 0 de sospecha</string>
+    <string name="achievement_al_capone">Al Capone</string>
+    <string name="achievement_al_capone_emoji">\uD83C\uDFC6</string>
+    <string name="achievement_al_capone_desc">Alcanza el rango Al Capone</string>
+    <string name="achievement_sky_king">Rey de los cielos</string>
+    <string name="achievement_sky_king_emoji">\uD83D\uDEE9\uFE0F</string>
+    <string name="achievement_sky_king_desc">Compra el Zeppelin</string>
+
+    <!-- ======================================= -->
+    <!-- PANDILLAS RIVALES (nombres para mostrar) -->
+    <!-- ======================================= -->
+    <string name="gang_south_side_boys">South Side Boys</string>
+    <string name="gang_south_side_boys_emoji">\uD83E\uDD1C</string>
+    <string name="gang_north_shore_syndicate">North Shore Syndicate</string>
+    <string name="gang_north_shore_syndicate_emoji">\uD83C\uDFA9</string>
+    <string name="gang_dock_rats">Dock Rats</string>
+    <string name="gang_dock_rats_emoji">\uD83D\uDC00</string>
+    <string name="gang_downtown_outfit">Downtown Outfit</string>
+    <string name="gang_downtown_outfit_emoji">\uD83D\uDD2B</string>
+
+    <!-- ====================================== -->
+    <!-- NOMBRES Y DETALLES DE SPEAKEASIES -->
+    <!-- ====================================== -->
+    <string name="speakeasy_south_side">The Blind Pig</string>
+    <string name="speakeasy_north_side">The Gilded Lily</string>
+    <string name="speakeasy_west_side">The Iron Horse</string>
+    <string name="speakeasy_downtown">Club Gatsby</string>
+    <string name="speakeasy_the_docks">The Rusty Anchor</string>
+    <string name="speakeasy_uptown">The Velvet Room</string>
+    <string name="speakeasy_upgrade_1">Abierto al p\u00FAblico - un peque\u00F1o bar oculto</string>
+    <string name="speakeasy_upgrade_2">A\u00F1ade jazz en vivo y licor premium</string>
+    <string name="speakeasy_upgrade_3">El lugar m\u00E1s popular de la ciudad - sal\u00F3n VIP</string>
+    <string name="speakeasy_upgrade_maxed">Al m\u00E1ximo</string>
+
+    <!-- ======================== -->
+    <!-- PRESTAMISTA -->
+    <!-- ======================== -->
+    <string name="loan_shark_name">Vinnie the Fixer</string>
+    <string name="loan_shark_emoji">\uD83E\uDDD4</string>
+    <string name="loan_threat_none">Ninguna</string>
+    <string name="loan_threat_patient">Paciente</string>
+    <string name="loan_threat_impatient">Impaciente</string>
+    <string name="loan_threat_threatening">Amenazante</string>
+    <string name="loan_threat_dangerous">Peligroso</string>
+    <string name="loan_threat_emoji_patient">\uD83D\uDE10</string>
+    <string name="loan_threat_emoji_impatient">\uD83D\uDE20</string>
+    <string name="loan_threat_emoji_threatening">\uD83D\uDE21</string>
+    <string name="loan_threat_emoji_dangerous">\uD83D\uDC80</string>
+
+    <!-- ============================== -->
+    <!-- RANGOS (ScoreCalculator) -->
+    <!-- ============================== -->
+    <string name="rank_street_peddler">Vendedor callejero</string>
+    <string name="rank_small_time_hustler">Estafador de poca monta</string>
+    <string name="rank_neighborhood_trader">Comerciante de barrio</string>
+    <string name="rank_district_boss">Jefe de distrito</string>
+    <string name="rank_speakeasy_king">Rey de los Speakeasies</string>
+    <string name="rank_chicago_kingpin">Capo de Chicago</string>
+    <string name="rank_al_capone">Al Capone</string>
+
+    <!-- ======================================= -->
+    <!-- TITULARES (HeadlineEngine) -->
+    <!-- ======================================= -->
+    <!-- Indicios de subida de precios -->
+    <string name="headline_gin_up">\u00A1LA ALTA SOCIEDAD EXIGE M\u00C1S GINEBRA - Las fiestas de c\u00F3cteles arrasan la ciudad!</string>
+    <string name="headline_whiskey_up">\u00A1ESCASEZ DE WHISKEY INMINENTE - Las importaciones irlandesas se agotan!</string>
+    <string name="headline_rum_up">\u00A1CONEXIONES CARIBE\u00D1AS CORTADAS - El suministro de ron disminuye!</string>
+    <string name="headline_moonshine_up">\u00A1LOS DESTILADORES DESAPARECEN - El suministro de aguardiente se esfuma!</string>
+    <string name="headline_champagne_up">\u00A1LUJO FRANC\u00C9S EN DEMANDA - La alta sociedad sedienta de burbujas!</string>
+
+    <!-- Indicios de bajada de precios -->
+    <string name="headline_gin_down">\u00A1LOS FEDERALES ARRASAN CON LA GINEBRA - M\u00FAltiples destiler\u00EDas clausuradas!</string>
+    <string name="headline_whiskey_down">\u00A1ALMACENES DE WHISKEY CONFISCADOS - Los agentes celebran gran redada!</string>
+    <string name="headline_rum_down">\u00A1GUARDACOSTAS INTERCEPTA CONTRABANDISTAS DE RON - Se esperan ca\u00EDdas de precio!</string>
+    <string name="headline_moonshine_down">\u00A1ALAMBIQUES DESCUBIERTOS - Los agentes fiscales en pie de guerra!</string>
+    <string name="headline_champagne_down">\u00A1COMERCIO DE CHAMP\u00C1N INTERRUMPIDO - Mercado de lujo inundado!</string>
+
+    <!-- Titulares de alerta de sospecha -->
+    <string name="headline_heat_south_side">\u00A1SOUTH SIDE BAJO VIGILANCIA - Patrullas adicionales desplegadas!</string>
+    <string name="headline_heat_north_side">\u00A1REDADA EN NORTH SIDE - Los residentes adinerados exigen acci\u00F3n!</string>
+    <string name="headline_heat_west_side">\u00A1ALMACENES DE WEST SIDE VIGILADOS - Los federales vigilan la zona industrial!</string>
+    <string name="headline_heat_downtown">\u00A1OPERATIVO EN DOWNTOWN PLANEADO - El comisionado promete limpieza!</string>
+    <string name="headline_heat_the_docks">\u00A1PATRULLA PORTUARIA DUPLICADA - Guardacostas en alerta m\u00E1xima!</string>
+    <string name="headline_heat_uptown">\u00A1SPEAKEASIES DE UPTOWN EN LA MIRA - Agentes encubiertos en acci\u00F3n!</string>
+
+    <!-- Titulares de noticias de pandillas -->
+    <string name="headline_gang_south_side_boys">\u00A1LOS SOUTH SIDE BOYS EXPANDEN TERRITORIO - Comerciantes rivales, cuidado!</string>
+    <string name="headline_gang_north_shore_syndicate">\u00A1EL NORTH SHORE SYNDICATE MUESTRA M\u00DASCULO - Operaciones de alto nivel se endurecen!</string>
+    <string name="headline_gang_dock_rats">\u00A1LOS DOCK RATS CONTROLAN EL MUELLE - Los comerciantes pagan peaje!</string>
+    <string name="headline_gang_downtown_outfit">\u00A1EL DOWNTOWN OUTFIT SE ENVALENTONA - Las disputas territoriales se calientan!</string>
+
+    <!-- Titulares de noticias generales -->
+    <string name="headline_general_prohibition">\u00A1APLICACI\u00D3N DE LA PROHIBICI\u00D3N DUPLICADA - El presidente exige resultados!</string>
+    <string name="headline_general_speakeasies">\u00A1NUEVOS SPEAKEASIES ABREN CADA NOCHE - Chicago no puede parar la fiesta!</string>
+    <string name="headline_general_jazz">\u00A1LA ERA DEL JAZZ EN PLENO APOGEO - La m\u00FAsica llena el underground!</string>
+    <string name="headline_general_mayor">\u00A1EL ALCALDE PROMETE CALLES LIMPIAS - Ret\u00F3rica de temporada electoral!</string>
+    <string name="headline_general_stock_market">\u00A1LA BOLSA SE DISPARA - Wall Street de celebraci\u00F3n!</string>
+    <string name="headline_general_labor">\u00A1LAS HUELGAS SE EXTIENDEN - Los trabajadores exigen salarios justos!</string>
+    <string name="headline_general_baseball">\u00A1BABE RUTH CONECTA OTRO JONR\u00D3N - Los Yankees dominan el diamante!</string>
+
+    <!-- ============================ -->
+    <!-- FLECHAS DE DIRECCION DE PRECIO -->
+    <!-- ============================ -->
+    <string name="price_arrow_up">\u2191</string>
+    <string name="price_arrow_down">\u2193</string>
+    <string name="price_arrow_flat">\u2192</string>
+
+    <!-- ========================== -->
+    <!-- COMUN / FORMATO -->
+    <!-- ========================== -->
+    <string name="currency_format">\$%1$s</string>
+    <string name="currency_positive">+\$%1$s</string>
+    <string name="currency_negative">-\$%1$s</string>
+    <string name="percent_format">%1$s%%</string>
+
+    <!-- Emojis de nivel de Speakeasy -->
+    <string name="speakeasy_emoji_tier_0">\uD83C\uDFDA</string>
+    <string name="speakeasy_emoji_tier_1">\uD83C\uDF7A</string>
+    <string name="speakeasy_emoji_tier_2">\uD83C\uDF78</string>
+    <string name="speakeasy_emoji_tier_3">\uD83C\uDF1F</string>
+
+</resources>

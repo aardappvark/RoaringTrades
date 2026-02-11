@@ -83,9 +83,324 @@ release:
         Connects to Solana wallet via Mobile Wallet Adapter for leaderboard
         identity. Optimized for Seeker's display. No blockchain transactions
         required - wallet used for identification only.
+    es:
+      name: Roaring Trades
+      short_description: Juego de contrabando de los 1920
+      long_description: >-
+        Roaring Trades es un juego de comercio ambientado en la era de la
+        Prohibicion en Chicago. Solo para mayores de 21 anos.
+
+        EL JUEGO:
+        Empieza con $1,500 y 30 dias para construir tu imperio comercial.
+        Compra barato, vende caro en seis barrios de Chicago.
+
+        CARACTERISTICAS:
+        - 5 productos con precios dinamicos
+        - 6 barrios de Chicago con perfiles unicos de riesgo/recompensa
+        - 7 vehiculos mejorables, del pie al zepelin
+        - Persecuciones policiales, encuentros con bandas
+        - 6 bares clandestinos para invertir
+        - 17 logros desbloqueables con recompensas en efectivo
+        - Conecta tu cartera Solana para la clasificacion
+        - Partidas rapidas de 10-15 minutos
+
+        PRIVACIDAD PRIMERO:
+        Sin analitica. Sin rastreo. Todos los datos almacenados localmente
+        con cifrado AES-256.
+
+        FICCION HISTORICA:
+        Ambientado en el Chicago de los 1920. Toda la jugabilidad es ficticia.
+      new_in_version: Lanzamiento inicial v1.0.0
+    pt-BR:
+      name: Roaring Trades
+      short_description: Jogo de contrabando dos anos 1920
+      long_description: >-
+        Roaring Trades e um jogo de comercio ambientado na era da Lei Seca
+        em Chicago. Apenas para maiores de 21 anos.
+
+        O JOGO:
+        Comece com $1.500 e 30 dias para construir seu imperio comercial.
+        Compre barato, venda caro em seis bairros de Chicago.
+
+        RECURSOS:
+        - 5 mercadorias com precos dinamicos
+        - 6 bairros de Chicago com perfis unicos de risco/recompensa
+        - 7 veiculos aprimoraveis, de bicicleta a zepelim
+        - Perseguicoes policiais e encontros com gangues
+        - 6 bares clandestinos para investir
+        - 17 conquistas desbloqueaveis com recompensas em dinheiro
+        - Conecte sua carteira Solana para o placar
+        - Partidas rapidas de 10-15 minutos
+
+        PRIVACIDADE EM PRIMEIRO:
+        Sem analise. Sem rastreamento. Dados armazenados localmente
+        com criptografia AES-256.
+
+        FICCAO HISTORICA:
+        Ambientado na Chicago dos anos 1920. Jogabilidade totalmente ficticia.
+      new_in_version: Lancamento inicial v1.0.0
+    fr:
+      name: Roaring Trades
+      short_description: Jeu de contrebande des annees 1920
+      long_description: >-
+        Roaring Trades est un jeu de commerce situe dans le Chicago de la
+        Prohibition. Reserve aux plus de 21 ans.
+
+        LE JEU:
+        Commencez avec 1 500 $ et 30 jours pour batir votre empire commercial.
+        Achetez bas, vendez haut dans six quartiers de Chicago.
+
+        CARACTERISTIQUES:
+        - 5 marchandises avec des prix dynamiques
+        - 6 quartiers de Chicago avec des profils risque/recompense uniques
+        - 7 vehicules ameliorables, du velo au zeppelin
+        - Poursuites policieres et confrontations avec des gangs
+        - 6 bars clandestins a investir
+        - 17 succes deblocables avec recompenses en especes
+        - Connectez votre portefeuille Solana pour le classement
+        - Parties rapides de 10-15 minutes
+
+        CONFIDENTIALITE D'ABORD:
+        Aucune analyse. Aucun suivi. Donnees stockees localement
+        avec chiffrement AES-256.
+
+        FICTION HISTORIQUE:
+        Situe dans le Chicago des annees 1920. Tout le gameplay est fictif.
+      new_in_version: Sortie initiale v1.0.0
+    de:
+      name: Roaring Trades
+      short_description: Schmuggler-Handelsspiel der 1920er
+      long_description: >-
+        Roaring Trades ist ein Handelsspiel in der Prohibitionszeit
+        in Chicago. Nur ab 21 Jahren.
+
+        DAS SPIEL:
+        Starte mit $1.500 und 30 Tagen, um dein Handelsimperium aufzubauen.
+        Kaufe guenstig, verkaufe teuer in sechs Vierteln von Chicago.
+
+        FUNKTIONEN:
+        - 5 Waren mit dynamischen Preisen
+        - 6 Viertel in Chicago mit einzigartigen Risiko/Ertrags-Profilen
+        - 7 aufruestbare Fahrzeuge, vom Fahrrad bis zum Zeppelin
+        - Polizeiverfolgungen und Bandenkaempfe
+        - 6 Fluesterkneipe zum Investieren
+        - 17 freischaltbare Erfolge mit Bargeldbelohnungen
+        - Verbinde dein Solana-Wallet fuer die Bestenliste
+        - Schnelle Spiele - je 10-15 Minuten
+
+        DATENSCHUTZ ZUERST:
+        Keine Analyse. Kein Tracking. Alle Daten lokal gespeichert
+        mit AES-256-Verschluesselung.
+
+        HISTORISCHE FIKTION:
+        Im Chicago der 1920er Jahre angesiedelt. Rein fiktives Gameplay.
+      new_in_version: Erstveroeffentlichung v1.0.0
+    ja:
+      name: Roaring Trades
+      short_description: 1920年代の密売人取引ゲーム
+      long_description: >-
+        Roaring Tradesは禁酒法時代のシカゴを舞台にした取引ゲームです。
+        21歳以上限定。
+
+        ゲーム:
+        $1,500と30日間でトレーディング帝国を築こう。
+        シカゴの6つの地区で安く買い、高く売れ。
+
+        特徴:
+        - ダイナミックな価格の5種類の商品
+        - ユニークなリスク/リワードの6つのシカゴ地区
+        - 自転車からツェッペリンまで7種類の車両
+        - 警察の追跡とギャングとの遭遇
+        - 投資可能な6つのスピークイージー
+        - 報酬付きの17のアチーブメント
+        - Solanaウォレットでリーダーボード参加
+        - 10-15分の高速ゲームプレイ
+
+        プライバシー優先:
+        分析なし。追跡なし。AES-256暗号化でローカル保存。
+
+        歴史フィクション:
+        1920年代シカゴが舞台。全てフィクションです。
+      new_in_version: 初回リリース v1.0.0
+    ko:
+      name: Roaring Trades
+      short_description: 1920년대 밀수업자 거래 게임
+      long_description: >-
+        Roaring Trades는 금주법 시대 시카고를 배경으로 한 거래 게임입니다.
+        21세 이상 전용.
+
+        게임:
+        $1,500과 30일로 무역 제국을 건설하세요.
+        시카고 6개 지역에서 싸게 사서 비싸게 파세요.
+
+        특징:
+        - 동적 가격의 5가지 상품
+        - 고유한 위험/보상 프로필의 6개 시카고 지역
+        - 자전거에서 체펠린까지 7종 차량
+        - 경찰 추격전과 갱 조우
+        - 투자 가능한 6개 비밀 술집
+        - 현금 보상이 있는 17개 업적
+        - Solana 지갑으로 리더보드 참여
+        - 10-15분의 빠른 게임플레이
+
+        개인정보 우선:
+        분석 없음. 추적 없음. AES-256 암호화로 로컬 저장.
+
+        역사 픽션:
+        1920년대 시카고 배경. 모든 게임플레이는 허구입니다.
+      new_in_version: 초기 출시 v1.0.0
+    zh-CN:
+      name: Roaring Trades
+      short_description: 1920年代走私贩交易游戏
+      long_description: >-
+        Roaring Trades是一款以禁酒令时代芝加哥为背景的交易游戏。
+        仅限21岁以上。
+
+        游戏:
+        用$1,500和30天建立你的贸易帝国。
+        在芝加哥六个街区低买高卖。
+
+        特色:
+        - 5种动态定价商品
+        - 6个风险/回报各异的芝加哥街区
+        - 从自行车到齐柏林飞艇的7种载具
+        - 警察追逐和帮派遭遇
+        - 6家可投资的地下酒吧
+        - 17个可解锁成就并获现金奖励
+        - 连接Solana钱包参与排行榜
+        - 10-15分钟快速游戏
+
+        隐私优先:
+        无分析。无追踪。AES-256加密本地存储。
+
+        历史虚构:
+        以1920年代芝加哥为背景。纯属虚构。
+      new_in_version: 首次发布 v1.0.0
+    tr:
+      name: Roaring Trades
+      short_description: 1920'ler kacakci ticaret oyunu
+      long_description: >-
+        Roaring Trades, Yasak doneminde Chicago'da gecen bir ticaret oyunudur.
+        Sadece 21 yas ve uzeri.
+
+        OYUN:
+        $1.500 ve 30 gunle ticaret imparatorlugunuzu kurun.
+        Chicago'nun alti mahallesinde ucuza alin, pahaliya satin.
+
+        OZELLIKLER:
+        - Dinamik fiyatli 5 urun
+        - Benzersiz risk/odul profillerine sahip 6 Chicago mahallesi
+        - Bisikletten zepline 7 arac
+        - Polis kovalamacalari ve cete karsilasmalari
+        - Yatirim yapilabilir 6 gizli bar
+        - Nakit odullu 17 basari
+        - Solana cuzdaninizla skor tablosuna katilim
+        - 10-15 dakikalik hizli oyunlar
+
+        ONCELIKLI GIZLILIK:
+        Analiz yok. Izleme yok. AES-256 sifreleme ile yerel depolama.
+
+        TARIHI KURGU:
+        1920'ler Chicago'sunda gecen kurgusal oyun.
+      new_in_version: Ilk surum v1.0.0
+    ru:
+      name: Roaring Trades
+      short_description: Торговая игра бутлегеров 1920-х
+      long_description: >-
+        Roaring Trades - торговая игра в эпоху Сухого закона в Чикаго.
+        Только для лиц старше 21 года.
+
+        ИГРА:
+        Начните с $1,500 и 30 дней для создания торговой империи.
+        Покупайте дешево, продавайте дорого в шести районах Чикаго.
+
+        ОСОБЕННОСТИ:
+        - 5 товаров с динамическим ценообразованием
+        - 6 районов Чикаго с уникальными профилями риска/награды
+        - 7 транспортных средств от велосипеда до дирижабля
+        - Полицейские погони и столкновения с бандами
+        - 6 подпольных баров для инвестиций
+        - 17 достижений с денежными наградами
+        - Подключите кошелек Solana для таблицы лидеров
+        - Быстрые игры по 10-15 минут
+
+        КОНФИДЕНЦИАЛЬНОСТЬ ПРЕЖДЕ ВСЕГО:
+        Без аналитики. Без отслеживания. Данные хранятся локально
+        с шифрованием AES-256.
+
+        ИСТОРИЧЕСКАЯ ФАНТАСТИКА:
+        Действие в Чикаго 1920-х годов. Полностью вымышленный геймплей.
+      new_in_version: Первый выпуск v1.0.0
+    hi:
+      name: Roaring Trades
+      short_description: 1920 के तस्कर व्यापार खेल
+      long_description: >-
+        Roaring Trades शिकागो में निषेध युग की पृष्ठभूमि पर एक व्यापार
+        खेल है। केवल 21+ आयु के लिए।
+
+        खेल:
+        $1,500 और 30 दिनों से अपना व्यापार साम्राज्य बनाएं।
+        शिकागो के छह इलाकों में सस्ता खरीदें, महंगा बेचें।
+
+        विशेषताएं:
+        - गतिशील मूल्य वाले 5 सामान
+        - अद्वितीय जोखिम/इनाम प्रोफाइल वाले 6 शिकागो इलाके
+        - साइकिल से ज़ेपेलिन तक 7 वाहन
+        - पुलिस पीछा और गिरोह मुठभेड़
+        - निवेश के लिए 6 गुप्त बार
+        - नकद पुरस्कार के साथ 17 उपलब्धियां
+        - लीडरबोर्ड के लिए Solana वॉलेट कनेक्ट करें
+        - 10-15 मिनट के तेज़ खेल
+
+        गोपनीयता पहले:
+        कोई विश्लेषण नहीं। कोई ट्रैकिंग नहीं। AES-256 एन्क्रिप्शन
+        के साथ स्थानीय भंडारण।
+
+        ऐतिहासिक कथा:
+        1920 के शिकागो पर आधारित। सब कुछ काल्पनिक है।
+      new_in_version: प्रारंभिक रिलीज़ v1.0.0
+    id:
+      name: Roaring Trades
+      short_description: Game dagang penyelundup 1920-an
+      long_description: >-
+        Roaring Trades adalah game perdagangan berlatar era Larangan di
+        Chicago. Hanya untuk usia 21+.
+
+        PERMAINAN:
+        Mulai dengan $1.500 dan 30 hari untuk membangun kerajaan dagang Anda.
+        Beli murah, jual mahal di enam distrik Chicago.
+
+        FITUR:
+        - 5 barang dagangan dengan harga dinamis
+        - 6 distrik Chicago dengan profil risiko/hadiah unik
+        - 7 kendaraan yang bisa di-upgrade dari sepeda hingga zeppelin
+        - Pengejaran polisi dan pertemuan geng
+        - 6 bar rahasia untuk investasi
+        - 17 pencapaian dengan hadiah uang tunai
+        - Hubungkan dompet Solana untuk papan peringkat
+        - Permainan cepat 10-15 menit
+
+        PRIVASI UTAMA:
+        Tanpa analitik. Tanpa pelacakan. Penyimpanan lokal
+        dengan enkripsi AES-256.
+
+        FIKSI SEJARAH:
+        Berlatar Chicago 1920-an. Semua gameplay bersifat fiksi.
+      new_in_version: Rilis awal v1.0.0
   android_details:
     locales:
       - en-US
+      - es
+      - pt-BR
+      - fr
+      - de
+      - ja
+      - ko
+      - zh-CN
+      - tr
+      - ru
+      - hi
+      - id
 
 solana_mobile_dapp_publisher_portal:
   google_store_package: ''
