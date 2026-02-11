@@ -1,4 +1,4 @@
-package com.midnightrungames.sgt
+package com.midmightbit.sgt
 
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.JsonArray

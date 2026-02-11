@@ -4,8 +4,8 @@ import android.app.Application
 import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.midnightrungames.sgt.SgtChecker
-import com.midnightrungames.sgt.SgtConstants
+import com.midmightbit.sgt.SgtChecker
+import com.midmightbit.sgt.SgtConstants
 import com.roaringtrades.game.AppConfig
 import com.roaringtrades.game.data.GamePreferences
 import com.roaringtrades.game.data.LeaderboardManager

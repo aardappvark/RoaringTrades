@@ -1,4 +1,4 @@
-package com.midnightrungames.sgt
+package com.midmightbit.sgt
 
 /**
  * Constants for Seeker Genesis Token (SGT) verification.

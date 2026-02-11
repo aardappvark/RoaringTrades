@@ -1,13 +1,13 @@
 # SGT Checker - ProGuard Rules
 
 # Keep kotlinx.serialization models used for JSON-RPC
--keepclassmembers class com.midnightrungames.sgt.** {
+-keepclassmembers class com.midmightbit.sgt.** {
     <fields>;
     <init>(...);
 }
 
 # Keep serializer companion objects
--keepclassmembers class com.midnightrungames.sgt.**$Companion {
+-keepclassmembers class com.midmightbit.sgt.**$Companion {
     kotlinx.serialization.KSerializer serializer(...);
 }
 

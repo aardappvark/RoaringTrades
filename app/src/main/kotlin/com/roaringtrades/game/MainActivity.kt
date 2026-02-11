@@ -64,7 +64,7 @@ fun RoaringTradesApp(activityResultSender: ActivityResultSender) {
             val rpcUrl = if (heliusApiKey.isNotEmpty()) {
                 AppConfig.Rpc.heliusUrl(heliusApiKey)
             } else {
-                com.midnightrungames.sgt.SgtConstants.DEFAULT_RPC_URL
+                com.midmightbit.sgt.SgtConstants.DEFAULT_RPC_URL
             }
             viewModel.checkSgtStatus(rpcUrl)
         }
