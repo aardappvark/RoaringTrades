@@ -11,3 +11,4 @@ local.properties
 release-keystore.jks
 publisher-keypair.json
 app/build/
+.claude/
